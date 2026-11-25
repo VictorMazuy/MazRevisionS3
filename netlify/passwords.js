@@ -9,6 +9,7 @@
 //
 // Ce fichier est en dehors du dossier site/ : il n'est jamais téléchargeable.
 export default {
-  "victor": "change-moi-1",
-  "ami": "change-moi-2",
+  "Maz": "Ralph69974",
+  "GauthierPlé": "Jador",
+  "AdrienL": "Flore1234",
 };
