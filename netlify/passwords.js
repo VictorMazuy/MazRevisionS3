@@ -12,4 +12,5 @@ export default {
   "Maz": "Ralph69974",
   "GauthierPlé": "Jador",
   "AdrienL": "Flore1234",
+  "MaloL": "67845",
 };
