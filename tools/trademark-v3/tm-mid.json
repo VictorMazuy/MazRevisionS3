@@ -1,0 +1,1908 @@
+{
+ "CHAPTERS": [
+  {
+   "id": "c1",
+   "num": "1",
+   "title": "What is intellectual property?",
+   "slides": "10–47",
+   "summary": "Definition of IP, its four aims, the consequence of an IP right, French classification and the five main IP rights with their conditions and duration.",
+   "html": "\n<h3>1. Definition</h3>\n<p>Intellectual property is defined <b>by opposition to the ownership of physical goods</b>:</p>\n<ul>\n<li><b>Property (literal sense)</b>: ownership of something <b>tangible</b> (a car, a house).</li>\n<li><b>Intellectual property (IP)</b>: ownership of a creation that <b>has no physical form</b> (e.g. a trademark) or is a <b>product of the human mind</b> (software, a book, a poem). It is the product of a person's inventiveness, reflection or creativity.</li>\n<li><b>IP law</b> = all the legal rules that allow the <b>recognition and protection of intellectual or intangible creations</b>. It grants the author <b>exclusive rights</b> over the work.</li>\n</ul>\n<div class=\"key\">Exclusive right = only the holder may exploit the creation, <b>for a certain period of time</b> and <b>within a defined territory</b>. Example from the slides: a technology that took 10 years to develop is patented so that nobody can copy it and the inventor is rewarded for the investment.</div>\n\n<h3>2. The four aims of IP law</h3>\n<ol>\n<li><b>Protect creators and innovators</b> by granting an exclusive right to exploit their works or inventions. Any use must be <b>authorised by the creator and compensated</b>.</li>\n<li><b>Promote innovation, creativity and investment</b>: creating takes time and money (some writers take 10 years to write a book), so the law protects creators to encourage them to create.</li>\n<li><b>Provide financial incentives</b> to creators, inventors and entrepreneurs and <b>prevent copying or imitation</b> by competitors. Without IP, competitors could copy cheaply (often with lower quality), which destroys the return on investment.</li>\n<li><b>Guarantee the quality of products and services for consumers</b>: a brand is associated with a standard of quality. A company that owns a trademark has a reputation to protect, so poor quality reduces the value of its brand. The trademark signals that the product comes from the original source (consistency, safety, reliability).</li>\n</ol>\n\n<h3>3. Consequence of obtaining an IP right</h3>\n<p>The owner obtains an <b>exclusive right over the use, reproduction, distribution or commercial exploitation</b> of the work or invention, and can <b>prohibit others</b> from doing the same without authorisation.</p>\n<p>Slide example: I launch the clothing brand <b>YBX</b> and register it. The registration protects the <b>brand itself</b> against copying or unauthorised use <b>in the same field</b>. The <b>common designs</b> of the clothes are <b>not</b> protected by the trademark.</p>\n<div class=\"key\">IP rights do <b>not</b> apply automatically to every creation. A creation is protected only if it meets the <b>specific criteria</b> of the IP right concerned.</div>\n\n<h3>4. The two branches of IP in French law</h3>\n<p>In France, IP rules are in the <b>Intellectual Property Code</b> <span class=\"fr\">(Code de la propriété intellectuelle, CPI)</span>. IP is divided into two areas:</p>\n<div class=\"tbl\"><table><tr><th>Literary and artistic property <span class=\"fr\">(propriété littéraire et artistique)</span></th><th>Industrial property <span class=\"fr\">(propriété industrielle)</span></th></tr>\n<tr><td>Copyright, software, databases</td><td>Patents, <b>trademarks</b>, designs</td></tr></table></div>\n\n<h3>5. The main IP rights (reminder table, slide 47)</h3>\n<div class=\"tbl\"><table>\n<tr><th>Right</th><th>What it protects</th><th>Conditions</th><th>Duration</th></tr>\n<tr><td><b>Copyright</b></td><td>An original literary, dramatic, musical or artistic work, software</td><td>1. Original work (author's personal touch)<br>2. Must be expressed (not just an idea)</td><td>Author's life + 70 years after death (EU standard)</td></tr>\n<tr><td><b>Design</b></td><td>The appearance (shape, lines, colours) of a product</td><td>1. Novelty<br>2. Individual character</td><td>5 years, renewable up to 25 years maximum</td></tr>\n<tr><td><b>Patent</b></td><td>Technical inventions (a product or a process)</td><td>1. Novelty (not part of the prior art)<br>2. Inventive step (not obvious to a skilled person)<br>3. Industrial application</td><td>20 years from filing date (annual renewal fees)</td></tr>\n<tr><td><b>Trademark</b></td><td>Distinctive signs (names, logos, slogans)</td><td>Distinctive (not generic); capable of representation; available (not already registered)</td><td><b>10 years, renewable indefinitely</b></td></tr>\n<tr><td><b>Geographical indication (GI)</b></td><td>The name of a product linked to a geographical area</td><td>Link between quality/reputation/characteristics and the geographical origin</td><td>Unlimited, as long as the link and specifications are maintained</td></tr>\n</table></div>\n<p>Another slide lists the patent conditions as: (i) a new invention, (ii) in a technological field, (iii) involving an inventive step, (iv) capable of industrial application.</p>\n<p><b>Design</b> definition in the slides: exclusive right over the fixed and new appearance/shape of a product that has an <b>individual character</b>.</p>\n<p><b>Trademark</b> definition in the slides: a sign (words, names, designs, letters, numerals, colours, the shape of goods, sounds…) capable of (1) <b>distinguishing</b> the goods or services of one undertaking from those of other undertakings and (2) <b>being represented on the register</b>.</p>\n\n<h3>6. Geographical indications (slide 46)</h3>\n<div class=\"tbl\"><table>\n<tr><th>Label</th><th>Meaning</th><th>Example</th></tr>\n<tr><td><b>PDO</b> <span class=\"fr\">(AOP)</span> / <b>AOC</b></td><td>Protected designation of origin: the principal production steps follow a well-established technique <b>within the same geographical area</b>, which gives the product its characteristics. European symbol protecting the name throughout the EU. The <b>AOC</b> refers to products meeting the PDO criteria and protects the name on the <b>French territory</b>.</td><td>Champagne</td></tr>\n<tr><td><b>PGI</b> <span class=\"fr\">(IGP)</span></td><td>Protected geographical indication: an agricultural product, raw or processed, whose quality, reputation or other characteristics are <b>linked</b> to its geographical origin. Applies to agricultural, agro-food and wine sectors.</td><td>Bayonne ham</td></tr>\n<tr><td><b>IG</b> for industrial and hand-crafted products (FR, since 2014)</td><td>Name of a place used to designate a product <b>other than</b> agricultural, forestry, food or sea products, which originates there and has a quality, reputation or characteristics mainly attributable to that origin.</td><td>Limoges porcelain</td></tr>\n</table></div>\n<div class=\"trap\"><ul>\n<li>Saying a trademark lasts 20 years (that is the patent). Trademark = <b>10 years, renewable indefinitely</b>.</li>\n<li>Putting trademarks in \"literary and artistic property\". Trademarks are <b>industrial property</b>.</li>\n<li>Forgetting that an IP right is limited <b>in time and in territory</b>.</li>\n</ul></div>\n"
+  },
+  {
+   "id": "c2",
+   "num": "2",
+   "title": "Other protected distinctive signs",
+   "slides": "48–64",
+   "summary": "Registered company name, commercial name and domain name: how they differ from a trademark, how they are protected (tort / unfair competition) and the principle of specialty.",
+   "html": "\n<p>Besides the trademark, three other <b>distinctive signs</b> are protected:</p>\n<ol><li>the <b>registered name of a company</b> <span class=\"fr\">(dénomination sociale)</span></li><li>the <b>commercial name</b> <span class=\"fr\">(nom commercial)</span></li><li>the <b>domain name</b> <span class=\"fr\">(nom de domaine)</span></li></ol>\n<div class=\"key\">These signs (1) have <b>no common legislation</b> and (2) can only be protected through a lawsuit for <b>tortious liability</b> <span class=\"fr\">(responsabilité délictuelle)</span>, more precisely for <b>unfair competition</b> <span class=\"fr\">(concurrence déloyale)</span>. This is <b>not</b> an IP infringement action <span class=\"fr\">(≠ contrefaçon)</span>.</div>\n\n<h3>1. Registered name of a company</h3>\n<p>The name under which a company is registered: the name of the <b>legal person</b> <span class=\"fr\">(personne morale)</span>. Trademark ≠ registered name.</p>\n<p>The company can act against any use <b>in France</b> of:</p>\n<ol><li>an identical or similar sign,</li><li>for an identical or similar activity,</li><li>that is likely to create confusion in the consumer's mind.</li></ol>\n<p>Sanction: lawsuit in tort for unfair competition.</p>\n\n<h3>2. Commercial name</h3>\n<p>The name under which a merchant carries on the activity. It can be affixed on the door, on communications, on products. Commercial name ≠ trademark.</p>\n<p>Protection against any use: (1) where the name is registered, (2) of an identical or similar sign, (3) for an identical or similar activity, (4) <b>in the same geographical area</b> where the merchant operates, that is likely to create confusion in the consumer's mind.</p>\n<p>Sanction: tort, unfair competition.</p>\n\n<h3>3. Domain name</h3>\n<p>The name registered to identify the address of a website (e.g. <span class=\"ref\">www.example.fr</span>). Domain name ≠ trademark.</p>\n<p>Protection against any use: (1) where the domain name is registered, (2) of an identical or similar sign, (3) for an identical or similar activity, (4) in the same geographical area where the website operates, likely to create confusion in the public's mind.</p>\n<p>Sanction: tort, unfair competition.</p>\n\n<h3>4. The principle of specialty</h3>\n<p>All distinctive signs, <b>including trademarks</b>, are limited by the <b>principle of specialty</b> <span class=\"fr\">(principe de spécialité)</span>: a sign is protected <b>only for the goods and services for which it is used or registered</b>. Example: \"Sandro\" is only protected for fashion items.</p>\n\n<h3>5. Summary table and examples</h3>\n<div class=\"tbl\"><table>\n<tr><th>Sign</th><th>Definition</th><th>Example</th></tr>\n<tr><td>Trademark</td><td>Sign capable of distinguishing the goods or services of one undertaking from others, and capable of representation (smells and tastes cannot be represented)</td><td>E.LECLERC, Eco+, Repère, \"Nos régions ont du talent\"</td></tr>\n<tr><td>Registered company name</td><td>Legal name of the company as registered with the authorities</td><td>Inditex (registered name behind Zara)</td></tr>\n<tr><td>Commercial name</td><td>Name under which a business operates publicly</td><td>LECLERC</td></tr>\n<tr><td>Domain name</td><td>An internet address</td><td>www.example.com</td></tr>\n<tr><td>Geographical indication</td><td>Indicates that a product originates from a specific place</td><td>Champagne</td></tr>\n</table></div>\n<div class=\"tbl\"><table>\n<tr><th>Company</th><th>Registered name</th><th>Trade/business name</th><th>Brand names</th><th>Domain</th></tr>\n<tr><td>LVMH</td><td>LVMH Moët Hennessy Louis Vuitton SE</td><td>LVMH</td><td>Louis Vuitton</td><td>lvmh.com</td></tr>\n<tr><td>Google</td><td>Alphabet Inc.</td><td>Google</td><td>Google</td><td>google.com</td></tr>\n<tr><td>Meta</td><td>Meta Platforms, Inc.</td><td>Meta</td><td>Facebook / Instagram / WhatsApp</td><td>meta.com</td></tr>\n<tr><td>Microsoft</td><td>Microsoft Corporation</td><td>Microsoft</td><td>Windows / Xbox / Microsoft 365</td><td>microsoft.com</td></tr>\n</table></div>\n<div class=\"trap\"><ul>\n<li>Saying that the owner of a company name or domain name sues for <b>infringement (contrefaçon)</b>. Without an IP right, the action is <b>tort / unfair competition</b>.</li>\n<li>Forgetting the <b>geographical</b> limit of a commercial name and domain name.</li>\n<li>Confusing the group's registered name (Alphabet Inc.) with its brand (Google).</li>\n</ul></div>\n"
+  },
+  {
+   "id": "c3",
+   "num": "3",
+   "title": "The trademark: definition and functions",
+   "slides": "65–88",
+   "summary": "Legal definition (Art. 3 Directive 2015/2436), trademark vs. certification and collective marks, and the four functions recognised by the CJEU with the four key cases.",
+   "html": "\n<h3>1. A trademark is intellectual property</h3>\n<p>It involves creating new or existing elements to identify goods and services (a creative activity). It is <b>the link that connects the sign to the goods and services</b>. Its <b>first aim</b>: avoid confusion in the eyes of the public by preventing a competitor from using the sign.</p>\n\n<h3>2. Trademark ≠ certification mark ≠ collective mark</h3>\n<div class=\"tbl\"><table>\n<tr><th>Type</th><th>Definition</th><th>Example in slides</th></tr>\n<tr><td><b>Trademark</b> (individual)</td><td>Sign distinguishing the goods/services of <b>one undertaking</b> from those of others</td><td>E.LECLERC, Eco+, Repère</td></tr>\n<tr><td><b>Certification mark</b></td><td>Sign indicating that goods/services <b>comply with standards set by the owner</b> of the mark: quality, materials, mode of manufacture, accuracy, other characteristics</td><td>Fairtrade</td></tr>\n<tr><td><b>Collective mark</b></td><td>Sign distinguishing goods/services of the <b>members of an association</b> that owns the mark. Used by several members, it shows <b>membership</b> and often common standards</td><td>\"Vignerons indépendants\", Intermarché</td></tr>\n</table></div>\n<p class=\"fr\" style=\"font-style:normal\">Note: one slide labels \"Vignerons indépendants\" as \"Example of certification mark\" but it sits under the collective mark definition; read it as a collective mark.</p>\n\n<h3>3. The legal definition</h3>\n<p><span class=\"ref\">Art. 3 Directive (EU) 2015/2436</span>:</p>\n<div class=\"quote\">\"A trademark may consist of any signs, in particular words, including personal names, or designs, letters, numerals, colours, the shape of goods or of the packaging of goods, or sounds, provided that such signs are capable of: (a) distinguishing the goods or services of one undertaking from those of other undertakings; and (b) being represented on the register in a manner which enables the competent authorities and the public to determine the clear and precise subject matter of the protection afforded to its proprietor.\"</div>\n<div class=\"key\">Two criteria to register a trademark: <b>distinctiveness</b> + <b>capacity of representation</b>. To be protected, the mark must be <b>registered</b> with the competent public authority and clearly described so everyone knows what is covered.</div>\n\n<h3>4. The functions of the trademark (CJEU)</h3>\n<p>According to the CJEU, the use of a sign identical or similar to a trademark is forbidden when it <b>harms one of the trademark's functions</b>:</p>\n<ol>\n<li><b>Origin</b>: identify the origin of the product (essential function).</li>\n<li><b>Quality</b>: guarantee a certain standard or level of quality.</li>\n<li><b>Communication / advertising</b>: promote the company's image and identity.</li>\n<li><b>Investment</b>: represent the company's financial and commercial investment in its development and reputation.</li>\n</ol>\n<h4>Origin function: Hoffmann-La Roche</h4>\n<p><span class=\"ref\">CJEU, 23 May 1978, Hoffmann-La Roche, C-102/77, §7</span>: \"The essential function of the trademark is to guarantee the identity of the origin of the trade-marked product to the consumer or ultimate user, by enabling him without any possibility of confusion to distinguish that product from products which have another origin.\" Any sign confusing the consumer on origin infringes.</p>\n<h4>Beyond origin: Arsenal</h4>\n<p><span class=\"ref\">CJEU, 12 Nov 2002, Arsenal Football Club, C-206/01</span>: a retailer sold scarves bearing \"Arsenal\" while stating they were not official merchandise. The slides present it as follows: consumers are not misled about origin, so the club cannot automatically prohibit the sale. The slides mark this approach as <b>\"Not applicable anymore\"</b>: treating origin as the <b>only</b> function would let third parties use others' marks whenever there is no confusion on origin.</p>\n<div class=\"flag slide-error\">In the actual judgment, the CJEU held that the retailer's use <b>was</b> liable to jeopardise the guarantee of origin, so Arsenal <b>could</b> prohibit it; the \"disclaimer\" did not help. The lasting principle of Arsenal is that the owner can only act when the use <b>affects (or is liable to affect) the functions</b> of the mark. For the exam, use the slides' teaching point (the functions test, origin is not the only function) and avoid stating the outcome as a certainty.</div>\n<h4>Reputation: Bellure</h4>\n<p><span class=\"ref\">CJEU, 18 June 2009, Bellure, C-487/07, §58</span>: selling perfumes with names very close to famous perfumes (slide example: \"Shalimar\" vs. \"Shalimar Lux\") to take advantage of the original brand's reputation. Taking advantage of the reputation of a famous mark <b>for free</b> may be prohibited. This is <b>extended protection</b>: beyond origin, the mark protects the company's <b>reputation and investment</b>.</p>\n<div class=\"flag\">The case is usually cited as <i>L'Oréal v Bellure</i>; the claimant was L'Oréal. The \"Shalimar\" example comes from the slides; check it against your notes before quoting it as the facts of the case.</div>\n<h4>Advertising: Google France</h4>\n<p><span class=\"ref\">CJEU, 23 March 2010, Google, C-236/08 to C-238/08, §91–92</span>: Google let advertisers buy competitors' brand names as keywords (AdWords). Use of a trademark is prohibited if it <b>harms the mark as a promotional tool or commercial strategy</b> (advertising function).</p>\n<div class=\"trap\"><ul>\n<li>Saying the origin function is the <b>only</b> function. The CJEU recognises <b>four</b>.</li>\n<li>Mixing up certification (standards set by the owner) and collective (membership of an association) marks.</li>\n<li>Citing the definition without its source: always write <span class=\"ref\">Art. 3 Directive 2015/2436</span>.</li>\n</ul></div>\n"
+  },
+  {
+   "id": "c4",
+   "num": "4",
+   "title": "Types of trademarks",
+   "slides": "89–102",
+   "summary": "The eight types of marks in the slides, plus store layouts and the special case of smell and taste marks.",
+   "html": "\n<p>A sign can be registered as a trademark when it is <b>capable of being represented</b> and <b>distinctive</b>. The slides list eight types:</p>\n<div class=\"tbl\"><table>\n<tr><th>#</th><th>Type <span class=\"fr\">(FR)</span></th><th>Definition (slides)</th></tr>\n<tr><td>1</td><td><b>Word mark</b> <span class=\"fr\">(marque verbale)</span></td><td>Exclusively words, letters, numerals, other standard typographic characters, or a combination that can be typed.</td></tr>\n<tr><td>2</td><td><b>Figurative mark</b> <span class=\"fr\">(marque figurative)</span></td><td>Uses pictures, logos, special designs, colours or stylised text instead of plain words; any graphic element representing the brand.</td></tr>\n<tr><td>3</td><td><b>Shape mark</b> <span class=\"fr\">(marque de forme)</span></td><td>Consists of or extends to a <b>three-dimensional shape</b>; may contain word elements. Containers, packaging, the product itself or its appearance.</td></tr>\n<tr><td>4</td><td><b>Position mark</b> <span class=\"fr\">(marque de position)</span></td><td>The <b>specific way the mark is placed or affixed</b> on the product.</td></tr>\n<tr><td>5</td><td><b>Pattern mark</b> <span class=\"fr\">(marque de motif)</span></td><td>Exclusively a set of elements <b>repeated regularly</b>.</td></tr>\n<tr><td>6</td><td><b>Colour mark</b> <span class=\"fr\">(marque de couleur)</span></td><td>A single colour without contours, or a combination of colours without contours.</td></tr>\n<tr><td>7</td><td><b>Motion mark</b> <span class=\"fr\">(marque de mouvement)</span></td><td>Consists of or extends to a <b>movement or change in position</b> of the elements (a sequence of stills can qualify).</td></tr>\n<tr><td>8</td><td><b>Multimedia mark</b> <span class=\"fr\">(marque multimédia)</span></td><td>Combination of <b>image and sound</b> (example: McDonald's audiovisual ad).</td></tr>\n</table></div>\n<p>The slides' \"reminder\" also lists the <b>sound mark</b> <span class=\"fr\">(marque sonore)</span> among registrable signs (see chapter 5, Shield Mark).</p>\n<h3>Layout of a retail store</h3>\n<p>Can be protected as a trademark <b>if it has acquired distinctiveness</b> and identifies the commercial origin of the goods/services (see Apple, C-421/13, chapter 6).</p>\n<h3>Smell (olfactory) and taste marks</h3>\n<p>Extremely rare and usually <b>not accepted</b>, because they hardly meet the essential criteria (representation). Example given: in the <b>United States</b>, the smell of Play-Doh modelling clay was registered as an olfactory mark. That is US law, not EU law.</p>\n<div class=\"trap\"><ul>\n<li>Confusing a <b>position</b> mark (where the sign is placed) with a <b>shape</b> mark (the 3D form itself).</li>\n<li>Confusing a <b>motion</b> mark (movement only) with a <b>multimedia</b> mark (image + sound).</li>\n<li>Using the Play-Doh example to say smells are registrable in the EU. They are not, in practice (see Sieckmann).</li>\n</ul></div>\n"
+  },
+  {
+   "id": "c5",
+   "num": "5",
+   "title": "Validity (1): capacity of representation",
+   "slides": "103–143",
+   "summary": "The two validity requirements, the Sieckmann criteria, how each type of sign must be represented, and the leading cases (Dyson, Sieckmann, Libertel, Shield Mark, strawberries).",
+   "html": "\n<h3>1. The two requirements (absolute grounds)</h3>\n<p>From <span class=\"ref\">Art. 3 Directive 2015/2436</span>, any sign can be a trademark provided that:</p>\n<ol>\n<li><b>Distinctiveness</b>: the sign lets its owner distinguish himself from competitors. A concept that is too vague, too generic or purely descriptive cannot be a trademark.</li>\n<li><b>Representation</b>: the sign can be represented <b>clearly and precisely</b>, so the subject of protection is identifiable.</li>\n</ol>\n<p>Failing either is an <b>absolute ground for refusal</b> <span class=\"fr\">(motif absolu de refus)</span>: the problem lies in the sign itself, whatever the rights of third parties.</p>\n\n<h3>2. A sign must be a precise sign, not a concept: Dyson</h3>\n<p><span class=\"ref\">CJEU, 25 Jan 2007, Dyson, C-321/03</span>: Dyson applied for a <b>transparent dust collection bin</b>, claiming consumers would recognise any transparent container as a Dyson. <b>Refused</b>: a trademark must be a precise and specific sign; Dyson was claiming a <b>vague concept</b> (any transparent container, whatever its shape).</p>\n\n<h3>3. The Sieckmann criteria</h3>\n<p><span class=\"ref\">CJEU, 12 Dec 2002, Sieckmann, C-273/00</span>: Mr Sieckmann tried to register a <b>smell</b> at the German Patent Office, using:</p>\n<ol><li>a <b>chemical formula</b>: shows the substance, not the smell as perceived by humans;</li><li>a <b>verbal description</b> (\"balsamically fruity…\"): subjective, open to interpretation;</li><li>a <b>sample</b> of the smell: not durable, it fades or changes.</li></ol>\n<p>None satisfied the representation requirement. The representation must be:</p>\n<div class=\"tbl\"><table>\n<tr><th>Criterion</th><th>Meaning (slides)</th></tr>\n<tr><td>Clear</td><td>People can easily see the trademark</td></tr>\n<tr><td>Precise</td><td>No confusion about what it covers</td></tr>\n<tr><td>Self-contained</td><td>Shows everything needed on its own</td></tr>\n<tr><td>Easily accessible</td><td>Anyone can view or find it</td></tr>\n<tr><td>Intelligible</td><td>It makes sense and is understandable</td></tr>\n<tr><td>Durable</td><td>It lasts over time and still represents the brand</td></tr>\n<tr><td>Objective</td><td>Not subjective; straightforward and neutral</td></tr>\n</table></div>\n<div class=\"key\">Mnemonic for the 7 Sieckmann criteria: <b>C-P-S-E-I-D-O</b> (\"Clear Precise Signs Easily Identify Durable Origins\").</div>\n<div class=\"flag\">Sieckmann was decided when EU law required <b>graphic</b> representation. <span class=\"ref\">Directive 2015/2436</span> replaced this with representation \"on the register\" in a clear and precise manner, which allows audio and video files. The Sieckmann criteria are still used to judge whether the representation is clear and precise.</div>\n\n<h3>4. How to represent each type of sign</h3>\n<div class=\"tbl\"><table>\n<tr><th>Type</th><th>What to file</th></tr>\n<tr><td>Pattern</td><td>A reproduction showing the <b>pattern of repetition</b>; a description of how the elements repeat is allowed.</td></tr>\n<tr><td>Shape</td><td>A <b>graphic reproduction</b> (computer-generated images allowed) or a <b>photographic reproduction</b>; may contain different views.</td></tr>\n<tr><td>Motion</td><td>A <b>video file</b> showing the movement, or a <b>series of still sequential images</b>.</td></tr>\n<tr><td>Colour (single)</td><td>A sample on paper is <b>not enough</b>: a <b>universal colour code</b> (Pantone, RAL…) must identify it accurately (<b>Libertel</b>).</td></tr>\n<tr><td>Colour combination</td><td>Reproduction showing the <b>systematic arrangement</b> (mandatory) + <b>generally recognised colour code</b> (mandatory) + description of the arrangement (optional).</td></tr>\n<tr><td>Position</td><td>Identification of the <b>position and size/proportion</b> (mandatory) + <b>visual disclaimer</b> of elements not claimed (mandatory) + description of how it is affixed (optional).</td></tr>\n<tr><td>Sound</td><td>An <b>audio file</b> (MP3, max 5 MB) or an accurate <b>musical notation</b>. Not accepted alone: onomatopoeia, musical notes alone (e.g. E, D#, E…), a sonogram.</td></tr>\n</table></div>\n\n<h3>5. Colour marks: Libertel</h3>\n<p>Rule: a colour on its own, without shape, <b>cannot</b> normally be recognised as a trademark. However, for certain goods/services, when the colour is distinctive and capable of representation, it can be protected (Milka purple, Tiffany blue).</p>\n<p><span class=\"ref\">CJEU, 6 May 2003, Libertel, C-104/01</span>: a colour sample on paper is not enough (it fades); the applicant must give an <b>internationally recognised colour code</b>.</p>\n\n<h3>6. Sound marks: Shield Mark</h3>\n<p><span class=\"ref\">CJEU, 27 Nov 2003, Shield Mark BV, C-283/01</span>: Shield Mark wanted to register sounds. Question: can a sound be a trademark and how should it be represented? <b>Yes</b>, if (1) the sound can distinguish the goods/services of one undertaking and (2) it is represented in a clear, precise, durable… way (e.g. a stave divided into bars with clef and notes). Onomatopoeia or a list of notes alone are not enough.</p>\n<p>Steps to register a sound (slides): identify the sound clearly; submit an audio file (MP3, max 5 MB) or musical notation; show it is distinctive (not a generic sound).</p>\n\n<h3>7. Smell marks: the ripe strawberry</h3>\n<p><span class=\"ref\">General Court (TUE), 27 Oct 2005, Smell of ripe strawberries, T-305/04</span>: Eden SARL applied for the \"smell of ripe strawberries\" using a verbal description and a colour image of a strawberry. <b>Refused</b>: the subject of protection cannot be determined with clarity and precision with generally available technology, so the sign is not capable of representation.</p>\n\n<div class=\"key\"><b>To sum up</b>: as long as it is capable of representation, a trademark can be a sound, a movement, a video, a colour, etc. A taste or smell cannot, because it cannot be represented clearly and precisely.</div>\n\n<h3>8. Slide exercises (what do you think?)</h3>\n<ul>\n<li>Linda wants to register <b>the colour pink</b>.</li>\n<li>Georges wants to register <b>the mooing of a cow</b>, represented by a sonogram.</li>\n<li>Linda wants to register an <b>orange strip covering the toe area of a sock</b>.</li>\n<li>Bill wants to register <b>the shape of an egg</b> for cosmetics.</li>\n</ul>\n<p>Worked answers are in <b>Practical cases → \"Can they register it?\"</b>.</p>\n<div class=\"trap\"><ul>\n<li>Saying a colour sample is enough. It is not: you need a <b>colour code</b> (Libertel).</li>\n<li>Filing a sound as a sonogram or onomatopoeia alone. Use an <b>audio file</b> or <b>musical notation</b>.</li>\n<li>Mixing up the two requirements: Dyson is about a <b>concept that is not a sign</b>; Sieckmann is about <b>representation</b>.</li>\n</ul></div>\n"
+  },
+  {
+   "id": "c6",
+   "num": "6",
+   "title": "Validity (2): distinctiveness",
+   "slides": "144–189",
+   "summary": "Definition (Art. 7(1)(b) EU Regulation), the four non-distinctive categories (Art. 4 Directive), how it is assessed, acquired distinctiveness, slogans, store layouts, shapes and the three shape exclusions, Louboutin.",
+   "html": "\n<h3>1. Definition</h3>\n<p>Distinctiveness allows (1) the trademark owner to be identified and (2) the market players to be differentiated. The sign must lead the <b>relevant public</b> to believe that the goods or services <b>originate from a particular company</b>.</p>\n<p><span class=\"ref\">Art. 7(1)(b) EU Trademark Regulation</span> sets the definition: the sign serves to <b>identify the goods/services</b> for which registration is applied for, so it determines their <b>origin</b> and distinguishes them from others.</p>\n<div class=\"flag\">The slides say \"EU regulation on trademark\". Its full name is Regulation (EU) 2017/1001 on the European Union trade mark (EUTMR). Article 7(1)(b) is literally the refusal of marks \"devoid of any distinctive character\".</div>\n<p><b>Principle of specialty</b>: a trademark is protected only for the goods/services for which it is registered, so the sign must be distinctive <b>towards those goods/services</b>.</p>\n\n<h3>2. Signs that are not distinctive (<span class=\"ref\">Art. 4 Directive 2015/2436</span>)</h3>\n<p>Article 4 lists the grounds for refusal or invalidity. A sign is not distinctive if it is:</p>\n<div class=\"tbl\"><table>\n<tr><th>Category</th><th>Meaning</th><th>Examples (slides)</th></tr>\n<tr><td><b>1. Devoid of any distinctive character</b></td><td>Does not allow the product to be recognised as coming from a particular company: too generic or common</td><td>\"Shoes\" for shoes, \"Food\" for a restaurant, \"the coffee\" to sell coffee</td></tr>\n<tr><td><b>2. Descriptive</b></td><td>Consists exclusively of signs which may serve in trade to designate a characteristic: kind, quality, quantity, intended purpose, value, geographical origin, date of production</td><td>\"Red Wine from Bordeaux\" for wine, \"Soft Soap\" for soap</td></tr>\n<tr><td><b>3. Customary</b> (too common)</td><td>Consists exclusively of signs that have become customary in current language or established trade practices</td><td>\"Cola\" for a soft drink, \"pack\" to sell bags</td></tr>\n<tr><td><b>4. Bad faith</b></td><td>A mark filed in bad faith may also be declared invalid</td><td>(no example in the slides)</td></tr>\n</table></div>\n<p>Slide summary: not distinctive if the sign (1) <b>designates</b> the goods (generic: \"bags\" for bags), (2) refers to a <b>characteristic</b> (descriptive: \"leather\" for leather bags, \"cola\" for a cola drink), (3) is <b>commonly used</b> to designate them (\"pack\" for bags).</p>\n\n<h3>3. How distinctiveness is assessed (French law, slides)</h3>\n<ol><li><b>In relation to the goods and services</b> for which registration is sought;</li><li>according to the <b>presumed perception of the average consumer</b> of those goods/services.</li></ol>\n<p>Examples: <b>Apple</b> is distinctive for computers and phones but <b>not</b> for fruit. <b>\"Eco-Net\"</b> for eco-friendly cleaning products was refused: the average consumer immediately understands \"environmentally friendly cleaning\".</p>\n\n<h3>4. Baby-Dry</h3>\n<p><span class=\"ref\">CJCE, 20 Sept 2001, Baby-Dry, C-383/99 P</span>: the slides say the CJEU <b>refused</b> \"BABY-DRY\" for nappies as too descriptive.</p>\n<div class=\"flag slide-error\">In the actual judgment (Procter &amp; Gamble v OHIM), the Court of Justice <b>set aside the refusal</b>: it found \"Baby-dry\" was an unusual juxtaposition of words, not exclusively descriptive, so it could be registered. Later case law became stricter on descriptive marks. Ask your professor which version is expected; in the exam you can write \"the slides present Baby-Dry as…\" and show you know the real outcome.</div>\n\n<h3>5. Distinctiveness acquired through use</h3>\n<p>A sign that is generic, descriptive or customary can still be registered if it <b>\"has become distinctive in relation to the goods or services for which registration is requested in consequence of the use which has been made of it\"</b>. The sign is registered only if <b>proof</b> is provided.</p>\n<ul><li>Examples: L'Équipe (sports newspaper), Milka's purple, Nike's \"Just do it\".</li>\n<li>Usually shown by: strong brand awareness, <b>exclusive use over a long period</b>, tangible evidence (<b>surveys/polls, market share, advertising, turnover</b>).</li>\n<li>Assessed in relation to the <b>perception of the average consumer</b> for the category of goods/services concerned.</li></ul>\n<div class=\"flag\">Acquired distinctiveness can cure the three categories listed on the slide (generic/devoid, descriptive, customary). Under EU law it <b>cannot</b> cure the shape exclusions below, public policy or deceptiveness.</div>\n\n<h3>6. Special signs</h3>\n<h4>Store layout: Apple</h4>\n<p><span class=\"ref\">CJEU, 10 July 2014, Apple, C-421/13</span>: can the layout of a retail store be registered? <b>Yes, if distinctive</b>: it must help consumers recognise the origin of the goods/services and be more than a simple store design. Apple's minimalist layout (big tables, lots of space, identical worldwide) says \"You are in an Apple store\". Not protectable: a merely functional or generic layout.</p>\n<h4>Slogan: Vorsprung durch Technik</h4>\n<p><span class=\"ref\">CJEU, 21 Jan 2010, Vorsprung durch Technik (Audi)</span>: can an advertising slogan be registered even if it has a promotional meaning? <b>Yes, if distinctive</b>: consumers must see it as indicating origin. Memorable, creative slogans that identify the company (\"Just do it\" for Nike, \"Das Auto\" for Volkswagen in the slides).</p>\n<div class=\"flag\">The case number (C-398/08 P) is not on the slides.</div>\n<h4>Shape: Lindt</h4>\n<p><span class=\"ref\">CJEU, 24 May 2012, Lindt, C-98/11 P</span>: can the shape of a product (the gold-wrapped chocolate bunny) be a trademark? <b>In principle yes</b>, if it is distinctive, not just functional, helps consumers recognise the origin and is not the normal or necessary shape. <b>Applied to Lindt: refused</b>. The bunny lacked inherent distinctiveness; its elements are too common on the market to identify Lindt across the whole EU.</p>\n\n<h3>7. The three shape exclusions</h3>\n<p>A shape (<b>or another characteristic</b>) cannot be a valid trademark when it:</p>\n<div class=\"tbl\"><table>\n<tr><th>Exclusion</th><th>Purpose</th><th>Example (slides)</th></tr>\n<tr><td>1. <b>Results from the nature of the goods</b></td><td>Prevent appropriation of what is natural or inherent to the product</td><td>Shape of a chocolate bar</td></tr>\n<tr><td>2. <b>Is necessary to obtain a technical result</b></td><td>No monopoly on functional solutions (that is the role of patents, limited in time)</td><td>Lego bricks (interlocking)</td></tr>\n<tr><td>3. <b>Gives substantial value to the goods</b></td><td>No monopoly on aesthetic features that make the product attractive (role of designs, limited in time)</td><td>Panton chair (written \"pantone chair\" on the slide)</td></tr>\n</table></div>\n<div class=\"key\">Rationale: trademarks last indefinitely. The Directive prevents trademark law from granting a <b>perpetual monopoly</b> on technical solutions (patent territory) or aesthetic characteristics (design territory).</div>\n<div class=\"flag\">The Lego case is CJEU, 14 Sept 2010, Lego Juris, C-48/09 P (not on the slides).</div>\n\n<h3>8. Position: Louboutin</h3>\n<p><span class=\"ref\">CJEU, 12 June 2018, Louboutin, C-163/16</span>: Louboutin registered the <b>red colour applied to the sole</b> of high heels. A Dutch company, <b>Van Haren</b>, sold heels with red soles; Louboutin sued for infringement. Van Haren challenged validity, arguing the mark was <b>a shape giving substantial value</b> to the product. <b>Louboutin won</b>: the mark protects a <b>colour in a specific position</b>, not a shape, so the shape exclusion does not apply.</p>\n\n<h3>9. Slide exercise: Pierre's drop-shipping</h3>\n<p>Pierre wants to sell phone and AirPods cases bearing Coca-Cola, Starbucks and Disney characters. Can he? How can he do it legally? Worked answer in <b>Practical cases</b>.</p>\n<div class=\"trap\"><ul>\n<li>Assessing distinctiveness in the abstract. Always assess it <b>for the goods/services claimed</b> and <b>through the average consumer</b>.</li>\n<li>Saying Lindt won. The principle was accepted but the bunny was <b>refused</b>.</li>\n<li>Calling Louboutin a shape mark. It is a <b>colour applied to a position</b>.</li>\n<li>Forgetting to mention <b>acquired distinctiveness</b> as the way to save a weak sign.</li>\n</ul></div>\n"
+  },
+  {
+   "id": "c7",
+   "num": "7",
+   "title": "Other absolute grounds: public policy, flags, deceptive signs",
+   "slides": "190–200",
+   "summary": "Signs contrary to public policy or morality, flags and state emblems, deceptive signs, and the wrap-up exercises (Exercise 2, Sarah's cosmetics, group project).",
+   "html": "\n<h3>1. Public policy and morality</h3>\n<p>Trademarks <b>contrary to public policy or to accepted principles of morality</b> <span class=\"fr\">(ordre public, bonnes mœurs)</span> cannot be registered.</p>\n<div class=\"tbl\"><table>\n<tr><th>Sign</th><th>Public</th><th>Outcome</th><th>Ref.</th></tr>\n<tr><td>BIN LADIN</td><td>General consumer</td><td><b>Rejected</b>: understood as the name of the leader of a terrorist organisation; terrorist crimes breach public order and moral principles</td><td><span class=\"ref\">R 176/2004-2</span></td></tr>\n<tr><td>SCREW YOU (goods other than sex products)</td><td>General consumer</td><td><b>Rejected</b>: a substantial proportion of ordinary citizens would find it offensive</td><td><span class=\"ref\">R 495/2005-G</span></td></tr>\n<tr><td>SCREW YOU (sex products)</td><td>Sex-shop customers</td><td><b>Accepted</b>: a person entering a sex shop is unlikely to be offended</td><td><span class=\"ref\">R 495/2005-G</span></td></tr>\n</table></div>\n<div class=\"key\">The assessment <b>depends on the goods and services</b> concerned, which determine the public targeted and its perception.</div>\n<div class=\"flag\">The \"R …\" numbers are EUIPO Board of Appeal decisions (as shown on the slides).</div>\n\n<h3>2. Flags, state emblems and similar signs</h3>\n<p>Trademarks including <b>flags, (state) emblems, badges, armorial bearings or escutcheons</b> of particular public interest cannot be registered, <b>unless the competent authority has consented</b>.</p>\n\n<h3>3. Deceptive signs</h3>\n<p>A <b>deceptive sign</b> <span class=\"fr\">(signe déceptif)</span> cannot be registered: it aims to or could <b>deceive the public</b> on the <b>nature, quality or geographical origin</b> of the goods or services.</p>\n<p>Example: \"OrganicFresh\" on apples that are not organic: misleads consumers into thinking they are organic.</p>\n<div class=\"key\">Descriptive vs. deceptive: \"Organic\" for organic apples is <b>descriptive</b> (true but not distinctive); \"Organic\" for non-organic apples is <b>deceptive</b> (false). The same word can fall on either side depending on the goods.</div>\n\n<h3>4. Wrap-up exercises from the slides</h3>\n<ul>\n<li><b>Exercise 2</b>: FreshMilk for pasteurised milk; a blue sole for trainers; SugarFree for sweets containing sugar; LuxuryBag for handbags.</li>\n<li><b>Case study: Sarah's cosmetics</b> (7 signs: \"Beauty Cares\", \"Beautiful\", the colour white, bubbles in motion, a cat's meow, \"Cannabis\", \"Milky care\"). Advise on absolute grounds, representation, and the strongest mark.</li>\n<li><b>Group project</b> (slide 200): create your own trademark in 4/5 Canva slides: justify validity, what you protected, what you could not protect.</li>\n</ul>\n<p>All are worked in <b>Practical cases</b>.</p>\n<div class=\"trap\"><ul>\n<li>Treating public policy as absolute in the abstract. It depends on the <b>goods and the relevant public</b> (SCREW YOU).</li>\n<li>Forgetting the <b>consent</b> exception for flags and emblems.</li>\n<li>Confusing descriptive and deceptive.</li>\n</ul></div>\n"
+  }
+ ],
+ "CASES": [
+  {
+   "id": "hoffmann",
+   "name": "Hoffmann-La Roche",
+   "court": "CJEU",
+   "date": "23 May 1978",
+   "no": "C-102/77, §7",
+   "ch": "c3",
+   "topic": "Functions",
+   "facts": "Dispute over the use of a trademark on (re)packaged pharmaceutical products.",
+   "question": "What is the essential function of a trademark?",
+   "holding": "The essential function is to guarantee the identity of the origin of the trade-marked product to the consumer, enabling him without any possibility of confusion to distinguish it from products of another origin.",
+   "why": "Founding definition of the origin function. Quote it whenever you discuss what a trademark is for.",
+   "flag": "The facts line is a general description; the slides only quote §7."
+  },
+  {
+   "id": "arsenal",
+   "name": "Arsenal Football Club",
+   "court": "CJEU",
+   "date": "12 Nov 2002",
+   "no": "C-206/01",
+   "ch": "c3",
+   "topic": "Functions",
+   "facts": "A retailer (Mr Reed) sold scarves bearing \"Arsenal\" with a notice that they were not official club products.",
+   "question": "Can the trademark owner prohibit use of an identical sign when consumers are not misled about origin?",
+   "holding": "Slides: the club cannot automatically prohibit the sale if consumers are not misled; this origin-only approach is \"not applicable anymore\". The owner can act when the use affects the functions of the mark.",
+   "why": "Shows the move from origin as the only function to a functions test. Also cited for double identity (identical sign, identical goods).",
+   "flag": "In the actual judgment the CJEU found the use was liable to affect the guarantee of origin, so Arsenal could prohibit it. Check which reading your professor expects."
+  },
+  {
+   "id": "bellure",
+   "name": "Bellure (L'Oréal v Bellure)",
+   "court": "CJEU",
+   "date": "18 June 2009",
+   "no": "C-487/07, §58",
+   "ch": "c3",
+   "topic": "Functions",
+   "facts": "Perfumes sold under names and presentations close to famous perfumes (slide example: \"Shalimar\" vs. \"Shalimar Lux\") to ride on their reputation.",
+   "question": "Is taking advantage of a famous mark's reputation, without confusion, prohibited?",
+   "holding": "Yes. Taking unfair advantage (a free ride) of the reputation of a famous mark may be prohibited, even without confusion on origin.",
+   "why": "Extended protection: trademarks also protect reputation and investment, not only origin.",
+   "flag": "The claimant was L'Oréal; the Shalimar example comes from the slides."
+  },
+  {
+   "id": "google",
+   "name": "Google France",
+   "court": "CJEU",
+   "date": "23 March 2010",
+   "no": "C-236/08 to C-238/08, §91–92",
+   "ch": "c3",
+   "topic": "Functions",
+   "facts": "Google's AdWords let advertisers buy competitors' brand names as keywords.",
+   "question": "Can keyword use of a trademark harm the mark?",
+   "holding": "Use of a trademark is prohibited if it harms the mark as a promotional tool or commercial strategy (advertising function).",
+   "why": "Recognises the advertising function."
+  },
+  {
+   "id": "dyson",
+   "name": "Dyson",
+   "court": "CJEU",
+   "date": "25 Jan 2007",
+   "no": "C-321/03",
+   "ch": "c5",
+   "topic": "Representation",
+   "facts": "Dyson applied to register a transparent dust-collection bin, claiming any transparent container would be recognised as Dyson.",
+   "question": "Can a non-specific characteristic (transparency) of a product be a trademark?",
+   "holding": "No. A trademark must be a precise and specific sign; Dyson claimed a vague concept covering all shapes of transparent bins.",
+   "why": "A concept or idea is not a sign. Use it when an applicant claims something abstract."
+  },
+  {
+   "id": "sieckmann",
+   "name": "Sieckmann",
+   "court": "CJEU",
+   "date": "12 Dec 2002",
+   "no": "C-273/00",
+   "ch": "c5",
+   "topic": "Representation",
+   "facts": "Mr Sieckmann tried to register a smell at the German Patent Office using a chemical formula, a verbal description (\"balsamically fruity\") and a sample.",
+   "question": "Can a smell be represented in a way that satisfies trademark law?",
+   "holding": "No. The formula shows the substance, not the smell; the description is subjective; the sample is not durable. The representation must be clear, precise, self-contained, easily accessible, intelligible, durable and objective.",
+   "why": "The 7 Sieckmann criteria: the test for every representation question."
+  },
+  {
+   "id": "libertel",
+   "name": "Libertel",
+   "court": "CJEU",
+   "date": "6 May 2003",
+   "no": "C-104/01",
+   "ch": "c5",
+   "topic": "Representation",
+   "facts": "Application to register a colour (orange) per se, filed with a sample on paper.",
+   "question": "Can a colour per se be a trademark, and how must it be represented?",
+   "holding": "A colour can be a trademark if distinctive, but a paper sample is not enough (not durable): an internationally recognised colour code must be given.",
+   "why": "Colour marks: sample + colour code (Pantone, RAL…). Distinctiveness of a single colour is rare without use.",
+   "flag": "The colour (orange) and the facts are not on the slides."
+  },
+  {
+   "id": "shield",
+   "name": "Shield Mark BV",
+   "court": "CJEU",
+   "date": "27 Nov 2003",
+   "no": "C-283/01",
+   "ch": "c5",
+   "topic": "Representation",
+   "facts": "Shield Mark wanted to register sounds to stand out from competitors.",
+   "question": "Can a sound be a trademark, and how should it be represented?",
+   "holding": "Yes, if it can distinguish goods/services and is represented clearly, precisely, durably (e.g. musical notation). Onomatopoeia or a list of notes alone are not enough.",
+   "why": "Sound marks. Today: audio file (MP3, max 5 MB) or musical notation; not a sonogram or onomatopoeia alone."
+  },
+  {
+   "id": "strawberry",
+   "name": "Smell of ripe strawberries",
+   "court": "General Court (TUE)",
+   "date": "27 Oct 2005",
+   "no": "T-305/04",
+   "ch": "c5",
+   "topic": "Representation",
+   "facts": "Eden SARL applied for the \"smell of ripe strawberries\" with a verbal description and a colour picture of a strawberry.",
+   "question": "Is this a sufficient representation of an olfactory sign?",
+   "holding": "No. The subject of protection cannot be determined clearly and precisely with generally available technology, so the sign is not capable of representation.",
+   "why": "Confirms Sieckmann: smell marks are not registrable in practice in the EU."
+  },
+  {
+   "id": "babydry",
+   "name": "Baby-Dry",
+   "court": "CJCE",
+   "date": "20 Sept 2001",
+   "no": "C-383/99 P",
+   "ch": "c6",
+   "topic": "Distinctiveness",
+   "facts": "Procter & Gamble applied for \"BABY-DRY\" for baby nappies.",
+   "question": "Is a combination of descriptive words registrable?",
+   "holding": "Slides: refused as too descriptive of the product.",
+   "why": "Illustrates descriptive signs in the slides.",
+   "flag": "In the actual judgment, the Court set aside the refusal: the unusual juxtaposition was not exclusively descriptive, so the mark was registrable. Check with your professor."
+  },
+  {
+   "id": "apple",
+   "name": "Apple (store layout)",
+   "court": "CJEU",
+   "date": "10 July 2014",
+   "no": "C-421/13",
+   "ch": "c6",
+   "topic": "Distinctiveness",
+   "facts": "Apple sought to register the layout of its flagship stores (minimalist design, big tables, identical worldwide).",
+   "question": "Can the layout of a retail store be registered as a trademark?",
+   "holding": "Yes, if it is distinctive: it must help consumers recognise the origin and be more than a simple functional or generic store design.",
+   "why": "Store layouts are registrable signs, subject to distinctiveness."
+  },
+  {
+   "id": "vorsprung",
+   "name": "Vorsprung durch Technik (Audi)",
+   "court": "CJEU",
+   "date": "21 Jan 2010",
+   "no": "(C-398/08 P)",
+   "ch": "c6",
+   "topic": "Distinctiveness",
+   "facts": "Audi applied for its slogan \"Vorsprung durch Technik\" (advancement through technology).",
+   "question": "Can an advertising slogan be registered even if it has a promotional meaning?",
+   "holding": "Yes, if consumers can perceive it as indicating the origin of the goods/services. Promotional character alone does not exclude registration.",
+   "why": "Slogans: memorable, creative, identify the company (Just do it).",
+   "flag": "Case number not on the slides."
+  },
+  {
+   "id": "lindt",
+   "name": "Lindt (gold bunny)",
+   "court": "CJEU",
+   "date": "24 May 2012",
+   "no": "C-98/11 P",
+   "ch": "c6",
+   "topic": "Distinctiveness",
+   "facts": "Lindt tried to register the 3D shape of its gold-wrapped chocolate bunny with a red ribbon as an EU trademark.",
+   "question": "Can the shape of a product be a trademark?",
+   "holding": "In principle yes, if distinctive and not just functional or the usual shape. Here: refused, the shape lacked inherent distinctiveness; its elements are too common to identify Lindt across the EU.",
+   "why": "Shape marks: must depart from what is common in the sector; distinctiveness must exist across the whole EU for an EU mark."
+  },
+  {
+   "id": "lego",
+   "name": "Lego (brick)",
+   "court": "CJEU",
+   "date": "(14 Sept 2010)",
+   "no": "(C-48/09 P)",
+   "ch": "c6",
+   "topic": "Shape exclusions",
+   "facts": "Registration of the shape of the Lego brick.",
+   "question": "Can a shape necessary to obtain a technical result be a trademark?",
+   "holding": "No. The brick's shape is necessary to achieve the technical result (interlocking).",
+   "why": "Second shape exclusion: functional shapes belong to patent law, limited in time.",
+   "flag": "The slides only say \"Lego bricks were refused\"; date and number are not on the slides."
+  },
+  {
+   "id": "louboutin",
+   "name": "Louboutin",
+   "court": "CJEU",
+   "date": "12 June 2018",
+   "no": "C-163/16",
+   "ch": "c6",
+   "topic": "Shape exclusions",
+   "facts": "Louboutin registered the red colour applied to the sole of high heels. Van Haren sold red-soled heels; Louboutin sued; Van Haren argued the mark was a shape giving substantial value.",
+   "question": "Is a colour applied to the sole of a shoe a \"shape\" caught by the shape exclusions?",
+   "holding": "No. The mark protects a colour in a specific position, not a shape; the shape exclusion does not apply. Louboutin won.",
+   "why": "Position/colour marks escape the shape exclusions."
+  },
+  {
+   "id": "binladin",
+   "name": "BIN LADIN",
+   "court": "EUIPO Board of Appeal",
+   "date": "",
+   "no": "R 176/2004-2",
+   "ch": "c7",
+   "topic": "Public policy",
+   "facts": "Application for \"BIN LADIN\" for general consumer goods.",
+   "question": "Is the sign contrary to public policy or morality?",
+   "holding": "Rejected: understood as the name of the leader of a terrorist organisation; contrary to public order and moral principles.",
+   "why": "Example of public-policy refusal."
+  },
+  {
+   "id": "screwyou",
+   "name": "SCREW YOU",
+   "court": "EUIPO Board of Appeal",
+   "date": "",
+   "no": "R 495/2005-G",
+   "ch": "c7",
+   "topic": "Public policy",
+   "facts": "Application for \"SCREW YOU\" for various goods, including sex products.",
+   "question": "Does the morality assessment depend on the goods?",
+   "holding": "Rejected for general goods (offensive to ordinary citizens) but accepted for sex products (sex-shop customers unlikely to be offended).",
+   "why": "Public policy/morality is assessed according to the goods and the relevant public."
+  }
+ ],
+ "CARDS": [
+  [
+   "c1",
+   "Define intellectual property.",
+   "Ownership of a creation that has no physical form (e.g. a trademark) or is a product of the human mind (software, book, poem). Opposed to ownership of tangible goods."
+  ],
+  [
+   "c1",
+   "What does an IP right give its holder?",
+   "An exclusive right to exploit the creation (use, reproduce, distribute, commercially exploit) and to prohibit others from doing so, for a limited time and within a defined territory."
+  ],
+  [
+   "c1",
+   "The four aims of IP law?",
+   "1. Protect creators (exclusive right). 2. Promote innovation, creativity, investment. 3. Financial incentives + prevent copying. 4. Guarantee the quality of products for consumers."
+  ],
+  [
+   "c1",
+   "The two branches of IP in French law?",
+   "Literary and artistic property (copyright, software, databases) and industrial property (patents, trademarks, designs). Rules in the Intellectual Property Code (CPI)."
+  ],
+  [
+   "c1",
+   "Patent: conditions and duration?",
+   "Novelty, inventive step, industrial application (slides also: technological field). 20 years from filing, annual fees."
+  ],
+  [
+   "c1",
+   "Design: conditions and duration?",
+   "Novelty + individual character. 5 years, renewable up to 25 years."
+  ],
+  [
+   "c1",
+   "Copyright: conditions and duration?",
+   "Original work (author's personal touch), expressed (not just an idea). Author's life + 70 years."
+  ],
+  [
+   "c1",
+   "Trademark: duration?",
+   "10 years, renewable indefinitely."
+  ],
+  [
+   "c1",
+   "PDO vs PGI?",
+   "PDO (AOP): principal production steps in the same area (Champagne). PGI (IGP): quality/reputation/characteristics linked to origin (Bayonne ham)."
+  ],
+  [
+   "c1",
+   "IG for industrial and hand-crafted products: example?",
+   "Limoges porcelain (France, since 2014)."
+  ],
+  [
+   "c2",
+   "Three other distinctive signs?",
+   "Registered company name, commercial name, domain name."
+  ],
+  [
+   "c2",
+   "How are company names, commercial names and domain names protected?",
+   "No common legislation; only through a tort action (responsabilité délictuelle) for unfair competition (concurrence déloyale), not infringement (contrefaçon)."
+  ],
+  [
+   "c2",
+   "Conditions to protect a commercial name?",
+   "Use where the name is registered, of an identical/similar sign, for an identical/similar activity, in the same geographical area, likely to create confusion."
+  ],
+  [
+   "c2",
+   "Principle of specialty?",
+   "A distinctive sign is only protected for the goods and services for which it is used/registered (e.g. Sandro for fashion)."
+  ],
+  [
+   "c2",
+   "Inditex, Zara, zara.fr: which sign is which?",
+   "Inditex = registered company name; Zara = trademark/commercial name; zara.fr = domain name."
+  ],
+  [
+   "c3",
+   "Legal definition of a trademark?",
+   "Art. 3 Directive 2015/2436: any sign capable of (a) distinguishing goods/services of one undertaking from others and (b) being represented on the register clearly and precisely."
+  ],
+  [
+   "c3",
+   "Certification mark?",
+   "Sign showing goods/services comply with standards set by the owner (quality, materials, manufacture…). E.g. Fairtrade."
+  ],
+  [
+   "c3",
+   "Collective mark?",
+   "Sign distinguishing goods/services of members of an association that owns it; shows membership. E.g. Vignerons indépendants."
+  ],
+  [
+   "c3",
+   "The four functions of a trademark (CJEU)?",
+   "Origin, quality, communication/advertising, investment."
+  ],
+  [
+   "c3",
+   "Hoffmann-La Roche (1978): key point?",
+   "Essential function = guarantee the identity of origin of the product to the consumer."
+  ],
+  [
+   "c3",
+   "Bellure (2009): key point?",
+   "Taking unfair advantage of the reputation of a famous mark may be prohibited, even without confusion. Extended protection."
+  ],
+  [
+   "c3",
+   "Google France (2010): key point?",
+   "Keyword use of a mark is prohibited if it harms the mark as a promotional/advertising tool."
+  ],
+  [
+   "c4",
+   "The eight types of marks in the slides?",
+   "Word, figurative, shape, position, pattern, colour, motion, multimedia (+ sound in the reminder; store layout)."
+  ],
+  [
+   "c4",
+   "Position mark?",
+   "The specific way the mark is placed or affixed on the product (e.g. Louboutin red sole)."
+  ],
+  [
+   "c4",
+   "Multimedia mark?",
+   "Combination of image and sound."
+  ],
+  [
+   "c4",
+   "Smell and taste marks in the EU?",
+   "Extremely rare, usually refused: cannot be represented clearly and precisely. (Play-Doh smell was registered in the US.)"
+  ],
+  [
+   "c5",
+   "The two validity requirements?",
+   "Distinctiveness + capacity of representation."
+  ],
+  [
+   "c5",
+   "The 7 Sieckmann criteria?",
+   "Clear, precise, self-contained, easily accessible, intelligible, durable, objective."
+  ],
+  [
+   "c5",
+   "Why did Sieckmann's smell fail?",
+   "Chemical formula = substance not smell; verbal description = subjective; sample = not durable."
+  ],
+  [
+   "c5",
+   "Dyson (2007)?",
+   "Transparent bin refused: a vague concept, not a precise and specific sign."
+  ],
+  [
+   "c5",
+   "Libertel (2003)?",
+   "Colour mark: a sample on paper is not enough; give an internationally recognised colour code."
+  ],
+  [
+   "c5",
+   "Shield Mark (2003)?",
+   "A sound can be a mark if distinctive and represented clearly (musical notation/audio). Not onomatopoeia or notes alone."
+  ],
+  [
+   "c5",
+   "Strawberries T-305/04 (2005)?",
+   "Smell of ripe strawberries refused: cannot be represented clearly and precisely with generally available technology."
+  ],
+  [
+   "c5",
+   "How to file a position mark?",
+   "Mandatory: position and size + visual disclaimer of unclaimed elements. Optional: description."
+  ],
+  [
+   "c5",
+   "How to file a colour combination?",
+   "Mandatory: reproduction of the systematic arrangement + recognised colour code. Optional: description."
+  ],
+  [
+   "c5",
+   "How to file a motion mark?",
+   "Video file or series of still sequential images."
+  ],
+  [
+   "c5",
+   "How to file a sound mark?",
+   "Audio file (MP3, max 5 MB) or accurate musical notation. Not alone: onomatopoeia, notes alone, sonogram."
+  ],
+  [
+   "c6",
+   "Where is distinctiveness defined (slides)?",
+   "Art. 7(1)(b) EU Trademark Regulation: the sign identifies the goods/services and their origin."
+  ],
+  [
+   "c6",
+   "Four categories of non-distinctive signs (Art. 4 Directive)?",
+   "Devoid of distinctive character; descriptive; customary; (and bad-faith marks may be invalidated)."
+  ],
+  [
+   "c6",
+   "Descriptive sign: definition + example?",
+   "Consists exclusively of indications of kind, quality, quantity, purpose, value, origin… e.g. \"Soft Soap\" for soap."
+  ],
+  [
+   "c6",
+   "Customary sign: example?",
+   "\"Cola\" for a soft drink; \"pack\" for bags."
+  ],
+  [
+   "c6",
+   "Two parameters to assess distinctiveness?",
+   "1. The goods/services claimed. 2. The presumed perception of the average consumer."
+  ],
+  [
+   "c6",
+   "Acquired distinctiveness: how to prove?",
+   "Long, exclusive use; brand awareness; surveys/polls, market share, advertising, turnover."
+  ],
+  [
+   "c6",
+   "Apple store C-421/13?",
+   "A store layout can be a mark if distinctive (identifies origin), not a merely functional/generic layout."
+  ],
+  [
+   "c6",
+   "Vorsprung durch Technik (2010)?",
+   "A slogan can be registered if consumers see it as an indication of origin, despite its promotional meaning."
+  ],
+  [
+   "c6",
+   "Lindt C-98/11 P outcome?",
+   "Refused: the gold bunny lacked inherent distinctiveness (too common across the EU)."
+  ],
+  [
+   "c6",
+   "The three shape exclusions?",
+   "Shape resulting from the nature of the goods; necessary for a technical result; giving substantial value to the goods."
+  ],
+  [
+   "c6",
+   "Why the shape exclusions?",
+   "Avoid a perpetual trademark monopoly on technical (patent) or aesthetic (design) features."
+  ],
+  [
+   "c6",
+   "Louboutin C-163/16?",
+   "Red sole valid: a colour in a position, not a shape giving substantial value. Louboutin beat Van Haren."
+  ],
+  [
+   "c6",
+   "Baby-Dry: what do the slides say?",
+   "Refused as too descriptive for nappies. (Actual judgment: the CJEU allowed it. Check with your professor.)"
+  ],
+  [
+   "c7",
+   "Public policy/morality: two examples?",
+   "BIN LADIN (rejected). SCREW YOU: rejected for general goods, accepted for sex products."
+  ],
+  [
+   "c7",
+   "Flags and state emblems?",
+   "Cannot be registered unless the competent authority consents."
+  ],
+  [
+   "c7",
+   "Deceptive sign?",
+   "Deceives the public on the nature, quality or geographical origin. E.g. OrganicFresh for non-organic apples."
+  ],
+  [
+   "c7",
+   "Descriptive vs deceptive?",
+   "Descriptive = true characteristic (not distinctive). Deceptive = false characteristic (misleads)."
+  ]
+ ],
+ "QUIZ": [
+  [
+   "c1",
+   "Intellectual property is best defined as the ownership of…",
+   [
+    "Tangible goods such as a car or a house",
+    "Creations without physical form or products of the human mind",
+    "Any good registered with a public authority",
+    "Only inventions protected by a patent"
+   ],
+   1,
+   "IP is defined by opposition to the ownership of physical goods: it covers intangible creations (a trademark) and products of the mind (software, a book)."
+  ],
+  [
+   "c1",
+   "Under French law, trademarks belong to…",
+   [
+    "Literary and artistic property",
+    "Industrial property",
+    "Commercial property",
+    "Personal rights"
+   ],
+   1,
+   "French law splits IP into literary and artistic property (copyright, software, databases) and industrial property (patents, trademarks, designs)."
+  ],
+  [
+   "c1",
+   "Which is NOT one of the aims of IP law listed in the course?",
+   [
+    "Protecting creators with an exclusive right",
+    "Promoting innovation and investment",
+    "Guaranteeing the quality of products for consumers",
+    "Guaranteeing low prices for consumers"
+   ],
+   3,
+   "The four aims: protect creators, promote innovation/investment, financial incentives and preventing copying, guarantee quality. Low prices is not one."
+  ],
+  [
+   "c1",
+   "How long does a trademark registration last?",
+   [
+    "5 years, renewable up to 25",
+    "20 years from filing",
+    "10 years, renewable indefinitely",
+    "Author's life + 70 years"
+   ],
+   2,
+   "Trademark: 10 years, renewable indefinitely. 5→25 years is design, 20 years is patent, life+70 is copyright."
+  ],
+  [
+   "c1",
+   "The conditions for a design are…",
+   [
+    "Novelty and individual character",
+    "Originality and expression",
+    "Novelty, inventive step, industrial application",
+    "Distinctiveness and representation"
+   ],
+   0,
+   "Design = novelty + individual character. Originality is copyright; inventive step is patent; distinctiveness is trademark."
+  ],
+  [
+   "c1",
+   "Bayonne ham is protected as…",
+   [
+    "A PDO",
+    "A PGI",
+    "A collective mark",
+    "An IG for industrial products"
+   ],
+   1,
+   "Slide 46: Bayonne ham = PGI (quality/reputation linked to origin). Champagne = PDO; Limoges porcelain = IG for industrial and hand-crafted products."
+  ],
+  [
+   "c1",
+   "An IP right is limited…",
+   [
+    "Only in time",
+    "Only in territory",
+    "In time and in territory",
+    "Neither: it is absolute"
+   ],
+   2,
+   "Only the holder may exploit it for a certain period of time and within a defined territory."
+  ],
+  [
+   "c1",
+   "Launching the clothing brand YBX and registering it protects…",
+   [
+    "The brand and all the clothing designs",
+    "The brand itself, not the common designs",
+    "Only the designs",
+    "Nothing until the first sale"
+   ],
+   1,
+   "Slide example: the registration protects the brand; the common designs of the clothes are not protected by the trademark."
+  ],
+  [
+   "c2",
+   "Inditex, for Zara, is…",
+   [
+    "A trademark",
+    "A commercial name",
+    "A registered company name",
+    "A domain name"
+   ],
+   2,
+   "Inditex is the legal name of the company registered with the authorities."
+  ],
+  [
+   "c2",
+   "A merchant whose commercial name is copied by a neighbour sues on the ground of…",
+   [
+    "Trademark infringement (contrefaçon)",
+    "Tortious liability / unfair competition",
+    "Criminal counterfeiting",
+    "Copyright"
+   ],
+   1,
+   "Other distinctive signs have no common legislation: protection only via tort, for unfair competition, not IP infringement."
+  ],
+  [
+   "c2",
+   "Which condition is specific to commercial names and domain names, compared to company names?",
+   [
+    "Identical or similar sign",
+    "Similar activity",
+    "Same geographical area",
+    "Likelihood of confusion"
+   ],
+   2,
+   "Company names are protected against use in France; commercial and domain names add the condition of the same geographical area of activity."
+  ],
+  [
+   "c2",
+   "The principle of specialty means…",
+   [
+    "A sign is protected for all goods once registered",
+    "A sign is protected only for the goods/services for which it is used or registered",
+    "Only special signs can be protected",
+    "Only specialised offices can register marks"
+   ],
+   1,
+   "E.g. Sandro is only protected for fashion items."
+  ],
+  [
+   "c2",
+   "True or false: the owner of a domain name can sue a copier for trademark infringement on the basis of the domain name alone.",
+   [
+    "True",
+    "False"
+   ],
+   1,
+   "False: a domain name is not an IP right; the action is in tort (unfair competition)."
+  ],
+  [
+   "c2",
+   "\"Alphabet\" (Google's parent) is…",
+   [
+    "A trademark",
+    "A registered company name",
+    "A domain name",
+    "A geographical indication"
+   ],
+   1,
+   "Alphabet Inc. is the registered name; Google is the brand/commercial name; google.com the domain."
+  ],
+  [
+   "c3",
+   "Under Art. 3 Directive 2015/2436, a sign must be capable of…",
+   [
+    "Being original and new",
+    "Distinguishing goods/services and being represented on the register",
+    "Being used for 5 years",
+    "Being registered in at least two countries"
+   ],
+   1,
+   "Two criteria: distinctiveness + capacity of representation."
+  ],
+  [
+   "c3",
+   "\"Fairtrade\" is an example of…",
+   [
+    "A collective mark",
+    "A certification mark",
+    "A geographical indication",
+    "An individual trademark"
+   ],
+   1,
+   "Certification mark: goods comply with standards set by the owner."
+  ],
+  [
+   "c3",
+   "A mark owned by an association and used by its members to show membership is…",
+   [
+    "A certification mark",
+    "A collective mark",
+    "A commercial name",
+    "A company name"
+   ],
+   1,
+   "Collective mark, e.g. Vignerons indépendants."
+  ],
+  [
+   "c3",
+   "According to Hoffmann-La Roche, the essential function of a trademark is to…",
+   [
+    "Guarantee quality",
+    "Guarantee the identity of origin",
+    "Promote advertising",
+    "Protect investment"
+   ],
+   1,
+   "C-102/77: guarantee the identity of origin of the product to the consumer."
+  ],
+  [
+   "c3",
+   "Which case recognises protection against taking unfair advantage of a famous mark's reputation?",
+   [
+    "Arsenal",
+    "Bellure",
+    "Dyson",
+    "Libertel"
+   ],
+   1,
+   "Bellure, C-487/07 (2009): free-riding on reputation may be prohibited."
+  ],
+  [
+   "c3",
+   "Google France (C-236/08) is mainly about which function?",
+   [
+    "Origin",
+    "Quality",
+    "Advertising",
+    "Investment"
+   ],
+   2,
+   "Use of brand names as keywords harming the mark as a promotional tool."
+  ],
+  [
+   "c3",
+   "Which is NOT a trademark function recognised by the CJEU in the course?",
+   [
+    "Origin",
+    "Quality",
+    "Investment",
+    "Price control"
+   ],
+   3,
+   "The four: origin, quality, communication/advertising, investment."
+  ],
+  [
+   "c3",
+   "What lesson do the slides draw from Arsenal?",
+   [
+    "Origin is the only function of a mark",
+    "Treating origin as the only function is no longer the approach",
+    "A trademark can never be used by retailers",
+    "Football clubs cannot register trademarks"
+   ],
+   1,
+   "The slides mark the origin-only approach as \"not applicable anymore\": the mark protects several functions."
+  ],
+  [
+   "c4",
+   "A mark consisting of the specific way a sign is affixed on the product is a…",
+   [
+    "Shape mark",
+    "Pattern mark",
+    "Position mark",
+    "Figurative mark"
+   ],
+   2,
+   "Position mark (e.g. a red sole)."
+  ],
+  [
+   "c4",
+   "A combination of image and sound is a…",
+   [
+    "Motion mark",
+    "Multimedia mark",
+    "Sound mark",
+    "Figurative mark"
+   ],
+   1,
+   "Multimedia mark (McDonald's example)."
+  ],
+  [
+   "c4",
+   "A set of elements repeated regularly is a…",
+   [
+    "Pattern mark",
+    "Colour mark",
+    "Word mark",
+    "Position mark"
+   ],
+   0,
+   "Pattern mark."
+  ],
+  [
+   "c4",
+   "A word mark consists of…",
+   [
+    "Stylised letters and a logo",
+    "Words, letters, numerals or characters that can be typed",
+    "Any sign including a word",
+    "A slogan only"
+   ],
+   1,
+   "Standard typographic characters that can be typed. Stylised text is figurative."
+  ],
+  [
+   "c4",
+   "Smell marks in the EU are…",
+   [
+    "Freely registrable",
+    "Registrable if a sample is filed",
+    "Practically not registrable for lack of clear representation",
+    "Registrable only for perfumes"
+   ],
+   2,
+   "Sieckmann and the strawberry case. The Play-Doh example is US law."
+  ],
+  [
+   "c4",
+   "A retail store layout can be a trademark…",
+   [
+    "Never",
+    "Always",
+    "If it is distinctive and identifies commercial origin",
+    "Only in the US"
+   ],
+   2,
+   "Apple, C-421/13."
+  ],
+  [
+   "c5",
+   "Which is NOT a Sieckmann criterion?",
+   [
+    "Self-contained",
+    "Durable",
+    "Objective",
+    "Aesthetic"
+   ],
+   3,
+   "Clear, precise, self-contained, easily accessible, intelligible, durable, objective."
+  ],
+  [
+   "c5",
+   "In Sieckmann, why did the chemical formula fail?",
+   [
+    "It was not durable",
+    "It shows the substance, not the smell",
+    "It was too long",
+    "It was in German"
+   ],
+   1,
+   "The formula represents the substance, not the odour perceived by humans."
+  ],
+  [
+   "c5",
+   "Dyson's transparent bin was refused because…",
+   [
+    "It was descriptive",
+    "It gave substantial value",
+    "It claimed a concept, not a precise sign",
+    "It was deceptive"
+   ],
+   2,
+   "C-321/03: any transparent container whatever its shape = a concept."
+  ],
+  [
+   "c5",
+   "To register a single colour (Libertel), you must file…",
+   [
+    "A paper sample only",
+    "A verbal description",
+    "An internationally recognised colour code",
+    "A photo of the product"
+   ],
+   2,
+   "Paper sample alone is not enough; give a code (Pantone, RAL)."
+  ],
+  [
+   "c5",
+   "Which is accepted alone to represent a sound mark?",
+   [
+    "An onomatopoeia",
+    "A sonogram",
+    "Notes listed as letters (E, D#, E…)",
+    "An audio file (MP3)"
+   ],
+   3,
+   "Audio file (max 5 MB) or accurate musical notation."
+  ],
+  [
+   "c5",
+   "The ripe strawberry smell (T-305/04) was refused because…",
+   [
+    "Strawberries are customary for food",
+    "It was deceptive",
+    "It could not be represented clearly and precisely",
+    "It lacked bad faith"
+   ],
+   2,
+   "Not capable of representation with generally available technology."
+  ],
+  [
+   "c5",
+   "For a position mark, which element is optional?",
+   [
+    "Identification of the position",
+    "Size or proportion",
+    "Visual disclaimer of unclaimed elements",
+    "Description of how the sign is affixed"
+   ],
+   3,
+   "Position + size and the visual disclaimer are mandatory; the description is optional."
+  ],
+  [
+   "c5",
+   "A motion mark is represented by…",
+   [
+    "A colour code",
+    "A video file or a series of still images",
+    "A musical notation",
+    "A verbal description only"
+   ],
+   1,
+   "Video file or sequential stills."
+  ],
+  [
+   "c5",
+   "Refusal for lack of representation is…",
+   [
+    "A relative ground",
+    "An absolute ground",
+    "An infringement",
+    "An unfair competition claim"
+   ],
+   1,
+   "Representation and distinctiveness are intrinsic conditions: absolute grounds."
+  ],
+  [
+   "c6",
+   "Distinctiveness is assessed in relation to…",
+   [
+    "The applicant's intentions",
+    "The goods/services claimed and the average consumer's perception",
+    "The number of competitors",
+    "The price of the goods"
+   ],
+   1,
+   "Two parameters: the goods/services and the presumed perception of the average consumer."
+  ],
+  [
+   "c6",
+   "\"Apple\" for fresh fruit is…",
+   [
+    "Distinctive",
+    "Generic / devoid of distinctive character",
+    "Deceptive",
+    "Contrary to public policy"
+   ],
+   1,
+   "Apple is distinctive for computers, not for apples."
+  ],
+  [
+   "c6",
+   "\"Soft Soap\" for soap is…",
+   [
+    "Customary",
+    "Descriptive",
+    "Deceptive",
+    "Distinctive"
+   ],
+   1,
+   "Describes a characteristic (quality) of the product."
+  ],
+  [
+   "c6",
+   "\"Cola\" for a soft drink is…",
+   [
+    "Customary in trade",
+    "Deceptive",
+    "Distinctive by use",
+    "A position mark"
+   ],
+   0,
+   "Slides: a word that has become common for this type of drink."
+  ],
+  [
+   "c6",
+   "Which can prove acquired distinctiveness?",
+   [
+    "The applicant's sworn statement",
+    "Surveys, market share, advertising, turnover",
+    "The price of registration",
+    "The age of the company only"
+   ],
+   1,
+   "Tangible evidence of public recognition after long, exclusive use."
+  ],
+  [
+   "c6",
+   "In Vorsprung durch Technik, the CJEU held that a slogan…",
+   [
+    "Can never be registered",
+    "Can be registered if perceived as indicating origin",
+    "Must be in English",
+    "Must be acquired by use"
+   ],
+   1,
+   "Promotional meaning does not exclude registration if the slogan indicates origin."
+  ],
+  [
+   "c6",
+   "The Lindt bunny shape was…",
+   [
+    "Registered as distinctive",
+    "Refused for lack of inherent distinctiveness",
+    "Refused as deceptive",
+    "Refused as contrary to public policy"
+   ],
+   1,
+   "C-98/11 P: too common on the market to identify Lindt across the EU."
+  ],
+  [
+   "c6",
+   "The Lego brick shape was refused because it…",
+   [
+    "Results from the nature of the goods",
+    "Is necessary to obtain a technical result",
+    "Gives substantial value",
+    "Is descriptive"
+   ],
+   1,
+   "Interlocking = technical result."
+  ],
+  [
+   "c6",
+   "A designer chair whose shape is the main reason people buy it falls under…",
+   [
+    "Technical result",
+    "Nature of the goods",
+    "Substantial value",
+    "Bad faith"
+   ],
+   2,
+   "Shape giving substantial value (Panton chair example)."
+  ],
+  [
+   "c6",
+   "Why does EU law exclude certain shapes from trademark protection?",
+   [
+    "Shapes cannot be represented",
+    "To avoid perpetual monopolies on technical or aesthetic features",
+    "Because shapes are always descriptive",
+    "To protect consumers from deception"
+   ],
+   1,
+   "Those features belong to patents/designs, which are limited in time."
+  ],
+  [
+   "c6",
+   "In Louboutin (C-163/16), the red sole was upheld because…",
+   [
+    "Red is a customary colour",
+    "It is a colour in a specific position, not a shape",
+    "Van Haren acted in bad faith",
+    "Louboutin had a patent"
+   ],
+   1,
+   "Not a shape giving substantial value: a colour applied to a position."
+  ],
+  [
+   "c6",
+   "According to the slides, which of these is listed in Art. 4 Directive as making a mark liable to be declared invalid?",
+   [
+    "Bad faith",
+    "Low price",
+    "Foreign applicant",
+    "Use in advertising"
+   ],
+   0,
+   "Devoid, descriptive, customary, and bad faith."
+  ],
+  [
+   "c6",
+   "\"Eco-Net\" for eco-friendly cleaning products was refused because…",
+   [
+    "The average consumer immediately understands it as eco-friendly cleaning",
+    "It was deceptive",
+    "It was a shape",
+    "It was already registered"
+   ],
+   0,
+   "Perception of the average consumer: descriptive."
+  ],
+  [
+   "c6",
+   "True or false: a descriptive sign can never become a trademark.",
+   [
+    "True",
+    "False"
+   ],
+   1,
+   "False: it can be registered if it has acquired distinctiveness through use (with proof)."
+  ],
+  [
+   "c6",
+   "Which one CANNOT be cured by acquired distinctiveness?",
+   [
+    "A descriptive word",
+    "A customary word",
+    "A shape necessary to obtain a technical result",
+    "A sign devoid of distinctive character"
+   ],
+   2,
+   "The slides list only generic/descriptive/customary signs as curable by use. Shape exclusions are not (beyond-slides confirmation: EU law)."
+  ],
+  [
+   "c7",
+   "\"BIN LADIN\" was refused as…",
+   [
+    "Descriptive",
+    "Contrary to public policy and morality",
+    "Deceptive",
+    "Lacking representation"
+   ],
+   1,
+   "R 176/2004-2."
+  ],
+  [
+   "c7",
+   "What does the SCREW YOU decision show?",
+   [
+    "Offensive words can never be registered",
+    "Morality is assessed according to the goods and the relevant public",
+    "Only the EUIPO can refuse marks",
+    "Slogans are not registrable"
+   ],
+   1,
+   "Refused for general goods, accepted for sex products."
+  ],
+  [
+   "c7",
+   "A national flag in a trademark can be registered…",
+   [
+    "Never",
+    "Always",
+    "With the consent of the competent authority",
+    "If the mark is figurative"
+   ],
+   2,
+   "Flags, state emblems, badges, armorial bearings: refused unless the authority consents."
+  ],
+  [
+   "c7",
+   "\"SugarFree\" for sweets containing sugar is…",
+   [
+    "Descriptive",
+    "Deceptive",
+    "Customary",
+    "Valid"
+   ],
+   1,
+   "Misleads on the nature/quality of the goods."
+  ],
+  [
+   "c7",
+   "\"OrganicFresh\" for organic apples would most likely be refused as…",
+   [
+    "Deceptive",
+    "Descriptive",
+    "Contrary to morality",
+    "Valid"
+   ],
+   1,
+   "If the apples are organic, the sign is true: descriptive (not distinctive). For non-organic apples it would be deceptive."
+  ],
+  [
+   "c7",
+   "\"LuxuryBag\" for handbags is…",
+   [
+    "Valid",
+    "Deceptive",
+    "Descriptive/laudatory, not distinctive",
+    "A collective mark"
+   ],
+   2,
+   "Describes the goods and their quality."
+  ],
+  [
+   "c7",
+   "Deceptive signs mislead the public on…",
+   [
+    "The price only",
+    "Nature, quality or geographical origin",
+    "The identity of the applicant's lawyer",
+    "The number of classes"
+   ],
+   1,
+   "Nature, quality or geographical origin of the goods/services."
+  ]
+ ],
+ "PRACTICE": [
+  {
+   "id": "p1",
+   "ch": "c5",
+   "src": "Slides 140–143",
+   "title": "Can they register it?",
+   "facts": "Four clients come to you for advice:<ol>\n <li>Linda wants to register <b>the colour pink</b> (a pink square, no contour).</li>\n <li>Georges wants to register <b>the mooing of a cow</b> and files a <b>sonogram</b>.</li>\n <li>Linda wants to register an <b>orange strip covering the toe area of a sock</b>.</li>\n <li>Bill wants to register <b>the shape of an egg</b> for cosmetics (e.g. a lip balm).</li></ol>",
+   "tasks": [
+    "For each sign: which type of mark is it?",
+    "Is it capable of representation, and what exactly must be filed?",
+    "Is it distinctive for the goods? What risk remains?"
+   ],
+   "hints": [
+    "Start with the type of mark, then apply the representation rules for that type (chapter 5 table), then distinctiveness.",
+    "Libertel for colours, Shield Mark for sounds, the position-mark filing rules, and the shape rules + Lindt for the egg."
+   ],
+   "model": "<div class=\"irac\">\n<b>Issue</b><div>Can each sign meet the two absolute requirements of <span class=\"ref\">Art. 3 Directive 2015/2436</span>: capacity of representation and distinctiveness?</div>\n<b>Rule</b><div>Representation must be clear, precise, self-contained, easily accessible, intelligible, durable and objective (Sieckmann, C-273/00). Distinctiveness is assessed for the goods claimed and through the average consumer (Art. 7(1)(b) EUTMR, Art. 4 Directive).</div>\n<b>Application</b><div>\n<p><b>1. Pink (colour mark).</b> A paper sample is not enough; Linda must file the colour with an internationally recognised code such as Pantone or RAL (Libertel, C-104/01). Distinctiveness is the real problem: a single colour without contour is in principle not distinctive. It can be accepted only if consumers associate it with her (acquired distinctiveness, like Milka purple or Tiffany blue), proven by surveys, market share, advertising and turnover. The answer also depends on the goods: pink is very common for cosmetics or baby products.</p>\n<p><b>2. Cow mooing (sound mark).</b> A sonogram alone is <b>not accepted</b>. Georges must file an audio file (MP3, max 5 MB) or an accurate musical notation (Shield Mark, C-283/01). Distinctiveness depends on the goods: for dairy products a cow's moo is close to descriptive and probably refused; for unrelated goods (e.g. software) it is arbitrary and can be distinctive.</p>\n<p><b>3. Orange strip on the toe (position mark).</b> Linda must identify the position and the size/proportion of the strip, and add a visual disclaimer (for instance dotted lines for the sock itself, which is not claimed); a description is optional. Distinctiveness: a coloured toe can be decorative, so she must show consumers see it as an indication of origin, by analogy with Louboutin's red sole (C-163/16), which was upheld as a colour in a specific position.</p>\n<p><b>4. Egg shape (shape mark).</b> File a graphic or photographic reproduction, possibly with several views. Check the three exclusions: an egg shape is not imposed by the nature of a lip balm, does not seem necessary for a technical result, but if the shape is the main reason people buy it, the \"substantial value\" exclusion is a risk. Distinctiveness: like Lindt (C-98/11 P), the shape must depart from what is common in the sector, otherwise it is refused; acquired distinctiveness is possible for the inherent-distinctiveness problem but not for the shape exclusions.</p></div>\n<b>Conclusion</b><div>All four signs can be represented if filed correctly (not the sonogram). The main risk for each is <b>distinctiveness</b>. Practical advice: file correctly, gather evidence of use, and combine the sign with a distinctive word mark to secure protection immediately.</div></div>"
+  },
+  {
+   "id": "p2",
+   "ch": "c7",
+   "src": "Slide 198 (Exercise 2)",
+   "title": "Are these trademarks valid?",
+   "facts": "Do you think these trademarks are valid?<ol><li><b>FreshMilk</b> for pasteurised milk</li><li><b>A blue sole</b> for trainers</li><li><b>SugarFree</b> for sweets containing sugar</li><li><b>LuxuryBag</b> for handbags</li></ol>",
+   "tasks": [
+    "Identify the absolute ground at stake for each sign.",
+    "Conclude: valid, invalid, or valid under conditions?"
+   ],
+   "hints": [
+    "Two are about describing the product, one is about lying about the product, one is a position mark.",
+    "Descriptive vs deceptive; for the blue sole, think Louboutin and acquired distinctiveness."
+   ],
+   "model": "<div class=\"irac\">\n<b>Issue</b><div>Does each sign escape the absolute grounds for refusal (lack of distinctiveness, deceptiveness)?</div>\n<b>Rule</b><div><span class=\"ref\">Art. 4 Directive 2015/2436</span>: signs devoid of distinctive character, descriptive or customary signs are refused, unless distinctiveness is acquired by use. Deceptive signs (nature, quality, geographical origin) are refused.</div>\n<b>Application</b><div><p><b>FreshMilk</b>: describes the kind and a quality of the product (milk, fresh). Descriptive, so not distinctive. Refused unless Fresh Milk proves acquired distinctiveness.</p>\n<p><b>Blue sole for trainers</b>: a position mark (colour in a specific place). Not a shape, so the shape exclusions do not apply (Louboutin, C-163/16). Validity depends on distinctiveness: if blue soles are common for trainers, consumers will not see an indication of origin; registration then needs acquired distinctiveness. File: position and size + visual disclaimer + colour code.</p>\n<p><b>SugarFree for sweets containing sugar</b>: deceives the public on the nature/quality of the goods. Refused as <b>deceptive</b>. (For sugar-free sweets, it would instead be descriptive.)</p>\n<p><b>LuxuryBag for handbags</b>: \"bag\" designates the goods and \"luxury\" is laudatory. Descriptive / devoid of distinctive character. Refused.</p></div>\n<b>Conclusion</b><div>Only the blue sole can be valid, provided it is distinctive (possibly acquired by use). The three word signs are refused; advice: choose an arbitrary or invented word.</div></div>"
+  },
+  {
+   "id": "p3",
+   "ch": "c7",
+   "src": "Slide 199 (Case study)",
+   "title": "Sarah's cosmetics brand",
+   "facts": "Sarah runs a cosmetics company (perfumery, body and face care, make-up). She is considering several signs:<ol><li>The words \"Beauty Cares\"</li><li>The word \"Beautiful\"</li><li>The colour white</li><li>Bubbles in motion</li><li>The meowing of a cat</li><li>The word \"Cannabis\"</li><li>The words \"Milky care\"</li></ol>",
+   "tasks": [
+    "Advise on the intrinsic validity of each sign for cosmetics: are there absolute grounds for refusal?",
+    "What representation must she submit for each?",
+    "Which would make the strongest trademark?"
+   ],
+   "hints": [
+    "For each sign: type of mark → representation → distinctiveness for cosmetics → other absolute grounds (public policy, deceptive).",
+    "\"Cannabis\" raises public policy and descriptive/deceptive questions; \"Milky care\" depends on whether the products contain milk; the strongest mark is the most arbitrary one for cosmetics."
+   ],
+   "model": "<div class=\"irac\">\n<b>Issue</b><div>Are these signs valid trademarks for cosmetics under the absolute grounds, and how should each be represented?</div>\n<b>Rule</b><div>Sign capable of distinguishing and of being represented (<span class=\"ref\">Art. 3 Directive 2015/2436</span>); Sieckmann criteria; refusal of signs devoid of distinctive character, descriptive or customary (<span class=\"ref\">Art. 4 Directive</span>, Art. 7(1)(b) EUTMR), unless acquired distinctiveness; refusal of signs contrary to public policy/morality and deceptive signs. Distinctiveness is assessed for cosmetics and through the average consumer.</div>\n<b>Application</b><div>\n<p><b>1. \"Beauty Cares\"</b> (word mark: typed text). Describes the purpose of the goods (caring for beauty). Descriptive and laudatory: likely refused, unless acquired distinctiveness.</p>\n<p><b>2. \"Beautiful\"</b> (word mark). A laudatory word everyone uses for cosmetics: devoid of distinctive character / customary. Refused.</p>\n<p><b>3. The colour white</b> (colour mark: sample + recognised colour code, Libertel). A single colour, very common for cosmetics packaging and creams: devoid of distinctive character. Only possible with strong proof of acquired distinctiveness (Milka-type evidence). Weak.</p>\n<p><b>4. Bubbles in motion</b> (motion mark: video file or sequence of stills). For soaps and shower gels, bubbles describe foam: weak/descriptive. For make-up or perfume, more arbitrary and potentially distinctive. Arguable: depends on the goods claimed.</p>\n<p><b>5. A cat's meow</b> (sound mark: audio file MP3 ≤ 5 MB or musical notation; not onomatopoeia like \"meow\", not a sonogram, per Shield Mark). Arbitrary for cosmetics, so distinctive. Strong candidate.</p>\n<p><b>6. \"Cannabis\"</b> (word mark). Several risks: public policy (reference to a drug, especially if the public perceives it as promoting it); if the products contain hemp, the word is descriptive; if they do not, deceptive. Strong refusal risk.</p>\n<div class=\"flag\">EU decisions have refused cannabis-related signs on public-policy grounds, but no such case is in the slides. Verify before citing one.</div>\n<p><b>7. \"Milky care\"</b> (word mark). If the products contain milk: descriptive of an ingredient and purpose. If they do not: deceptive as to the nature/composition. Weak either way.</p></div>\n<b>Conclusion</b><div>The strongest mark is the <b>cat's meow</b> (arbitrary for cosmetics), followed by bubbles in motion for make-up/perfume only. Recommended action: register the sound mark correctly represented, and pair it with an <b>invented word mark</b> (the strongest kind of sign), rather than descriptive words like \"Beauty Cares\" or \"Beautiful\".</div></div>"
+  },
+  {
+   "id": "p4",
+   "ch": "c6",
+   "src": "Slide 189 (Exercise 1)",
+   "title": "Pierre's drop-shipping cases",
+   "facts": "Pierre wants to sell phone cases and AirPods cases online through drop-shipping. The products bear the trademarks <b>Coca-Cola</b>, <b>Starbucks</b> and <b>Disney characters</b>.",
+   "tasks": [
+    "Can he do that legally speaking?",
+    "How can he do it legally?"
+   ],
+   "hints": [
+    "Think about what the owner's exclusive right covers and which functions of these marks are affected.",
+    "These are famous marks: Bellure and the reputation/investment functions. The legal route is the owner's authorisation."
+   ],
+   "model": "<div class=\"irac\">\n<b>Issue</b><div>Can Pierre use other companies' famous trademarks on products he sells without their authorisation?</div>\n<b>Rule</b><div>The trademark owner has an <b>exclusive right</b> over the commercial exploitation of the sign and can prohibit any use without authorisation (chapter 1). Use of an identical or similar sign is prohibited when it harms one of the trademark's functions: origin, quality, advertising, investment (Hoffmann-La Roche; Arsenal). Taking unfair advantage of the reputation of a famous mark is prohibited even without confusion (Bellure, C-487/07).</div>\n<b>Application</b><div>Coca-Cola, Starbucks and Disney are registered, famous marks. Pierre would be selling goods bearing identical signs in the course of trade, without consent. Consumers may believe the cases are official merchandise (origin, quality) and in any case Pierre would be riding on the reputation and investment of these brands (Bellure). Disney characters are also protected by <b>copyright</b> as original artistic works. Drop-shipping does not change anything: Pierre is the seller.</div>\n<b>Conclusion</b><div>No, he cannot do it legally as such: he risks an infringement action (and the goods being seized). To do it legally he must obtain the <b>owners' authorisation</b>, i.e. a <b>licence</b> (paying royalties), or sell <b>genuine officially licensed products</b> bought from authorised suppliers.</div></div>\n<div class=\"flag\">Infringement actions, licences and the resale of genuine goods are taught after slide 200. This answer only uses what is needed for the exercise.</div>"
+  },
+  {
+   "id": "p5",
+   "ch": "c2",
+   "src": "Slides 62 and 77",
+   "title": "Name the sign",
+   "facts": "<b>A.</b> Is this a trademark, a registered company name, a commercial name, a domain name or a geographical indication? Microsoft Corporation · www.zara.fr · Google · Alphabet · Meta · Instagram · AOP · Louis Vuitton · Xbox<br><br>\n<b>B.</b> Is this a certification mark, a trademark or a collective mark? \"Produit de Bretagne\" · \"Label Rouge\" · \"Eco+\" · \"Lidl\" · \"Lait équitable\" · \"Eco Label européen\" · \"Nike\"",
+   "tasks": [
+    "Classify each sign.",
+    "Justify with the definition, not just the label."
+   ],
+   "hints": [
+    "Ask: is it the legal person's name, the public business name, a web address, a product brand, or an origin label?",
+    "Certification = standards set by the owner; collective = membership of an association; trademark = one undertaking's goods."
+   ],
+   "model": "<p><b>A.</b></p><div class=\"tbl\"><table><tr><th>Sign</th><th>Answer</th></tr>\n<tr><td>Microsoft Corporation</td><td>Registered company name</td></tr>\n<tr><td>www.zara.fr</td><td>Domain name</td></tr>\n<tr><td>Google</td><td>Trademark (also used as commercial name)</td></tr>\n<tr><td>Alphabet</td><td>Registered company name (Alphabet Inc.)</td></tr>\n<tr><td>Meta</td><td>Commercial name (registered name: Meta Platforms, Inc.); also a trademark</td></tr>\n<tr><td>Instagram</td><td>Trademark</td></tr>\n<tr><td>AOP</td><td>Geographical indication label (PDO)</td></tr>\n<tr><td>Louis Vuitton</td><td>Trademark</td></tr>\n<tr><td>Xbox</td><td>Trademark</td></tr></table></div>\n<p><b>B.</b></p><div class=\"tbl\"><table><tr><th>Sign</th><th>Answer</th><th>Why</th></tr>\n<tr><td>Produit de Bretagne</td><td>Collective mark (most likely)</td><td>Used by member companies of an association</td></tr>\n<tr><td>Label Rouge</td><td>Certification-type sign</td><td>Guarantees a higher quality level according to set standards</td></tr>\n<tr><td>Eco+</td><td>Trademark</td><td>Leclerc's own brand (slides list it as a trademark)</td></tr>\n<tr><td>Lidl</td><td>Trademark</td><td>One undertaking's goods</td></tr>\n<tr><td>Lait équitable</td><td>Certification mark</td><td>Certifies fair-trade standards</td></tr>\n<tr><td>Eco Label européen</td><td>Certification mark</td><td>Certifies environmental standards</td></tr>\n<tr><td>Nike</td><td>Trademark</td><td>One undertaking's goods</td></tr></table></div>\n<div class=\"flag\">The slides give no official answers for these exercises. \"Produit de Bretagne\" and \"Label Rouge\" are the debatable ones: Label Rouge is an official French quality sign rather than a classic private mark. Justify your choice with the definitions and you will be safe.</div>"
+  },
+  {
+   "id": "p6",
+   "ch": "c6",
+   "src": "New scenario",
+   "title": "TERRA-LOC, construction machinery",
+   "facts": "TERRA-LOC SAS, a family company near Lille, sells and rents construction machinery (mini-excavators, loaders, dumpers) and does light maintenance. It operates a shop called \"Terra-Loc Nord\" and the website terraloc.fr. The manager wants to register as trademarks:<ol>\n<li>the word <b>\"TERRA-LOC\"</b>;</li>\n<li>the words <b>\"Mini Excavator\"</b> for mini-excavators;</li>\n<li>the <b>yellow colour</b> of all its machines;</li>\n<li>the <b>reversing beep</b> its machines make;</li>\n<li>the slogan <b>\"Built for the North\"</b>;</li>\n<li>the <b>shape of its bucket teeth</b>, designed to dig better.</li></ol>\nA garden-furniture shop in Lyon then opens a website called terra-loc.com.",
+   "tasks": [
+    "Advise on the validity of each sign as a trademark (absolute grounds) and how to represent it.",
+    "Distinguish TERRA-LOC's company name, commercial name, domain name and trademark.",
+    "Can TERRA-LOC act against the Lyon shop, and on what basis?"
+   ],
+   "hints": [
+    "Invented words are the strongest; generic words, common colours and functional sounds or shapes are the weakest.",
+    "For the Lyon shop: different activity and a different area. What conditions apply to domain names and commercial names, and what action?"
+   ],
+   "model": "<div class=\"irac\">\n<b>Issue</b><div>(1) Which signs can TERRA-LOC validly register? (2) Can it stop the Lyon shop's domain name?</div>\n<b>Rule</b><div><span class=\"ref\">Art. 3 Directive 2015/2436</span> (distinctive + capable of representation); <span class=\"ref\">Art. 4 Directive</span> (devoid, descriptive, customary); acquired distinctiveness; shape exclusions; Vorsprung durch Technik (slogans). Other distinctive signs: protection through tort / unfair competition, against an identical/similar sign for an identical/similar activity in the same area, likely to cause confusion; principle of specialty.</div>\n<b>Application</b><div>\n<p><b>1. TERRA-LOC</b>: invented word, not descriptive of machinery as such (\"loc\" evokes location/rental but the whole is fanciful). Distinctive. File as a word mark. <b>Strongest sign.</b></p>\n<p><b>2. \"Mini Excavator\"</b> for mini-excavators: designates the goods. Generic, refused. Like \"Shoes\" for shoes.</p>\n<p><b>3. Yellow</b>: colour mark (sample + colour code, Libertel). Yellow is very common for construction machinery, so devoid of distinctive character; only acquired distinctiveness after long, exclusive use with surveys could save it, which is unrealistic here.</p>\n<p><b>4. Reversing beep</b>: sound mark (audio file or notation, Shield Mark). Representable, but the beep is a common, functional safety signal in the sector: consumers do not perceive it as an indication of origin. Not distinctive.</p>\n<p><b>5. \"Built for the North\"</b>: a slogan can be a mark if it indicates origin (Vorsprung durch Technik). It refers to the geographical market and is promotional, so distinctiveness is arguable; a weak but possible mark, stronger if combined with TERRA-LOC.</p>\n<p><b>6. Bucket teeth shape</b>: designed to dig better, so <b>necessary to obtain a technical result</b> (like Lego). Excluded; acquired distinctiveness cannot cure it. Protection route: a patent if new and inventive, not a trademark.</p>\n<p><b>Signs</b>: TERRA-LOC SAS = registered company name; \"Terra-Loc Nord\" = commercial name; terraloc.fr = domain name; TERRA-LOC once registered = trademark.</p>\n<p><b>Lyon shop</b>: TERRA-LOC has only a domain name and commercial name for now, so no infringement action; the route is <b>tort / unfair competition</b>. Conditions are not met: the activity (garden furniture) is not similar, and the shop is in a different geographical area; confusion is unlikely. Principle of specialty.</p></div>\n<b>Conclusion</b><div>Register <b>TERRA-LOC</b> as a word mark now (possibly with the slogan); drop \"Mini Excavator\", the yellow and the beep; consider a patent for the teeth. No realistic action against the Lyon shop. Business risk: without a registered mark, TERRA-LOC's name is only protected locally through tort.</div></div>"
+  },
+  {
+   "id": "p7",
+   "ch": "c7",
+   "src": "New scenario",
+   "title": "Noisette & Co chocolates",
+   "facts": "Noisette & Co, a French chocolate start-up making all its products in Lyon, wants to register:<ol>\n<li>\"<b>Belgian Chocolate Masters</b>\" for its chocolates;</li>\n<li>a logo including the <b>Belgian national flag</b>;</li>\n<li>the <b>smell of roasted hazelnuts</b> diffused in its shops;</li>\n<li>the <b>shape of a hazelnut</b> for its pralines, which is the main reason customers buy them;</li>\n<li>a short <b>jingle</b> played in its adverts, with an animation of a hazelnut rolling (image + sound);</li>\n<li>a repeated pattern of small brown hazelnuts on its packaging.</li></ol>",
+   "tasks": [
+    "Identify the type of each sign and how it must be represented.",
+    "Identify every absolute ground for refusal.",
+    "Recommend the best protection strategy."
+   ],
+   "hints": [
+    "One sign lies about geographical origin, one needs an authority's consent, one cannot be represented.",
+    "For the hazelnut shape, which of the three shape exclusions applies? For the jingle animation, which type of mark combines image and sound?"
+   ],
+   "model": "<div class=\"irac\">\n<b>Issue</b><div>Which of these signs pass the absolute grounds, and how should they be filed?</div>\n<b>Rule</b><div>Representation (Sieckmann; strawberries T-305/04); distinctiveness (Art. 4 Directive); shape exclusions; deceptive signs; flags and state emblems (consent of the competent authority).</div>\n<b>Application</b><div>\n<p><b>1. \"Belgian Chocolate Masters\"</b> (word mark): the chocolates are made in Lyon, so the sign misleads on <b>geographical origin</b>: <b>deceptive</b>, refused. Even for Belgian chocolate it would be descriptive.</p>\n<p><b>2. Logo with the Belgian flag</b> (figurative mark): includes a state flag, refused <b>unless the competent authority consents</b>; it also reinforces the deceptive message.</p>\n<p><b>3. Smell of roasted hazelnuts</b> (olfactory mark): cannot be represented clearly and precisely with generally available technology (Sieckmann; ripe strawberries T-305/04). Refused.</p>\n<p><b>4. Hazelnut shape</b> (shape mark: graphic or photo reproduction): the shape is the main reason customers buy, so it <b>gives substantial value</b> to the goods; excluded, and acquired distinctiveness cannot cure it. Better route: a <b>design</b> (novelty + individual character, up to 25 years).</p>\n<p><b>5. Jingle with rolling hazelnut</b> = <b>multimedia mark</b> (image + sound), filed as an audiovisual file. Likely distinctive if original.</p>\n<p><b>6. Hazelnut pattern</b> = <b>pattern mark</b>: file a reproduction showing the repetition (description allowed). Hazelnuts on chocolate packaging evoke the ingredient, so distinctiveness is weak unless the design is original.</p></div>\n<b>Conclusion</b><div>Register an <b>invented word mark</b> (e.g. a coined name) plus the <b>multimedia jingle</b>; protect the praline shape as a <b>design</b>; drop the Belgian references (deception and flag) and the smell. Business consequence: a refused or invalid mark means money spent on branding without exclusivity.</div></div>"
+  },
+  {
+   "id": "p8",
+   "ch": "c3",
+   "src": "New scenario",
+   "title": "Functions in practice",
+   "facts": "A website buys the keyword \"Lacoste\" on a search engine to show ads for cheap polo shirts of its own brand. Separately, a perfume maker sells \"Chanel Lux N°5\" in a bottle close to Chanel's. A market stall sells mugs bearing a football club's crest with a small sign \"not official\".",
+   "tasks": [
+    "For each situation, which trademark function is at stake?",
+    "Cite the CJEU case that matches each situation and explain the principle."
+   ],
+   "hints": [
+    "One is about keywords, one about free-riding on reputation, one about origin and disclaimers.",
+    "Google France; Bellure; Arsenal (and Hoffmann-La Roche for the origin definition)."
+   ],
+   "model": "<div class=\"irac\">\n<b>Issue</b><div>Which functions of the trademark are harmed in each situation?</div>\n<b>Rule</b><div>The CJEU protects four functions: origin, quality, communication/advertising, investment. Use of a sign is prohibited when it harms one of them.</div>\n<b>Application</b><div>\n<p><b>Keyword \"Lacoste\"</b>: advertising function; Google France (C-236/08 to C-238/08): use harming the mark as a promotional tool is prohibited (and origin is at risk if the ad does not make clear the polos are not Lacoste's).</p>\n<p><b>\"Chanel Lux N°5\"</b>: reputation and investment functions; Bellure (C-487/07): taking unfair advantage of a famous mark's reputation is prohibited even without confusion.</p>\n<p><b>Club crest mugs</b>: origin function; Hoffmann-La Roche defines it; Arsenal (C-206/01): the slides teach that origin is not the only function, so a \"not official\" sign does not automatically make the use lawful.</p></div>\n<b>Conclusion</b><div>All three uses are risky for the user; the owners can rely on the corresponding function. Business advice to the sellers: do not use third-party marks without a licence.</div></div>"
+  }
+ ],
+ "DISTINCTIONS": [
+  {
+   "t": "Trademark vs. other distinctive signs",
+   "rows": [
+    [
+     "",
+     "Trademark",
+     "Company name / commercial name / domain name"
+    ],
+    [
+     "Source",
+     "IP right (registration)",
+     "No common legislation"
+    ],
+    [
+     "Action",
+     "Infringement (contrefaçon)",
+     "Tort: unfair competition (concurrence déloyale)"
+    ],
+    [
+     "Scope",
+     "Goods/services registered (specialty), territory of registration",
+     "Similar activity; commercial and domain names also limited to the same geographical area"
+    ]
+   ]
+  },
+  {
+   "t": "Certification mark vs. collective mark",
+   "rows": [
+    [
+     "",
+     "Certification mark",
+     "Collective mark"
+    ],
+    [
+     "Says",
+     "Goods comply with standards set by the owner",
+     "The user belongs to the association owning the mark"
+    ],
+    [
+     "Used by",
+     "Anyone meeting the standards",
+     "Members of the association"
+    ],
+    [
+     "Example",
+     "Fairtrade",
+     "Vignerons indépendants, Intermarché"
+    ]
+   ]
+  },
+  {
+   "t": "Distinctiveness vs. representation",
+   "rows": [
+    [
+     "",
+     "Distinctiveness",
+     "Representation"
+    ],
+    [
+     "Question",
+     "Does the public see the sign as indicating one company's origin?",
+     "Can the subject of protection be identified clearly and precisely?"
+    ],
+    [
+     "Test",
+     "Goods/services + average consumer",
+     "Sieckmann: clear, precise, self-contained, accessible, intelligible, durable, objective"
+    ],
+    [
+     "Key cases",
+     "Lindt, Apple, Vorsprung, Baby-Dry",
+     "Sieckmann, Libertel, Shield Mark, strawberries, Dyson"
+    ]
+   ]
+  },
+  {
+   "t": "Devoid vs. descriptive vs. customary",
+   "rows": [
+    [
+     "",
+     "Meaning",
+     "Example"
+    ],
+    [
+     "Devoid of distinctive character",
+     "Says nothing about who sells it",
+     "\"Shoes\" for shoes, \"Food\" for a restaurant"
+    ],
+    [
+     "Descriptive",
+     "Exclusively designates a characteristic (kind, quality, purpose, value, origin…)",
+     "\"Soft Soap\", \"Red Wine from Bordeaux\""
+    ],
+    [
+     "Customary",
+     "Has become usual in language or trade",
+     "\"Cola\" for soft drinks, \"pack\" for bags"
+    ]
+   ]
+  },
+  {
+   "t": "Descriptive vs. deceptive",
+   "rows": [
+    [
+     "",
+     "Descriptive",
+     "Deceptive"
+    ],
+    [
+     "The sign",
+     "States a true characteristic",
+     "Suggests a false characteristic"
+    ],
+    [
+     "Example",
+     "\"Organic\" for organic apples",
+     "\"OrganicFresh\" for non-organic apples"
+    ],
+    [
+     "Curable by use?",
+     "Yes, acquired distinctiveness",
+     "No"
+    ]
+   ]
+  },
+  {
+   "t": "Inherent vs. acquired distinctiveness",
+   "rows": [
+    [
+     "",
+     "Inherent",
+     "Acquired through use"
+    ],
+    [
+     "When",
+     "From the start, by the sign's nature",
+     "After long, exclusive use"
+    ],
+    [
+     "Proof",
+     "None needed",
+     "Surveys, market share, advertising, turnover"
+    ],
+    [
+     "Examples",
+     "Apple for computers",
+     "Milka purple, L'Équipe, \"Just do it\""
+    ]
+   ]
+  },
+  {
+   "t": "The three shape exclusions",
+   "rows": [
+    [
+     "Exclusion",
+     "Rationale",
+     "Example"
+    ],
+    [
+     "Results from the nature of the goods",
+     "Do not appropriate what is inherent to the product",
+     "Shape of a chocolate bar"
+    ],
+    [
+     "Necessary for a technical result",
+     "Patent territory (limited in time)",
+     "Lego brick"
+    ],
+    [
+     "Gives substantial value",
+     "Design territory (limited in time)",
+     "Panton chair"
+    ]
+   ]
+  },
+  {
+   "t": "Shape mark vs. position mark vs. colour mark",
+   "rows": [
+    [
+     "",
+     "Shape",
+     "Position",
+     "Colour"
+    ],
+    [
+     "What is claimed",
+     "The 3D form",
+     "Where/how a sign is affixed",
+     "A colour or combination without contours"
+    ],
+    [
+     "Filing",
+     "Graphic or photo reproduction",
+     "Position + size + visual disclaimer",
+     "Sample + colour code"
+    ],
+    [
+     "Case",
+     "Lindt, Lego",
+     "Louboutin",
+     "Libertel"
+    ]
+   ]
+  },
+  {
+   "t": "Absolute vs. relative grounds (preview)",
+   "rows": [
+    [
+     "",
+     "Absolute grounds (slides 108–200)",
+     "Relative grounds (after slide 200)"
+    ],
+    [
+     "Problem",
+     "The sign itself (not distinctive, not representable, deceptive, public policy)",
+     "Conflict with an earlier right of a third party (sign not available)"
+    ],
+    [
+     "Example",
+     "\"Soft Soap\" for soap",
+     "Registering a sign identical to an earlier mark"
+    ]
+   ]
+  },
+  {
+   "t": "Trademark vs. patent vs. design vs. copyright",
+   "rows": [
+    [
+     "",
+     "Trademark",
+     "Patent",
+     "Design",
+     "Copyright"
+    ],
+    [
+     "Protects",
+     "Distinctive sign",
+     "Technical invention",
+     "Appearance of a product",
+     "Original work"
+    ],
+    [
+     "Conditions",
+     "Distinctive, representable, available",
+     "Novelty, inventive step, industrial application",
+     "Novelty, individual character",
+     "Originality, expression"
+    ],
+    [
+     "Duration",
+     "10 years, renewable indefinitely",
+     "20 years",
+     "5 years → max 25",
+     "Life + 70 years"
+    ]
+   ]
+  }
+ ],
+ "GLOSSARY": [
+  [
+   "Intellectual property (IP)",
+   "Propriété intellectuelle",
+   "Rights over intangible creations"
+  ],
+  [
+   "Intellectual Property Code",
+   "Code de la propriété intellectuelle (CPI)",
+   "French code containing IP rules"
+  ],
+  [
+   "Literary and artistic property",
+   "Propriété littéraire et artistique",
+   "Copyright, software, databases"
+  ],
+  [
+   "Industrial property",
+   "Propriété industrielle",
+   "Patents, trademarks, designs"
+  ],
+  [
+   "Trademark",
+   "Marque",
+   "Distinctive sign, capable of representation"
+  ],
+  [
+   "Patent",
+   "Brevet",
+   "Technical invention, 20 years"
+  ],
+  [
+   "Design",
+   "Dessin et modèle",
+   "Appearance of a product"
+  ],
+  [
+   "Copyright",
+   "Droit d'auteur",
+   "Original works"
+  ],
+  [
+   "Geographical indication",
+   "Indication géographique (IG)",
+   "Name linked to an origin"
+  ],
+  [
+   "Protected designation of origin (PDO)",
+   "Appellation d'origine protégée (AOP)",
+   "e.g. Champagne"
+  ],
+  [
+   "Protected geographical indication (PGI)",
+   "Indication géographique protégée (IGP)",
+   "e.g. Bayonne ham"
+  ],
+  [
+   "Registered company name",
+   "Dénomination sociale",
+   "Name of the legal person"
+  ],
+  [
+   "Legal person",
+   "Personne morale",
+   "A company as a legal entity"
+  ],
+  [
+   "Commercial name",
+   "Nom commercial",
+   "Name under which the business operates"
+  ],
+  [
+   "Domain name",
+   "Nom de domaine",
+   "Website address"
+  ],
+  [
+   "Tortious liability",
+   "Responsabilité délictuelle",
+   "Basis of the action for unfair competition"
+  ],
+  [
+   "Unfair competition",
+   "Concurrence déloyale",
+   "Action protecting non-IP signs"
+  ],
+  [
+   "Infringement / counterfeiting",
+   "Contrefaçon",
+   "Violation of an IP right"
+  ],
+  [
+   "Principle of specialty",
+   "Principe de spécialité",
+   "Protection limited to the goods/services"
+  ],
+  [
+   "Certification mark",
+   "Marque de garantie",
+   "Standards set by the owner"
+  ],
+  [
+   "Collective mark",
+   "Marque collective",
+   "Members of an association"
+  ],
+  [
+   "Undertaking",
+   "Entreprise",
+   "A business"
+  ],
+  [
+   "Word mark",
+   "Marque verbale",
+   ""
+  ],
+  [
+   "Figurative mark",
+   "Marque figurative",
+   ""
+  ],
+  [
+   "Shape mark",
+   "Marque de forme",
+   ""
+  ],
+  [
+   "Position mark",
+   "Marque de position",
+   ""
+  ],
+  [
+   "Pattern mark",
+   "Marque de motif",
+   ""
+  ],
+  [
+   "Colour mark",
+   "Marque de couleur",
+   ""
+  ],
+  [
+   "Motion mark",
+   "Marque de mouvement",
+   ""
+  ],
+  [
+   "Multimedia mark",
+   "Marque multimédia",
+   ""
+  ],
+  [
+   "Sound mark",
+   "Marque sonore",
+   ""
+  ],
+  [
+   "Olfactory mark",
+   "Marque olfactive",
+   ""
+  ],
+  [
+   "Absolute grounds for refusal",
+   "Motifs absolus de refus",
+   "Problem in the sign itself"
+  ],
+  [
+   "Relative grounds for refusal",
+   "Motifs relatifs de refus",
+   "Conflict with earlier rights"
+  ],
+  [
+   "Distinctiveness / distinctive character",
+   "Caractère distinctif",
+   ""
+  ],
+  [
+   "Devoid of distinctive character",
+   "Dépourvu de caractère distinctif",
+   ""
+  ],
+  [
+   "Descriptive",
+   "Descriptif",
+   ""
+  ],
+  [
+   "Customary / generic",
+   "Usuel / générique",
+   ""
+  ],
+  [
+   "Deceptive",
+   "Déceptif",
+   "Misleads the public"
+  ],
+  [
+   "Public policy / morality",
+   "Ordre public / bonnes mœurs",
+   ""
+  ],
+  [
+   "Bad faith",
+   "Mauvaise foi",
+   ""
+  ],
+  [
+   "Acquired distinctiveness",
+   "Caractère distinctif acquis par l'usage",
+   ""
+  ],
+  [
+   "Average consumer",
+   "Consommateur moyen",
+   "Reasonably well-informed and observant"
+  ],
+  [
+   "Applicant / to file",
+   "Déposant / déposer",
+   ""
+  ],
+  [
+   "Register",
+   "Registre",
+   ""
+  ],
+  [
+   "CJEU",
+   "CJUE (Cour de justice de l'UE)",
+   "Formerly CJCE"
+  ],
+  [
+   "General Court",
+   "Tribunal de l'UE (TUE)",
+   "Formerly Court of First Instance"
+  ],
+  [
+   "EUIPO",
+   "Office de l'UE pour la propriété intellectuelle",
+   "EU trademark office"
+  ],
+  [
+   "INPI",
+   "Institut national de la propriété industrielle",
+   "French office"
+  ]
+ ]
+}

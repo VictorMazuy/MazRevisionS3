@@ -1,0 +1,84 @@
+  <section class="block" id="c2-1">
+    <h2><span class="secnum">2.1</span>Game theory: the vocabulary</h2>
+    <div class="grid2">
+      <div class="def"><b class="term">Game</b><p>A situation where the decision-makers take into account interdependence.</p></div>
+      <div class="def"><b class="term">Players</b><p>The (rational) decision-makers.</p></div>
+      <div class="def"><b class="term">Pure strategies</b><p>The possible actions of the players. In this course choices are <b>discrete</b>: only a limited number of output levels can be chosen.</p></div>
+      <div class="def"><b class="term">Payoff matrix</b><p>The outcomes for each player for each possible combination of strategies. Convention: <b>(player 1 ; player 2)</b>, player 1 in rows.</p></div>
+    </div>
+    <div class="key"><span class="eyebrow">Assumptions about players</span>
+      <ul style="margin:0;padding-left:1.2em"><li><b>Individualistic</b>: driven by self-interest, striving for the best outcome for themselves (profit, sales).</li><li><b>Rational</b>, and each understands the rules of the game.</li><li>They play a <b>one-shot simultaneous game</b>: once, at the same moment.</li></ul></div>
+    <div class="prose">
+      <p><b>Cartel agreement</b> (course definition): firms agree to cooperate and coordinate on quantity and/or price to maximize the <b>sum</b> of their profits, as if they were one merged monopolist. In the duopoly game: <b>maintain</b> the cartel = <b>low</b> output (keeps the price high); <b>break</b> the cartel = <b>high</b> output.</p>
+      <p>The slides add two managerial perspectives: <b>game theory</b> = how to <i>play</i> the game (which strategy maximizes profit given the strategic interaction); <b>mechanism design</b> = how to <i>design</i> the game (which market conditions to install, e.g. auctions).</p>
+    </div>
+  </section>
+
+  <section class="block" id="c2-11">
+    <h2><span class="secnum">2.1.1</span>The prisoner's dilemma</h2>
+    <div class="prose"><p>Two suspects, interrogated separately, cannot confer. Payoffs are <b>years in prison</b>, so <b>lower is better</b>.</p></div>
+    <div class="mx" data-game="pd"></div>
+    <div class="def"><b class="term">Dominant strategy</b><p>A strategy that always produces the best result for that player, <b>regardless of what the other player does</b>. If a player has a dominant strategy, all their other strategies are <b>dominated</b>.</p></div>
+    <div class="prose">
+      <p>Prisoner 1: if prisoner 2 confesses, confess (8 &lt; 10 years); if prisoner 2 denies, confess (1 &lt; 2 years). Confess is dominant, and the same holds for prisoner 2. Rational prisoner 2 also expects prisoner 1 to confess and can "delete" the dominated row; the order in which dominated strategies are deleted does not matter.</p>
+      <p>Expected solution: <b>(s1, t1) = (confess, confess)</b>, 8 years each, while (deny, deny) would give 2 years each.</p>
+    </div>
+    <div class="key"><span class="eyebrow">Central insight of game theory</span><p>The blind pursuit of self-interest does not necessarily lead to the best outcome for the individual himself.</p></div>
+  </section>
+
+  <section class="block" id="c2-12">
+    <h2><span class="secnum">2.1.2</span>Equilibrium in dominant strategies</h2>
+    <div class="mx" data-game="t2"></div>
+    <div class="def"><b class="term">Equilibrium in dominant strategies</b><p>Each player plays his/her dominant strategy; the expected outcome consists of two dominant strategies. Rational players always play a dominant strategy and anticipate that others play theirs.</p></div>
+    <div class="prose"><p>Table 2: break is best for duopolist 1 whether 2 maintains (4500 &gt; 4000) or breaks (3000 &gt; 2900); symmetric for duopolist 2. <b>(Break, Break)</b> is an equilibrium in dominant strategies, although (Maintain, Maintain) gives both more and maximizes the sum of profits.</p></div>
+  </section>
+
+  <section class="block" id="c2-13">
+    <h2><span class="secnum">2.1.3</span>Nash equilibria</h2>
+    <div class="def"><b class="term">Nash equilibrium</b><p>A combination of strategies where <b>no player wishes to change his strategy given the expected strategy of the other players</b>.</p></div>
+    <div class="key"><span class="eyebrow">Method (slides)</span><p>For each strategy of the other player, identify the <b>best response</b>. If both players' best responses coincide in the same cell, that cell is a Nash equilibrium. In practice: underline player 1's best payoff in each <b>column</b> and player 2's best payoff in each <b>row</b>; a cell with both underlined is a Nash equilibrium.</p></div>
+    <div class="grid2">
+      <div class="card"><h4>Relationship</h4><ul style="margin:0;padding-left:1.2em"><li>Every equilibrium in dominant strategies is a Nash equilibrium; not every Nash equilibrium is one in dominant strategies.</li><li>If there is an equilibrium in dominant strategies, it is also the <b>unique</b> Nash equilibrium.</li><li>The Nash equilibrium is the more general concept.</li></ul></div>
+      <div class="card"><h4>Expected solution</h4><ul style="margin:0;padding-left:1.2em"><li>Nash equilibria need not be unique.</li><li>A <b>unique</b> Nash equilibrium is the expected solution.</li><li>If there is <b>no unique</b> Nash equilibrium, there is no expected solution in the absence of coordination.</li></ul></div>
+    </div>
+    <p class="prose">Table 3: no dominant strategies. If 2 maintains, 1 maintains (4000 &gt; 3900); if 2 breaks, 1 breaks (3000 &gt; 2900). Two Nash equilibria: (Maintain, Maintain) and (Break, Break), so no expected solution.</p>
+    <div class="mx" data-game="t3"></div>
+    <p class="prose">Table 4: four output levels each. Exactly <b>3 Nash equilibria</b>: (s3, t2), (s2, t3), (s3, t3). Try it in the lab: click "Show best responses".</p>
+    <div class="mx" data-game="t4"></div>
+    <div class="row"><a class="btn" href="#lab">Open the payoff matrix lab</a></div>
+  </section>
+
+  <section class="block" id="c2-2">
+    <h2><span class="secnum">2.2</span>Cooperation, social norms and contracts (climate)</h2>
+    <div class="prose"><p>The prisoner's-dilemma insight applies to cartels, OPEC output limits, free-riding in group projects and CO₂ agreements (Kyoto, Paris).</p></div>
+    <h3>Battle of the sexes: two Nash equilibria</h3>
+    <div class="mx" data-game="bos"></div>
+    <div class="prose"><p>No dominant strategy for either player. Two Nash equilibria: (Football, Football) and (Cinema, Cinema). It illustrates: (1) the importance of <b>coordinated strategies</b>, (2) <b>simultaneous vs sequential</b> choice, (3) a Nash equilibrium does not have to be <b>unique</b>.</p></div>
+    <div class="grid2">
+      <div><h4 style="margin-bottom:8px">CO₂ scenario 1 (Table 6)</h4><div class="mx" data-game="co2a"></div><p class="dgcap" style="margin-top:6px">Two NE: (reduce, reduce) and (not reduce, not reduce). Neither is the expected solution.</p></div>
+      <div><h4 style="margin-bottom:8px">CO₂ scenario 2 (Table 7)</h4><div class="mx" data-game="co2b"></div><p class="dgcap" style="margin-top:6px">A prisoner's dilemma: unique NE (not reduce, not reduce).</p></div>
+    </div>
+    <div class="key"><span class="eyebrow">Scenario 1: three avenues to reach the superior NE without enforceable agreements</span>
+      <ol style="margin:0;padding-left:1.2em"><li><b>Make the game sequential</b>: it is easier to coordinate, and there is a <b>first-mover advantage</b> (the EU moving first with the Green Deal can pull the US and Asia along).</li><li><b>Cooperation</b>: a bilateral (multilateral) agreement. Even non-enforceable, it leads to the desirable NE here, because it is an equilibrium.</li><li><b>Social norms</b> (e.g. "never break an agreement"), which impose the cooperative outcome from outside, like a binding agreement.</li></ol></div>
+    <div class="key"><span class="eyebrow">Scenario 2: "If you can't win the game, change the rules"</span><p>When the desired outcome is not an equilibrium, non-binding agreements end in false promises. The way out is <b>mechanism design</b>: change the structure and payoffs of the game. Make unilateral defection costly (CO₂ taxes, consumer action, social awareness), e.g. lower the defection payoff from 10 to 3. That turns Table 7 into Table 6, where (reduce, reduce) is a possible NE reachable by agreements or sequential choice. Police interrogate suspects separately and simultaneously on purpose: that design makes (confess, confess) the expected solution.</p></div>
+    <p class="src">The course discusses non-cooperative game theory: binding agreements are assumed impossible. Cooperative game theory assumes agreements are implemented.</p>
+  </section>
+
+  <section class="block" id="c2-3">
+    <h2><span class="secnum">2.3</span>The game of Big Tech: beyond one-shot simultaneous games</h2>
+    <h3>Maintain–break game and antitrust</h3>
+    <div class="mx" data-game="mb"></div>
+    <div class="prose"><p>Breaking is dominant for both; <b>(Break, Break)</b> is the unique NE although both prefer (Maintain, Maintain). EU competition law (Article 101 TFEU) prohibits cartels: price fixing, restricting output, dividing markets. But prohibiting explicit agreements does not necessarily produce the competitive outcome, because firms interact repeatedly.</p></div>
+
+    <h3>Repeated games: firms are there to stay</h3>
+    <div class="def"><b class="term">Repeated game</b><p>The same players face the same or a closely related strategic situation more than once.</p></div>
+    <div class="prose">
+      <ul>
+        <li>Breaking gives an immediate gain (9000 &gt; 8000), but the rival may retaliate, leaving 2000 per period instead of 8000.</li>
+        <li><b>Known final period</b>: in the last period both break (no future retaliation possible); reasoning backwards, cooperation <b>unravels</b> in earlier periods too.</li>
+        <li><b>No known final period</b> (indefinitely repeated): current behaviour affects a long stream of future payoffs.</li>
+      </ul>
+    </div>
+    <div class="def"><b class="term">Tit-for-tat</b><p>Begin by <b>maintaining</b>; maintain if the rival maintained in the preceding period; break if the rival broke in the preceding period. It rewards cooperation and responds to deviation. When future profits matter enough, (Maintain, Maintain) is sustainable even though (Break, Break) is the unique NE of the one-shot game. This depends on the payoffs, the observability of behaviour, and how much firms value future profits.</p></div>
+    <div class="note">Slides: tit-for-tat escapes an inferior NE only if the game is repeated many (indefinitely many) times. Antitrust law may be ineffective when Big Tech firms play indefinitely, because repeated interaction enables <b>tacit collusion</b> sustained by reputation and retaliation, without any communication.</div>
+

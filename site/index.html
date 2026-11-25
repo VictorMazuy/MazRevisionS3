@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Revision Ledger</title>
+<!-- theme chosen with the header toggle, applied before the first paint -->
+<script>try{var p=JSON.parse(localStorage.getItem('revledger:prefs')||'{}');if(p.theme==='light'||p.theme==='dark')document.documentElement.setAttribute('data-theme',p.theme)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top" id="top"></header>
+<main id="main"><noscript><p>This site needs JavaScript to run.</p></noscript></main>
+
+<!-- 1. Engine (always first) -->
+<script src="assets/engine.js"></script>
+<script src="assets/widgets.js"></script>
+
+<!-- 2. Catalogue: the ten subjects (name, short name). Display order = SUBJECT_ORDER in assets/engine.js (exam order), not this list. A subject without a loaded file shows as "not added yet". -->
+<script>
+Rev.catalog([
+  {slug:'digital-innovation',    name:'Digital Innovation',              short:'Digital'},
+  {slug:'afa',                   name:'Advanced Financial Accounting',   short:'AFA'},
+  {slug:'market-structures',     name:'Market Structures and Price',     short:'Markets'},
+  {slug:'espagnol',              name:'Espagnol',                        short:'Español'},
+  {slug:'econometrics',          name:'Econometrics & Data Analysis',    short:'Econometrics'},
+  {slug:'sales-techniques',      name:'Sales Techniques',                short:'Sales'},
+  {slug:'marketing-management',  name:'Marketing Management',            short:'Marketing'},
+  {slug:'cost-accounting',       name:'Cost Accounting',                 short:'Cost'},
+  {slug:'operations-management', name:'Operations Management',           short:'Operations'},
+  {slug:'trademark-law',         name:'Trademark Law',                   short:'Trademark'}
+]);
+</script>
+
+<!-- 3. Shared modules (before the subjects that use them) -->
+<script src="modules/accounting.js"></script>
+<script src="modules/law.js"></script>
+
+<!-- 4. Subjects: one tag per file in subjects/ (any order: the display order comes from SUBJECT_ORDER) -->
+<script src="subjects/digital-innovation.js"></script>
+<script src="subjects/afa.js"></script>
+<script src="subjects/market-structures.js"></script>
+<script src="subjects/espagnol.js"></script>
+<script src="subjects/econometrics.js"></script>
+<script src="subjects/sales-techniques.js"></script>
+<script src="subjects/marketing-management.js"></script>
+<script src="subjects/cost-accounting.js"></script>
+<script src="subjects/operations-management.js"></script>
+<script src="subjects/trademark-law.js"></script>
+
+<!-- 5. Site-wide pages across all subjects (#search, #mixed) -->
+<script src="assets/hub.js"></script>
+</body>
+</html>

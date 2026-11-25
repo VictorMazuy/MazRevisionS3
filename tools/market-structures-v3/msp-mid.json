@@ -1,0 +1,2075 @@
+{
+ "GAMES": {
+  "pd": {
+   "name": "Prisoner's dilemma (Table 1)",
+   "pl": [
+    "Prisoner 1",
+    "Prisoner 2"
+   ],
+   "r": [
+    "Confess (s1)",
+    "Deny (s2)"
+   ],
+   "c": [
+    "Confess (t1)",
+    "Deny (t2)"
+   ],
+   "p": [
+    [
+     [
+      8,
+      8
+     ],
+     [
+      1,
+      10
+     ]
+    ],
+    [
+     [
+      10,
+      1
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   ],
+   "min": true,
+   "unit": " yrs",
+   "desc": "Payoffs are years in prison: lower is better. INSIGHTS Ch 2, Table 1."
+  },
+  "t2": {
+   "name": "Homogeneous duopoly, dominant strategies (Table 2)",
+   "pl": [
+    "Duopolist 1",
+    "Duopolist 2"
+   ],
+   "r": [
+    "Maintain",
+    "Break"
+   ],
+   "c": [
+    "Maintain",
+    "Break"
+   ],
+   "p": [
+    [
+     [
+      4000,
+      4000
+     ],
+     [
+      2900,
+      4500
+     ]
+    ],
+    [
+     [
+      4500,
+      2900
+     ],
+     [
+      3000,
+      3000
+     ]
+    ]
+   ],
+   "desc": "Maintain = 400 units, break = 600 units. INSIGHTS Ch 2, Table 2."
+  },
+  "t3": {
+   "name": "Homogeneous duopoly, two Nash equilibria (Table 3)",
+   "pl": [
+    "Duopolist 1",
+    "Duopolist 2"
+   ],
+   "r": [
+    "Maintain",
+    "Break"
+   ],
+   "c": [
+    "Maintain",
+    "Break"
+   ],
+   "p": [
+    [
+     [
+      4000,
+      4000
+     ],
+     [
+      2900,
+      3900
+     ]
+    ],
+    [
+     [
+      3900,
+      2900
+     ],
+     [
+      3000,
+      3000
+     ]
+    ]
+   ],
+   "desc": "INSIGHTS Ch 2, Table 3."
+  },
+  "t4": {
+   "name": "Four output levels (Table 4)",
+   "pl": [
+    "Duopolist 1",
+    "Duopolist 2"
+   ],
+   "r": [
+    "s1 q1=200",
+    "s2 q1=400",
+    "s3 q1=600",
+    "s4 q1=800"
+   ],
+   "c": [
+    "t1 q2=200",
+    "t2 q2=400",
+    "t3 q2=600",
+    "t4 q2=800"
+   ],
+   "p": [
+    [
+     [
+      3000,
+      3000
+     ],
+     [
+      2500,
+      5000
+     ],
+     [
+      2000,
+      6000
+     ],
+     [
+      1500,
+      6000
+     ]
+    ],
+    [
+     [
+      5000,
+      2500
+     ],
+     [
+      4000,
+      4000
+     ],
+     [
+      3000,
+      4500
+     ],
+     [
+      2000,
+      4000
+     ]
+    ],
+    [
+     [
+      6000,
+      2000
+     ],
+     [
+      4500,
+      3000
+     ],
+     [
+      3000,
+      3000
+     ],
+     [
+      1500,
+      2000
+     ]
+    ],
+    [
+     [
+      6000,
+      1500
+     ],
+     [
+      4000,
+      2000
+     ],
+     [
+      2000,
+      1500
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   ],
+   "desc": "INSIGHTS Ch 2, Table 4. Note the tie for duopolist 2 in row s1 (6000 in t3 and t4)."
+  },
+  "bos": {
+   "name": "Battle of the sexes (Table 5)",
+   "pl": [
+    "Mr.",
+    "Mrs."
+   ],
+   "r": [
+    "Football (s1)",
+    "Cinema (s2)"
+   ],
+   "c": [
+    "Football (t1)",
+    "Cinema (t2)"
+   ],
+   "p": [
+    [
+     [
+      3,
+      1
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      3
+     ]
+    ]
+   ],
+   "desc": "INSIGHTS Ch 2, Table 5."
+  },
+  "co2a": {
+   "name": "CO₂ emissions, scenario 1 (Table 6)",
+   "pl": [
+    "Country 1",
+    "Country 2"
+   ],
+   "r": [
+    "Reduce",
+    "Not reduce"
+   ],
+   "c": [
+    "Reduce",
+    "Not reduce"
+   ],
+   "p": [
+    [
+     [
+      8,
+      8
+     ],
+     [
+      1,
+      3
+     ]
+    ],
+    [
+     [
+      3,
+      1
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   ],
+   "desc": "INSIGHTS Ch 2, Table 6."
+  },
+  "co2b": {
+   "name": "CO₂ emissions, scenario 2 (Table 7)",
+   "pl": [
+    "Country 1",
+    "Country 2"
+   ],
+   "r": [
+    "Reduce",
+    "Not reduce"
+   ],
+   "c": [
+    "Reduce",
+    "Not reduce"
+   ],
+   "p": [
+    [
+     [
+      8,
+      8
+     ],
+     [
+      1,
+      10
+     ]
+    ],
+    [
+     [
+      10,
+      1
+     ],
+     [
+      2,
+      2
+     ]
+    ]
+   ],
+   "desc": "INSIGHTS Ch 2, Table 7."
+  },
+  "mb": {
+   "name": "Maintain–break game (Table 8)",
+   "pl": [
+    "Firm 1",
+    "Firm 2"
+   ],
+   "r": [
+    "Maintain",
+    "Break"
+   ],
+   "c": [
+    "Maintain",
+    "Break"
+   ],
+   "p": [
+    [
+     [
+      8000,
+      8000
+     ],
+     [
+      1000,
+      9000
+     ]
+    ],
+    [
+     [
+      9000,
+      1000
+     ],
+     [
+      2000,
+      2000
+     ]
+    ]
+   ],
+   "desc": "INSIGHTS Ch 2, Table 8 (antitrust and repeated games)."
+  },
+  "mid5": {
+   "name": "Mock midterm MCQ5–7 matrix",
+   "pl": [
+    "Duopolist 1",
+    "Duopolist 2"
+   ],
+   "r": [
+    "Strategy 1",
+    "Strategy 2"
+   ],
+   "c": [
+    "Strategy 1",
+    "Strategy 2"
+   ],
+   "p": [
+    [
+     [
+      1,
+      5
+     ],
+     [
+      8,
+      4
+     ]
+    ],
+    [
+     [
+      2,
+      1
+     ],
+     [
+      4,
+      0
+     ]
+    ]
+   ],
+   "desc": "From the mock midterm structure (the questions themselves are blank there)."
+  },
+  "mid8": {
+   "name": "Mock midterm MCQ8 (4×4)",
+   "pl": [
+    "Duopolist 1",
+    "Duopolist 2"
+   ],
+   "r": [
+    "s1 q1=200",
+    "s2 q1=400",
+    "s3 q1=600",
+    "s4 q1=800"
+   ],
+   "c": [
+    "t1 q2=200",
+    "t2 q2=400",
+    "t3 q2=600",
+    "t4 q2=800"
+   ],
+   "p": [
+    [
+     [
+      5,
+      3
+     ],
+     [
+      7,
+      2
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      0
+     ]
+    ],
+    [
+     [
+      2,
+      6
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      6,
+      5
+     ]
+    ],
+    [
+     [
+      4,
+      0
+     ],
+     [
+      8,
+      0
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      4,
+      0
+     ]
+    ],
+    [
+     [
+      3,
+      4
+     ],
+     [
+      9,
+      5
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      3,
+      1
+     ]
+    ]
+   ],
+   "desc": "Mock midterm MCQ8: \"How many Nash equilibria are there in this game?\""
+  },
+  "mid9": {
+   "name": "Mock midterm MCQ9–10 (sequential)",
+   "pl": [
+    "Duopolist 1",
+    "Duopolist 2"
+   ],
+   "r": [
+    "M",
+    "C"
+   ],
+   "c": [
+    "M",
+    "C"
+   ],
+   "p": [
+    [
+     [
+      9,
+      1
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      9
+     ]
+    ]
+   ],
+   "desc": "Mock midterm: one-shot sequential game, player 1 is the leader. Look at the sequential version below."
+  },
+  "fin2": {
+   "name": "Final mock Q2",
+   "pl": [
+    "Duopolist 1",
+    "Duopolist 2"
+   ],
+   "r": [
+    "Strategy 1",
+    "Strategy 2"
+   ],
+   "c": [
+    "Strategy 1",
+    "Strategy 2"
+   ],
+   "p": [
+    [
+     [
+      4,
+      8
+     ],
+     [
+      9,
+      2
+     ]
+    ],
+    [
+     [
+      6,
+      3
+     ],
+     [
+      7,
+      1
+     ]
+    ]
+   ],
+   "desc": "Final mock exam Q2 (4 points). Solution: D2 has dominant strategy 1, unique NE (Strategy 2; Strategy 1) = (6;3), also the SPNE."
+  }
+ },
+ "TF": [
+  {
+   "id": "t1",
+   "ch": 1,
+   "tp": "Market forms",
+   "s": "In a monopoly and under perfect competition, there is no strategic interaction. This is not the case when firms are competing under an oligopoly.",
+   "a": true,
+   "e": "A monopolist has no rival to take into account; a perfectly competitive firm is a price taker and does not interact strategically with individual rivals. An oligopolist must take the expected reactions of a few rivals into account.",
+   "ref": "Exercise 1.1"
+  },
+  {
+   "id": "t2",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "Because of product differentiation in a setting with many firms, each company has a demand curve that is not horizontal.",
+   "a": true,
+   "e": "Differentiation makes each product an imperfect substitute, so the firm's own demand curve is downward sloping (finite elasticity) instead of horizontal.",
+   "ref": "Exercise 1.3"
+  },
+  {
+   "id": "t3",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "In a setting with many firms, product differentiation is a promising strategy to ensure at least some market power.",
+   "a": true,
+   "e": "Differentiation reduces substitutability, so the firm can raise its price without losing all customers.",
+   "ref": "Exercise 1.4"
+  },
+  {
+   "id": "t4",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "A strong image will imply that the price elasticity will increase in absolute terms, thus making it possible for the brand concerned to receive a premium over the normal price.",
+   "a": false,
+   "e": "A strong image makes demand less price sensitive: |ε| decreases. That lower elasticity is what allows the price premium.",
+   "ref": "Exercise 1.5"
+  },
+  {
+   "id": "t5",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "Price elasticity is always positive, indicating that as prices increase, demand also increases.",
+   "a": false,
+   "e": "Price elasticity is usually negative: a price increase goes with a demand decrease (the slides mention Giffen and Veblen goods as exceptions).",
+   "ref": "Additional exercise 1.A1"
+  },
+  {
+   "id": "t6",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "Price elasticity measures the percentage change in price after a percentage change in demand.",
+   "a": false,
+   "e": "It is the reverse: the percentage change in quantity demanded after a percentage change in price.",
+   "ref": "Additional exercise 1.A2"
+  },
+  {
+   "id": "t7",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "Perfect price elasticity occurs when price elasticity is in absolute value lower than one.",
+   "a": false,
+   "e": "Perfect price elasticity is |ε| = ∞ (horizontal demand). |ε| < 1 is inelastic demand.",
+   "ref": "Additional exercise 1.A2"
+  },
+  {
+   "id": "t8",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "With a price elasticity of −1.159, demand for apples in the U.S. is elastic.",
+   "a": true,
+   "e": "|−1.159| > 1, so demand is elastic: a 1% price increase goes with a 1.159% fall in demand.",
+   "ref": "INSIGHTS Ch 1, Table 1"
+  },
+  {
+   "id": "t9",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "Gasoline demand is more price elastic in the short run than in the long run.",
+   "a": false,
+   "e": "Table 1: short run −0.01 to −0.2, long run −0.4 to −0.8. Demand is more elastic in the long run.",
+   "ref": "INSIGHTS Ch 1, Table 1"
+  },
+  {
+   "id": "t10",
+   "ch": 1,
+   "tp": "Perfect competition",
+   "s": "Under perfect competition, the individual firm faces a perfectly elastic demand at the prevailing market price.",
+   "a": true,
+   "e": "The firm is a price taker: it can sell as much as it wants at the market price and nothing above it, so its demand is horizontal.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t11",
+   "ch": 1,
+   "tp": "Perfect competition",
+   "s": "A perfectly competitive firm can raise its revenue by charging slightly more than the market price.",
+   "a": false,
+   "e": "With homogeneous goods, perfect information and many sellers, no consumer buys above the market price: the firm would sell nothing.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t12",
+   "ch": 1,
+   "tp": "Perfect competition",
+   "s": "Under perfect competition, it is optimal for a profit-maximizing firm to produce where the selling price equals marginal cost.",
+   "a": true,
+   "e": "Beyond p = MC, additional costs exceed additional revenues; below it, producing more still adds more revenue than cost.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t13",
+   "ch": 1,
+   "tp": "Market power",
+   "s": "In monopoly, firms are price setters, while in monopolistic competition, firms are price takers.",
+   "a": false,
+   "e": "Firms under monopolistic competition have their own downward-sloping demand and are price setters with some market power.",
+   "ref": "Additional exercise 1.A3"
+  },
+  {
+   "id": "t14",
+   "ch": 1,
+   "tp": "Market power",
+   "s": "Market power is a characteristic of perfect competition, allowing firms to set prices.",
+   "a": false,
+   "e": "Under perfect competition firms are price takers with no market power (μ = 1).",
+   "ref": "Additional exercise 1.A3"
+  },
+  {
+   "id": "t15",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "Legal constraints are an example of a barrier to entry in a market with monopolistic competition.",
+   "a": false,
+   "e": "Monopolistic competition has free entry and exit; strong legal barriers are inconsistent with it.",
+   "ref": "Exercise 1.6"
+  },
+  {
+   "id": "t16",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "Like monopolists, firms under monopolistic competition can keep making a profit in the long run.",
+   "a": false,
+   "e": "Free entry erodes profits: in the long run firms under monopolistic competition have no potential to make a profit, contrary to monopolists and oligopolists.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t17",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "When new firms enter a market with monopolistic competition, the demand curve of an existing firm shifts inward and becomes flatter.",
+   "a": true,
+   "e": "Entry adds similar products: demand for the incumbent falls (inward shift) and becomes more price elastic (flatter).",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t18",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "The difference between monopoly and monopolistic competition lies in the long run.",
+   "a": true,
+   "e": "In the short run both can make profits with a downward-sloping demand; in the long run free entry drives profit to zero under monopolistic competition only.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t19",
+   "ch": 1,
+   "tp": "Monopoly",
+   "s": "Network externalities can act as a barrier to entry that preserves a monopoly.",
+   "a": true,
+   "e": "When a platform's value depends on its number of users, markets tend toward winner-takes-all: one of the four entry barriers.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t20",
+   "ch": 1,
+   "tp": "Oligopoly",
+   "s": "Oligopolies have no barriers to entry, which is why profits disappear in the long run.",
+   "a": false,
+   "e": "Oligopoly has barriers to entry (Table 2): legal, technological, etc. keep the number of firms small in the short and long run.",
+   "ref": "INSIGHTS Ch 1, Table 2"
+  },
+  {
+   "id": "t21",
+   "ch": 1,
+   "tp": "Oligopoly",
+   "s": "An oligopoly always sells a homogeneous product.",
+   "a": false,
+   "e": "Oligopoly can be homogeneous or heterogeneous (differentiated).",
+   "ref": "INSIGHTS Ch 1, Table 2"
+  },
+  {
+   "id": "t22",
+   "ch": 1,
+   "tp": "Market power",
+   "s": "Market power exists when markups μ = p*(q*)/MC(q*) exceed one.",
+   "a": true,
+   "e": "That is the course definition: price above marginal cost at the profit-maximizing quantity.",
+   "ref": "INSIGHTS Ch 1, eq. (2)"
+  },
+  {
+   "id": "t23",
+   "ch": 1,
+   "tp": "Market power",
+   "s": "The higher the price elasticity in absolute value, the more market power a firm has.",
+   "a": false,
+   "e": "Elasticity and market power are inversely related: Lerner (p* − MC)/p* = 1/|ε|. |ε| = ∞ means no market power.",
+   "ref": "INSIGHTS Ch 1, §1.3"
+  },
+  {
+   "id": "t24",
+   "ch": 1,
+   "tp": "Market power",
+   "s": "When demand is perfectly elastic, the Lerner index equals zero.",
+   "a": true,
+   "e": "Lerner = 1/|ε| = 1/∞ = 0, so p* = MC and μ = 1: no market power.",
+   "ref": "INSIGHTS Ch 1, §1.3"
+  },
+  {
+   "id": "t25",
+   "ch": 1,
+   "tp": "Welfare",
+   "s": "Total surplus, the sum of consumer and producer surplus, is maximal under perfect competition.",
+   "a": true,
+   "e": "Perfect competition is Pareto-efficient and optimal in terms of static societal welfare (with caveats: distribution, variety, technology).",
+   "ref": "INSIGHTS Ch 1, footnote 6"
+  },
+  {
+   "id": "t26",
+   "ch": 1,
+   "tp": "Welfare",
+   "s": "Any deviation from perfect competition only leads to welfare losses, so all market power should be eliminated.",
+   "a": false,
+   "e": "The answer is nuanced: particularly excessive market power destroys welfare. Some is warranted, because consumers value differentiation and market power can stimulate innovation.",
+   "ref": "INSIGHTS Ch 1, §1.3"
+  },
+  {
+   "id": "t27",
+   "ch": 1,
+   "tp": "Welfare",
+   "s": "Patents give a temporary monopoly that helps innovators recover R&D costs and so stimulates innovation.",
+   "a": true,
+   "e": "Without patents others imitate costly innovations for free and there is too little innovation; the temporary monopoly rewards R&D and risk.",
+   "ref": "INSIGHTS Ch 1, §1.3"
+  },
+  {
+   "id": "t28",
+   "ch": 1,
+   "tp": "Welfare",
+   "s": "The innovation argument for monopoly power holds especially when entry into the market is impossible.",
+   "a": false,
+   "e": "It holds especially when the threat of entry is real. When entry is impossible, protected firms may simply eat up their monopoly profits.",
+   "ref": "INSIGHTS Ch 1, §1.3"
+  },
+  {
+   "id": "t29",
+   "ch": 1,
+   "tp": "Market power",
+   "s": "According to De Loecker et al. (2020), the rise of markups comes from all firms raising their markups a little.",
+   "a": false,
+   "e": "It comes from a small minority of firms setting increasingly high markups. And it is not only a U.S. phenomenon.",
+   "ref": "INSIGHTS Ch 1, §1.3"
+  },
+  {
+   "id": "t30",
+   "ch": 1,
+   "tp": "Perfect competition",
+   "s": "Perfect information means that consumers know the quality and the prices of all suppliers, and producers know the buyers' willingness to pay.",
+   "a": true,
+   "e": "That is the course definition of the perfect information condition.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t31",
+   "ch": 1,
+   "tp": "Market forms",
+   "s": "All four main market forms have many buyers.",
+   "a": true,
+   "e": "The textbook states it explicitly; markets with one or few buyers are out of scope.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t32",
+   "ch": 1,
+   "tp": "Oligopoly",
+   "s": "An oligopolist only needs its own cost structure and demand curve to determine its optimal output.",
+   "a": false,
+   "e": "That is true for monopoly and perfect competition. An oligopolist must also take the behaviour of rival firms into account.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t33",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "Product differentiation only exists when products are objectively different.",
+   "a": false,
+   "e": "It does not matter whether the differences exist only in the eyes of the customer or are real; image can create artificial differentiation.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t34",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "A bank that charges more because it has a branch close to its customers is an example of geographical product differentiation.",
+   "a": true,
+   "e": "Consumers weigh the price disadvantage against proximity: that is geographical product differentiation.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t35",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "Under monopolistic competition, a firm can make a profit in the short run.",
+   "a": true,
+   "e": "In the short run the number of producers is fixed, so a differentiated firm can earn a profit; entry removes it in the long run.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t36",
+   "ch": 1,
+   "tp": "Firm decisions",
+   "s": "Economic profit is a more useful measure for managerial decision-making than accounting profit because it includes opportunity costs.",
+   "a": true,
+   "e": "Economic profit uses market values and implicit (opportunity) costs; accounting profit uses historical costs for legal and reporting purposes.",
+   "ref": "Ch 1 slides, §0"
+  },
+  {
+   "id": "t37",
+   "ch": 1,
+   "tp": "Monopoly",
+   "s": "A natural monopoly arises when there are increasing returns to scale over a wide range of production levels.",
+   "a": true,
+   "e": "One firm can then supply (almost) all demand at the minimum average cost; a rival could only serve a small unprofitable remainder.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "t38",
+   "ch": 1,
+   "tp": "Monopoly",
+   "s": "For internal (strategic) entry barriers to preserve monopoly power, the threats made by the monopolist must be credible.",
+   "a": true,
+   "e": "The textbook stresses that the effectiveness of internal barriers depends on the credibility of the monopolist's threats.",
+   "ref": "INSIGHTS Ch 1, §1.2"
+  },
+  {
+   "id": "g1",
+   "ch": 2,
+   "tp": "Game theory basics",
+   "s": "A dominant strategy is the strategy that delivers the best result for a player, irrespective of the decisions of the other player.",
+   "a": true,
+   "e": "That is the course definition. If a dominant strategy exists, all other strategies of that player are dominated.",
+   "ref": "INSIGHTS Ch 2, §2.1.1"
+  },
+  {
+   "id": "g2",
+   "ch": 2,
+   "tp": "Nash equilibrium",
+   "s": "Every Nash equilibrium is an equilibrium in dominant strategies.",
+   "a": false,
+   "e": "The converse holds: every equilibrium in dominant strategies is a Nash equilibrium, not every NE is one in dominant strategies (e.g. battle of the sexes).",
+   "ref": "INSIGHTS Ch 2, §2.1.3"
+  },
+  {
+   "id": "g3",
+   "ch": 2,
+   "tp": "Nash equilibrium",
+   "s": "Every equilibrium in dominant strategies is a Nash equilibrium.",
+   "a": true,
+   "e": "If each player plays a strategy that is best whatever the other does, no one wants to deviate: it is a Nash equilibrium.",
+   "ref": "INSIGHTS Ch 2, §2.1.3"
+  },
+  {
+   "id": "g4",
+   "ch": 2,
+   "tp": "Nash equilibrium",
+   "s": "If there is an equilibrium in dominant strategies, it is also the unique Nash equilibrium.",
+   "a": true,
+   "e": "Stated in the slides: dominant strategies leave no room for another equilibrium.",
+   "ref": "Ch 2 slides"
+  },
+  {
+   "id": "g5",
+   "ch": 2,
+   "tp": "Prisoner's dilemma",
+   "s": "In the prisoner's dilemma, the expected solution is also the best outcome for both prisoners.",
+   "a": false,
+   "e": "The expected solution (confess, confess) gives 8 years each; (deny, deny) would give 2 years each. Self-interest does not lead to the best outcome.",
+   "ref": "INSIGHTS Ch 2, §2.1.1"
+  },
+  {
+   "id": "g6",
+   "ch": 2,
+   "tp": "Nash equilibrium",
+   "s": "A Nash equilibrium must be unique.",
+   "a": false,
+   "e": "Nash equilibria do not need to be unique: Table 3 and the battle of the sexes have two.",
+   "ref": "INSIGHTS Ch 2, §2.1.3"
+  },
+  {
+   "id": "g7",
+   "ch": 2,
+   "tp": "Nash equilibrium",
+   "s": "If there is no unique Nash equilibrium, there is no expected solution in the absence of coordination.",
+   "a": true,
+   "e": "With several equilibria, nothing tells the players which one they will end up in without coordination.",
+   "ref": "INSIGHTS Ch 2, §2.1.3"
+  },
+  {
+   "id": "g8",
+   "ch": 2,
+   "tp": "Battle of the sexes",
+   "s": "In the battle of the sexes, each player has a dominant strategy.",
+   "a": false,
+   "e": "Each player's best choice depends on the other's choice: there are no dominant strategies, but two Nash equilibria.",
+   "ref": "INSIGHTS Ch 2, §2.2"
+  },
+  {
+   "id": "g9",
+   "ch": 2,
+   "tp": "Mechanism design",
+   "s": "Making unilateral defection costly can change a prisoner's-dilemma climate game into one where (reduce, reduce) is a Nash equilibrium.",
+   "a": true,
+   "e": "Lowering the defection payoff (e.g. from 10 to 3 through CO₂ taxes) turns Table 7 into Table 6, where (reduce, reduce) is a possible NE.",
+   "ref": "INSIGHTS Ch 2, §2.2"
+  },
+  {
+   "id": "g10",
+   "ch": 2,
+   "tp": "Mechanism design",
+   "s": "Game theory is about how to design the game, while mechanism design is about how to play it.",
+   "a": false,
+   "e": "Reversed: game theory = how to play the game; mechanism design = how to design the game (e.g. auctions).",
+   "ref": "Ch 2 slides"
+  },
+  {
+   "id": "g11",
+   "ch": 2,
+   "tp": "Repeated games",
+   "s": "Because EU law prohibits cartels, firms that interact repeatedly will necessarily end up in (Break, Break).",
+   "a": false,
+   "e": "In repeated interaction, the threat of future retaliation (e.g. tit-for-tat) can sustain (Maintain, Maintain) through tacit collusion. Repeated interaction complicates the antitrust problem.",
+   "ref": "INSIGHTS Ch 2, §2.3.1–2.3.2"
+  },
+  {
+   "id": "g12",
+   "ch": 2,
+   "tp": "Repeated games",
+   "s": "When firms know with certainty when their interaction ends, cooperation can unravel from the last period backwards.",
+   "a": true,
+   "e": "In the final period no retaliation is possible, so both break; reasoning backwards, the same logic undoes cooperation in earlier periods.",
+   "ref": "INSIGHTS Ch 2, §2.3.2"
+  },
+  {
+   "id": "g13",
+   "ch": 2,
+   "tp": "Repeated games",
+   "s": "Tit-for-tat starts by breaking the agreement to test the rival.",
+   "a": false,
+   "e": "Tit-for-tat begins by maintaining, then copies the rival's previous move.",
+   "ref": "INSIGHTS Ch 2, §2.3.2"
+  },
+  {
+   "id": "g14",
+   "ch": 2,
+   "tp": "Sequential games",
+   "s": "Playing a game sequentially instead of simultaneously always changes the outcome.",
+   "a": false,
+   "e": "Not always: in the maintain–break game, breaking is dominant, so the second mover breaks whatever happens and the first mover breaks too.",
+   "ref": "INSIGHTS Ch 2, §2.3.3"
+  },
+  {
+   "id": "g15",
+   "ch": 2,
+   "tp": "Sequential games",
+   "s": "Sequential games are solved by backward induction: start from the final decision and work back to the first.",
+   "a": true,
+   "e": "Determine the last mover's optimal action, then the previous player's anticipating it, until the first decision.",
+   "ref": "INSIGHTS Ch 2, §2.3.3"
+  },
+  {
+   "id": "g16",
+   "ch": 2,
+   "tp": "Sequential games",
+   "s": "In the six-stage centipede game, backward induction predicts that player A stops immediately.",
+   "a": true,
+   "e": "B stops at the last node (7 > 6), so A stops before (6 > 5), and so on back to A stopping at once with (2 ; 0), although (8 ; 6) was possible.",
+   "ref": "INSIGHTS Ch 2, §2.3.3"
+  },
+  {
+   "id": "g17",
+   "ch": 2,
+   "tp": "Sequential games",
+   "s": "A threat to react aggressively to entry deters the entrant even if carrying it out would not be rational after entry.",
+   "a": false,
+   "e": "A threat the firm would not wish to implement is not credible, so it does not influence the entrant.",
+   "ref": "INSIGHTS Ch 2, §2.3.3"
+  },
+  {
+   "id": "g18",
+   "ch": 2,
+   "tp": "Ultimatum game",
+   "s": "With purely self-interested players, game theory predicts an equal split (5 ; 5) in the ultimatum game.",
+   "a": false,
+   "e": "B accepts any strictly positive offer, so A offers 1 unit: the prediction is (9 ; 1).",
+   "ref": "INSIGHTS Ch 2, §2.3.4"
+  },
+  {
+   "id": "g19",
+   "ch": 2,
+   "tp": "Ultimatum game",
+   "s": "Because responders reject unequal offers in experiments, game theory is useless.",
+   "a": false,
+   "e": "It shows the importance of specifying payoffs correctly: fairness, reciprocity, reputation are part of the payoff.",
+   "ref": "INSIGHTS Ch 2, §2.3.4"
+  },
+  {
+   "id": "g20",
+   "ch": 2,
+   "tp": "Bertrand",
+   "s": "In a homogeneous duopoly with price competition, the equilibrium price and quantity are the same as under perfect competition.",
+   "a": true,
+   "e": "That is the paradox of Bertrand: the price war drives the price to marginal cost (= minimum average cost), profit is zero.",
+   "ref": "INSIGHTS Ch 2, §2.4.1"
+  },
+  {
+   "id": "g21",
+   "ch": 2,
+   "tp": "Bertrand",
+   "s": "Under the paradox of Bertrand, duopolists still earn a positive profit because there are only two firms.",
+   "a": false,
+   "e": "Undercutting continues until price equals marginal cost: zero profit, no market power.",
+   "ref": "INSIGHTS Ch 2, §2.4.1"
+  },
+  {
+   "id": "g22",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "Under fixed prices, Hotelling predicts that the two ice-cream carts locate 500 m from each end of the beach.",
+   "a": false,
+   "e": "That is the socially optimal location. Under fixed prices each cart moves to the centre to steal customers; both end up in the middle.",
+   "ref": "INSIGHTS Ch 2, §2.4.2"
+  },
+  {
+   "id": "g23",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "Two ice-cream carts next to each other in the middle of the beach is the socially optimal location pattern.",
+   "a": false,
+   "e": "The average walking distance is 0.5 km there versus 250 m with carts at 500 m from each end. It is the Nash equilibrium under fixed prices, not the social optimum.",
+   "ref": "INSIGHTS Ch 2, §2.4.2"
+  },
+  {
+   "id": "g24",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "When prices are liberalized, the ice-cream carts move away from the centre to escape the paradox of Bertrand.",
+   "a": true,
+   "e": "At the centre they would be in a price war with zero profit. Moving away creates a niche where they can price above marginal cost.",
+   "ref": "INSIGHTS Ch 2, §2.4.2"
+  },
+  {
+   "id": "g25",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "More severe price competition implies less product differentiation.",
+   "a": false,
+   "e": "It is the opposite: more (less) severe price competition implies more (less) product differentiation.",
+   "ref": "INSIGHTS Ch 2, §2.4.2"
+  },
+  {
+   "id": "g26",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "Under price competition, firms usually choose maximal product differentiation (the two ends of the beach).",
+   "a": false,
+   "e": "Some, rather than extreme, differentiation usually suffices to counterbalance price competition.",
+   "ref": "INSIGHTS Ch 2, footnote 5"
+  },
+  {
+   "id": "g27",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "When duopolists do not engage in price competition, we expect the duopoly to be homogeneous.",
+   "a": true,
+   "e": "Hotelling under fixed prices: carts move to the centre; a homogeneous duopoly is the unique Nash equilibrium, hence the expected outcome. (Not the paradox of Bertrand.)",
+   "ref": "Final mock Q1c"
+  },
+  {
+   "id": "g28",
+   "ch": 2,
+   "tp": "Game theory basics",
+   "s": "In this course, players choose between a limited number of discrete strategies, such as a few output levels.",
+   "a": true,
+   "e": "The simplifying assumption is discrete pure strategies; continuous choices (Cournot, Stackelberg) are left to Varian.",
+   "ref": "INSIGHTS Ch 2, §2.1"
+  },
+  {
+   "id": "g29",
+   "ch": 2,
+   "tp": "Game theory basics",
+   "s": "Under a cartel agreement, firms make production and pricing decisions as if they were one merged firm with a monopoly.",
+   "a": true,
+   "e": "The course narrows a cartel to firms coordinating to maximize the sum of their profits, like a merged monopolist.",
+   "ref": "INSIGHTS Ch 2, §2.1"
+  },
+  {
+   "id": "g30",
+   "ch": 2,
+   "tp": "Game theory basics",
+   "s": "Maintaining the cartel agreement corresponds to choosing a high output level.",
+   "a": false,
+   "e": "Maintaining means restricting output (low level) to keep the price high; breaking means a high output level.",
+   "ref": "INSIGHTS Ch 2, §2.1"
+  },
+  {
+   "id": "g31",
+   "ch": 2,
+   "tp": "Battle of the sexes",
+   "s": "Turning the battle of the sexes into a sequential game makes it easier to reach a Nash equilibrium and gives a first-mover advantage.",
+   "a": true,
+   "e": "If the man chooses first, the woman adapts, and vice versa: who chooses first can influence the opponent's choice.",
+   "ref": "INSIGHTS Ch 2, §2.2"
+  },
+  {
+   "id": "g32",
+   "ch": 2,
+   "tp": "Sequential games",
+   "s": "A subgame-perfect equilibrium insists that every action chosen is rational for the player who chooses it.",
+   "a": true,
+   "e": "That is how the slides define credible (subgame-perfect) Nash equilibria.",
+   "ref": "Ch 2 slides (Varian)"
+  },
+  {
+   "id": "g33",
+   "ch": 2,
+   "tp": "Sequential games",
+   "s": "In a commitment game, the first player's action is reversible and not observed by the second player.",
+   "a": false,
+   "e": "In a commitment game the first player's action is irreversible and observable by the second player.",
+   "ref": "Ch 2 slides"
+  },
+  {
+   "id": "g34",
+   "ch": 2,
+   "tp": "Repeated games",
+   "s": "Tit-for-tat can sustain (Maintain, Maintain) only if the game is repeated many (indefinitely many) times.",
+   "a": true,
+   "e": "The slides state the escape from the inferior NE works only if the game is repeated many (= infinitely) times; with a known end, cooperation unravels.",
+   "ref": "Ch 2 slides"
+  },
+  {
+   "id": "g35",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "Two ice-cream carts at the centre of the beach under fixed prices represent a homogeneous duopoly.",
+   "a": true,
+   "e": "Cart positions are a metaphor for product differentiation; next to each other means minimal differentiation, a homogeneous duopoly.",
+   "ref": "INSIGHTS Ch 2, §2.4.2"
+  },
+  {
+   "id": "g36",
+   "ch": 2,
+   "tp": "Mechanism design",
+   "s": "Police interrogate suspects separately and simultaneously because this design makes (confess, confess) the expected solution.",
+   "a": true,
+   "e": "The textbook's own example of mechanism design.",
+   "ref": "INSIGHTS Ch 2, §2.2"
+  },
+  {
+   "id": "g37",
+   "ch": 2,
+   "tp": "Mechanism design",
+   "s": "In CO₂ scenario 1 (two Nash equilibria), even a non-enforceable cooperative agreement can lead countries to (reduce, reduce).",
+   "a": true,
+   "e": "Because (reduce, reduce) is an equilibrium there, nobody wants to deviate once it is reached; cooperation just coordinates.",
+   "ref": "INSIGHTS Ch 2, §2.2"
+  },
+  {
+   "id": "g38",
+   "ch": 2,
+   "tp": "Oligopoly",
+   "s": "Product differentiation in combination with oligopoly is one of the most realistic market forms.",
+   "a": true,
+   "e": "Stated in §2.4 (smartphones, PCs, cars).",
+   "ref": "INSIGHTS Ch 2, §2.4"
+  }
+ ],
+ "MCQ": [
+  {
+   "id": "m1",
+   "ch": 1,
+   "tp": "Market forms",
+   "how": 1,
+   "s": "In how many of the four market forms do firms have market power?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 2,
+   "e": "Monopolistic competition, oligopoly and monopoly (Table 2). Not perfect competition."
+  },
+  {
+   "id": "m2",
+   "ch": 1,
+   "tp": "Market forms",
+   "how": 1,
+   "s": "In how many of the four market forms are there barriers to entry?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 1,
+   "e": "Oligopoly and monopoly (Table 2). Perfect and monopolistic competition have free entry."
+  },
+  {
+   "id": "m3",
+   "ch": 1,
+   "tp": "Market forms",
+   "how": 1,
+   "s": "In how many of the four market forms is there strategic interaction between suppliers?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 0,
+   "e": "Only oligopoly. A monopolist has no rival; in perfect and monopolistic competition firms are too small to react to each other."
+  },
+  {
+   "id": "m4",
+   "ch": 1,
+   "tp": "Market forms",
+   "how": 1,
+   "s": "In how many of the four market forms is there free entry and exit?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 1,
+   "e": "Perfect competition and monopolistic competition."
+  },
+  {
+   "id": "m5",
+   "ch": 1,
+   "tp": "Market forms",
+   "how": 1,
+   "s": "In how many of the four market forms can firms keep a positive profit in the long run?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 1,
+   "e": "Monopoly and oligopoly (protected by barriers). Free entry removes long-run profit under monopolistic and perfect competition."
+  },
+  {
+   "id": "m7",
+   "ch": 1,
+   "tp": "Market forms",
+   "how": 1,
+   "s": "In how many of the four market forms are firms price takers?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 0,
+   "e": "Only perfect competition."
+  },
+  {
+   "id": "m8",
+   "ch": 1,
+   "tp": "Perfect competition",
+   "s": "Which characteristics correspond to a perfectly competitive market? (1) Market atomism (2) Complete information (3) Homogeneity (4) Barriers to entry",
+   "o": [
+    "1 and 2",
+    "2 and 3",
+    "1, 2 and 3",
+    "1, 2 and 4"
+   ],
+   "a": 2,
+   "e": "The fourth condition is free entry and exit, the opposite of barriers to entry.",
+   "ref": "Additional exercise 1.A4"
+  },
+  {
+   "id": "m9",
+   "ch": 1,
+   "tp": "Monopoly",
+   "s": "Which are barriers to entry that can help maintain a monopoly? (1) Economies of scale (2) Owning a scarce resource (3) Expensive marketing campaigns by the monopolist (4) Network externalities",
+   "o": [
+    "1 and 2",
+    "2 and 3",
+    "1, 3 and 4",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "e": "All four types in the textbook: technological, exclusive rights/legal, strategic behaviour, network externalities.",
+   "ref": "Additional exercise 1.A5"
+  },
+  {
+   "id": "m10",
+   "ch": 1,
+   "tp": "Market forms",
+   "s": "Which market is best described as monopolistic competition?",
+   "o": [
+    "Copper",
+    "Restaurants in a large city",
+    "Mobile phone operators",
+    "Retail water and sewerage services"
+   ],
+   "a": 1,
+   "e": "Many restaurants with differentiated cuisine, location and atmosphere, and easy entry. Copper is close to perfect competition, operators are an oligopoly, water is a regional monopoly.",
+   "ref": "Exercise 1.7"
+  },
+  {
+   "id": "m11",
+   "ch": 1,
+   "tp": "Market forms",
+   "s": "Which market is best described as an oligopoly?",
+   "o": [
+    "Wooden HB pencils",
+    "Mobile phone producers",
+    "Strawberry jam",
+    "Economics textbooks"
+   ],
+   "a": 1,
+   "e": "A few large producers with technological, scale, branding and legal barriers. The others are close to perfect or monopolistic competition.",
+   "ref": "Exercise 1.7"
+  },
+  {
+   "id": "m12",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "The price of a good rises by 10% and quantity demanded falls by 20%. The price elasticity is…",
+   "o": [
+    "−0.5: inelastic",
+    "−2: elastic",
+    "−2: inelastic",
+    "−0.5: elastic"
+   ],
+   "a": 1,
+   "e": "ε = %Δq/%Δp = −20/10 = −2. |ε| > 1, elastic."
+  },
+  {
+   "id": "m13",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "The price of a good rises by 5% and quantity demanded falls by 1%. Demand is…",
+   "o": [
+    "Elastic, |ε| = 5",
+    "Inelastic, |ε| = 0.2",
+    "Unitary elastic",
+    "Perfectly elastic"
+   ],
+   "a": 1,
+   "e": "ε = −1/5 = −0.2. |ε| < 1, inelastic."
+  },
+  {
+   "id": "m14",
+   "ch": 1,
+   "tp": "Market power",
+   "s": "A firm maximizes profit at a price of €15 with a marginal cost of €10 at that quantity. Which is correct?",
+   "o": [
+    "μ = 0.67, no market power",
+    "μ = 1.5, the firm has market power",
+    "μ = 1, perfect competition",
+    "Market power cannot be judged without the elasticity"
+   ],
+   "a": 1,
+   "e": "μ = p*/MC(q*) = 15/10 = 1.5 > 1: market power."
+  },
+  {
+   "id": "m15",
+   "ch": 1,
+   "tp": "Market power",
+   "s": "A firm faces |ε| = 4 and MC = 30. Using the Lerner index, its profit-maximizing price is…",
+   "o": [
+    "30",
+    "37.5",
+    "40",
+    "120"
+   ],
+   "a": 2,
+   "e": "(p − 30)/p = 1/4 → 0.75p = 30 → p = 40."
+  },
+  {
+   "id": "m16",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "Indila, dying of thirst in the desert, still buys the bottle when the price jumps from €1 to €1000. Her demand is close to…",
+   "o": [
+    "Perfectly elastic",
+    "Unitary elastic",
+    "Perfectly inelastic",
+    "Elastic"
+   ],
+   "a": 2,
+   "e": "Quantity does not respond to price: |ε| ≈ 0, a vertical demand curve."
+  },
+  {
+   "id": "m17",
+   "ch": 1,
+   "tp": "Elasticity",
+   "s": "On the platform \"All The Same\" Stromae would exchange all his euros at a better rate and none at a worse rate. This market is close to…",
+   "o": [
+    "Perfectly elastic",
+    "Perfectly inelastic",
+    "Inelastic",
+    "Unitary elastic"
+   ],
+   "a": 0,
+   "e": "A tiny price difference shifts all demand: |ε| ≈ ∞, horizontal demand."
+  },
+  {
+   "id": "m18",
+   "ch": 1,
+   "tp": "Monopolistic competition",
+   "s": "When a niche (e.g. an Irish pub) proves profitable under monopolistic competition, what happens to the incumbent's demand curve?",
+   "o": [
+    "Shifts outward and becomes steeper",
+    "Shifts inward and becomes flatter",
+    "Shifts inward and becomes steeper",
+    "Does not change because there is no strategic interaction"
+   ],
+   "a": 1,
+   "e": "Entry of similar products: lower demand (inward) and more price elastic (flatter), until profit is zero."
+  },
+  {
+   "id": "m19",
+   "ch": 1,
+   "tp": "Perfect competition",
+   "s": "Why can iPhones not be considered sold under perfect competition?",
+   "o": [
+    "Only perfect information is violated",
+    "Market atomism, homogeneity and free entry/exit are violated; it is an oligopoly",
+    "Apple is a price taker on the smartphone market",
+    "Smartphones are sold under monopolistic competition, which has barriers to entry"
+   ],
+   "a": 1,
+   "e": "Final mock Q1a: Apple operates under oligopoly; free entry/exit, market atomism and homogeneity are violated."
+  },
+  {
+   "id": "m20",
+   "ch": 1,
+   "tp": "Firm decisions",
+   "s": "Which three objectives does the course call economically meaningful for a firm?",
+   "o": [
+    "Size, quality and status maximization",
+    "Cost minimization, revenue maximization, profit maximization",
+    "Profit maximization, CSR, market share",
+    "Cost maximization, revenue minimization, utility maximization"
+   ],
+   "a": 1,
+   "e": "Size, quality or status maximization are less meaningful in the long term."
+  },
+  {
+   "id": "m21",
+   "ch": 2,
+   "tp": "Nash equilibrium",
+   "s": "Which statement is true?",
+   "o": [
+    "A Nash equilibrium is always unique",
+    "Every Nash equilibrium is an equilibrium in dominant strategies",
+    "Every equilibrium in dominant strategies is a Nash equilibrium",
+    "If there are two Nash equilibria, the one with the highest total payoff is the expected solution"
+   ],
+   "a": 2,
+   "e": "The equilibrium in dominant strategies is a special case of a Nash equilibrium. With two NE there is no expected solution without coordination."
+  },
+  {
+   "id": "m22",
+   "ch": 2,
+   "tp": "Mechanism design",
+   "s": "Which avenue is NOT given by the textbook to reach the superior Nash equilibrium in CO₂ scenario 1?",
+   "o": [
+    "Making the game sequential",
+    "A bilateral or multilateral agreement",
+    "Social norms",
+    "Adding more countries to the game"
+   ],
+   "a": 3,
+   "e": "The three avenues are sequential choice, cooperation (agreement) and social norms."
+  },
+  {
+   "id": "m23",
+   "ch": 2,
+   "tp": "Repeated games",
+   "s": "Which describes tit-for-tat?",
+   "o": [
+    "Always break",
+    "Begin by maintaining, then copy the rival's previous move",
+    "Begin by breaking, then maintain forever",
+    "Maintain whatever the rival does"
+   ],
+   "a": 1,
+   "e": "Maintain first; maintain if the rival maintained last period; break if the rival broke last period."
+  },
+  {
+   "id": "m24",
+   "ch": 2,
+   "tp": "Sequential games",
+   "s": "Six-stage centipede game, stop payoffs (2;0), (1;3), (4;2), (3;5), (6;4), (5;7), end (8;6). The backward-induction outcome is…",
+   "o": [
+    "(8 ; 6)",
+    "(5 ; 7)",
+    "(2 ; 0)",
+    "(6 ; 4)"
+   ],
+   "a": 2,
+   "e": "B stops last (7 > 6), so A stops before (6 > 5), …, so A stops at once: (2 ; 0)."
+  },
+  {
+   "id": "m25",
+   "ch": 2,
+   "tp": "Ultimatum game",
+   "s": "Ultimatum game with 10 units in whole units and purely self-interested players. The prediction is…",
+   "o": [
+    "(5 ; 5)",
+    "(10 ; 0)",
+    "(9 ; 1)",
+    "B rejects every offer"
+   ],
+   "a": 2,
+   "e": "B accepts any strictly positive offer, so A offers 1."
+  },
+  {
+   "id": "m26",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "On the 2 km beach, what is the average walking distance with both carts in the middle?",
+   "o": [
+    "250 m",
+    "500 m",
+    "1 km",
+    "0 m"
+   ],
+   "a": 1,
+   "e": "0.5 km, versus 250 m in the socially optimal pattern (carts at 500 m from each end)."
+  },
+  {
+   "id": "m27",
+   "ch": 2,
+   "tp": "Bertrand",
+   "s": "In the paradox of Bertrand, the equilibrium price equals…",
+   "o": [
+    "The monopoly price",
+    "Marginal cost (= minimum average cost)",
+    "Twice marginal cost",
+    "The cartel price"
+   ],
+   "a": 1,
+   "e": "Undercutting continues until the price exactly covers costs; with constant returns to scale, AC = MC."
+  },
+  {
+   "id": "m28",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "How does Hotelling's model escape the paradox of Bertrand?",
+   "o": [
+    "By fixing prices by law",
+    "By product differentiation, giving each firm a niche where it can price above MC",
+    "By merging the two firms",
+    "By increasing the number of firms"
+   ],
+   "a": 1,
+   "e": "Differentiation counterbalances price competition, so profit is no longer zero."
+  },
+  {
+   "id": "m29",
+   "ch": 2,
+   "tp": "Sequential games",
+   "s": "Tree: player 1 chooses a or b. After a, player 2 chooses c (5;9) or d (5;5). After b, player 2 chooses e (7;6) or f (5;4). Player 1 chooses…",
+   "o": [
+    "a, because 5 + 9 is the largest total",
+    "b, expecting e, payoffs (7 ; 6)",
+    "a, expecting d",
+    "b, expecting f"
+   ],
+   "a": 1,
+   "e": "After a, player 2 picks c (9 > 5) → player 1 gets 5. After b, player 2 picks e (6 > 4) → player 1 gets 7. So b."
+  },
+  {
+   "id": "m30",
+   "ch": 2,
+   "tp": "Repeated games",
+   "s": "In a maintain–break game repeated a known, fixed number of times, what does the textbook expect?",
+   "o": [
+    "Maintain in every period",
+    "Break in the last period, and cooperation can unravel in earlier periods",
+    "Break only in the first period",
+    "Alternate maintain and break"
+   ],
+   "a": 1,
+   "e": "No retaliation is possible after the final period, so both break then; backward reasoning unravels cooperation."
+  },
+  {
+   "id": "m31",
+   "ch": 2,
+   "tp": "Hotelling",
+   "s": "\"When duopolists do not engage in price competition, we expect the duopoly to be homogeneous.\" The right explanation is…",
+   "o": [
+    "The paradox of Bertrand",
+    "Hotelling under fixed prices: both carts move to the centre, a unique Nash equilibrium",
+    "The prisoner's dilemma",
+    "Tit-for-tat"
+   ],
+   "a": 1,
+   "e": "The mock correction marks a Bertrand answer as incorrect."
+  },
+  {
+   "id": "m32",
+   "ch": 2,
+   "tp": "Game theory basics",
+   "s": "Which is NOT an assumption about players in the course's basic game analysis?",
+   "o": [
+    "Players are individualistic",
+    "Players are rational and understand the rules",
+    "They play a one-shot simultaneous game",
+    "Players can sign binding agreements"
+   ],
+   "a": 3,
+   "e": "The course uses non-cooperative game theory: binding agreements are assumed impossible."
+  }
+ ],
+ "OPEN1": [
+  {
+   "q": "Explain why firms under monopolistic competition make no profit in the long run.",
+   "m": "Under monopolistic competition there is free entry and exit. Profits attract new firms offering similar products. For an existing firm, demand shifts inward and becomes flatter (more price elastic). This continues as long as existing firms make a positive profit, so in the long run profit is zero.",
+   "r": [
+    "Free entry and exit / profit attracts entry",
+    "Demand shifts inward and becomes more elastic",
+    "Process stops when profit is zero"
+   ]
+  },
+  {
+   "q": "Explain the paradox of Bertrand.",
+   "m": "In a homogeneous duopoly with price competition, consumers buy from the cheapest seller. Each firm undercuts the other to capture the whole market, until the price exactly covers costs: price = marginal cost (= minimum average cost). Profit is zero and the duopolists have no market power: the same outcome as perfect competition with only two firms.",
+   "r": [
+    "Homogeneous product + price as strategic variable",
+    "Undercutting / price war",
+    "p = MC, zero profit, same as perfect competition"
+   ]
+  },
+  {
+   "q": "Explain the inverse relationship between price elasticity and market power.",
+   "m": "Market power exists when p* > MC(q*), i.e. markup μ > 1. The Lerner index (p* − MC)/p* = 1/|ε|. The more elastic demand, the less a firm can raise its price above MC: |ε| = ∞ gives no market power (μ = 1), |ε| = 0 gives extreme market power.",
+   "r": [
+    "Definition of market power / markup",
+    "Lerner = 1/|ε|",
+    "Extremes |ε| = ∞ and |ε| = 0"
+   ]
+  },
+  {
+   "q": "Explain what a credible threat is in a sequential game.",
+   "m": "A threat matters only when it is credible: carrying out the threatened action must be rational for that player when the relevant decision node is reached. A threat the firm would not wish to implement after, e.g., entry, does not influence the rival. Backward induction (subgame perfection) keeps only credible actions.",
+   "r": [
+    "Rational to carry out when the node is reached",
+    "Non-credible threat does not influence the rival",
+    "Link to backward induction / subgame perfection"
+   ]
+  },
+  {
+   "q": "Explain why a homogeneous duopoly with an equilibrium in dominant strategies can end in an outcome both firms dislike.",
+   "m": "Each firm's dominant strategy is to break the cartel (best whatever the rival does). Both play it, so (break, break) is the equilibrium in dominant strategies, although (maintain, maintain) gives both a higher profit. Blind pursuit of self-interest does not necessarily lead to the best outcome, as in the prisoner's dilemma.",
+   "r": [
+    "Definition / use of dominant strategy",
+    "(break, break) is the equilibrium; (maintain, maintain) better for both",
+    "Link to prisoner's dilemma insight"
+   ]
+  },
+  {
+   "q": "Explain the difference between the short run and the long run in the course.",
+   "m": "In the short run the market (number of producers) and some inputs such as capital and buildings are fixed; equilibrium is for a given number of producers. In the long run all inputs are freely chosen and firms can enter or exit, so the number of producers is variable.",
+   "r": [
+    "Short run: fixed inputs and fixed number of producers",
+    "Long run: all inputs variable, entry/exit",
+    "Number of producers variable in the long run"
+   ]
+  }
+ ],
+ "OPEN2": [
+  {
+   "q": "In 100 words or fewer: a) Explain Hotelling's metaphor under fixed prices. b) Discuss whether the outcome is socially optimal. c) What changes when prices are liberalized?",
+   "m": "a) Sunbathers' positions represent consumer preferences; cart positions represent product differentiation. Under fixed prices each cart moves to the centre to steal customers, so both end up in the middle: a homogeneous duopoly, the Nash equilibrium. b) Not socially optimal: average walking distance is 0.5 km versus 250 m with carts at 500 m from each end. c) With price competition the centre becomes a Bertrand price war with zero profit, so carts move away from the centre (differentiate) to gain a niche and price above MC.",
+   "r": [
+    "a) Metaphor + move to the centre + Nash equilibrium (1 pt)",
+    "b) Not optimal, 0.5 km vs 250 m (1 pt)",
+    "c) Bertrand at the centre → differentiation, p > MC (1 pt)"
+   ]
+  },
+  {
+   "q": "In 100 words or fewer: a) Explain the prisoner's dilemma. b) Discuss its relevance for cartels. c) How can repeated interaction change the outcome?",
+   "m": "a) Each prisoner's dominant strategy is to confess, so (confess, confess) is the expected solution although both denying is better: self-interest does not lead to the best outcome. b) Duopolists face the same structure: breaking the cartel is dominant, so (break, break) is the unique NE even though maintaining maximizes joint profit; this is why banning explicit cartel agreements seems effective. c) If the game is repeated indefinitely, tit-for-tat (maintain first, then copy the rival) makes future retaliation costly, so (maintain, maintain) can be sustained by tacit collusion.",
+   "r": [
+    "a) Dominant strategies, suboptimal expected solution (1 pt)",
+    "b) Cartel: break is dominant; antitrust link (1 pt)",
+    "c) Indefinite repetition, tit-for-tat, tacit collusion (1 pt)"
+   ]
+  },
+  {
+   "q": "In 100 words or fewer: a) Give the four conditions of perfect competition. b) Explain why smartphones are not sold under perfect competition. c) Under which market form are they sold?",
+   "m": "a) Market atomism (one firm's actions do not affect the market price), perfect information (consumers know quality and all prices; producers know willingness to pay), homogeneity (perfect substitutes), free entry and exit. b) Few large producers affect the market (no atomism), products are differentiated (no homogeneity), and technological, scale, branding and legal barriers block entry. c) Oligopoly: few suppliers, strategic interaction, barriers to entry.",
+   "r": [
+    "a) Four conditions with meaning (1 pt)",
+    "b) Atomism, homogeneity, entry violated (1 pt)",
+    "c) Oligopoly + justification (1 pt)"
+   ]
+  },
+  {
+   "q": "In 100 words or fewer: a) Define a Nash equilibrium. b) Define an equilibrium in dominant strategies. c) Explain the relationship between the two.",
+   "m": "a) A combination of strategies where no player wishes to change his strategy given the expected strategy of the other players. b) Each player plays his dominant strategy, the strategy that delivers the best result irrespective of the other player's decision. c) Every equilibrium in dominant strategies is a Nash equilibrium (and then the unique one), but not every Nash equilibrium is in dominant strategies: e.g. the battle of the sexes has two Nash equilibria without dominant strategies.",
+   "r": [
+    "a) Exact NE definition (1 pt)",
+    "b) Dominant strategy definition (1 pt)",
+    "c) One-way implication + example (1 pt)"
+   ]
+  },
+  {
+   "q": "In 100 words or fewer: a) Explain why non-binding climate agreements often fail. b) Discuss mechanism design as a solution. c) Give one way to reach the good equilibrium once it exists.",
+   "m": "a) If the CO₂ game is a prisoner's dilemma, not reducing is dominant and (not reduce, not reduce) is the unique NE; non-binding promises are broken. b) If you can't win the game, change the rules: make unilateral defection costly (CO₂ taxes, consumer action, social awareness), lowering its payoff (e.g. 10 to 3) so (reduce, reduce) becomes a Nash equilibrium. c) Then coordinate on it via a sequential game (first mover such as the EU Green Deal), a non-enforceable agreement, or social norms.",
+   "r": [
+    "a) PD structure, unique bad NE (1 pt)",
+    "b) Change payoffs, defection costly (1 pt)",
+    "c) Sequential / agreement / social norms (1 pt)"
+   ]
+  },
+  {
+   "q": "In 100 words or fewer: a) Is market power bad? b) Discuss the role of patents. c) When does the innovation argument hold best?",
+   "m": "a) Market power causes Pareto inefficiency and lower static welfare, and excessive market power lowers the labour share. But some is warranted: consumers value differentiation and market power can stimulate innovation. b) Patents give a temporary monopoly so innovators recover R&D costs and are rewarded for risk; otherwise imitation leads to too little innovation (dynamic vs static efficiency). c) When the threat of entry is real: the monopolist must keep innovating, whereas a fully protected firm may simply eat up its profits.",
+   "r": [
+    "a) Nuanced: inefficiency vs warranted (1 pt)",
+    "b) Patents, temporary monopoly, static vs dynamic (1 pt)",
+    "c) Real threat of entry (1 pt)"
+   ]
+  },
+  {
+   "q": "In 100 words or fewer: a) Describe the ultimatum game. b) What does game theory predict? c) Why does actual behaviour differ, and what does that teach us?",
+   "m": "a) A receives 10 units and proposes a split; B accepts (split executed) or rejects (both get zero). b) With self-interested players, B accepts any positive offer, so A offers 1: (9 ; 1) by backward induction. c) In experiments proposers offer much more and responders reject unequal offers, out of fairness, reciprocity or fear of rejection. Game theory is not useless: payoffs must be specified correctly, including what people value beyond money.",
+   "r": [
+    "a) Rules (1 pt)",
+    "b) (9;1) by backward induction (1 pt)",
+    "c) Fairness etc., specify payoffs correctly (1 pt)"
+   ]
+  }
+ ],
+ "CARDS": [
+  [
+   "Price elasticity",
+   "Measures the relative change in demand for a good after a relative change in the price of that good: ε ≈ (Δq/q)/(Δp/p) = %Δq/%Δp.",
+   1
+  ],
+  [
+   "Inelastic / elastic",
+   "|ε| < 1 inelastic; |ε| > 1 elastic; |ε| = 1 unitary; |ε| = 0 perfectly inelastic; |ε| = ∞ perfectly elastic.",
+   1
+  ],
+  [
+   "Market atomism",
+   "Individual actions (increasing or decreasing the price by an individual firm) do not affect the market price.",
+   1
+  ],
+  [
+   "Perfect information",
+   "Consumers know the quality of the product and the prices of all suppliers, and producers know the buyers' willingness to pay.",
+   1
+  ],
+  [
+   "Homogeneity",
+   "All companies sell a product that consumers consider identical; the goods are perfect substitutes.",
+   1
+  ],
+  [
+   "Free entry and exit",
+   "Any outsider can start production whenever they wish, and any company can stop production and leave whenever it wishes.",
+   1
+  ],
+  [
+   "Price taker",
+   "The market price is unaffected by the individual firm's production decisions; the firm faces a perfectly elastic demand at the prevailing market price.",
+   1
+  ],
+  [
+   "Monopoly",
+   "One supplier that supplies the entire market with a product for which there are no good substitutes; a price setter through the quantity produced.",
+   1
+  ],
+  [
+   "Four barriers to entry",
+   "1) Technological (economies of scale, natural monopoly) 2) Exclusive usage rights of production factors and legal barriers 3) Strategic behaviour of the monopolist 4) Network externalities.",
+   1
+  ],
+  [
+   "Oligopoly",
+   "Few suppliers, many buyers; market power and strategic interaction: firms take rivals' behaviour into account. Homogeneous or heterogeneous. Barriers to entry.",
+   1
+  ],
+  [
+   "Monopolistic competition",
+   "Many firms, no strategic interaction, perfect information, free entry/exit, but product differentiation: each firm has its own downward-sloping demand curve. Zero profit in the long run.",
+   1
+  ],
+  [
+   "Product differentiation",
+   "Different products meet the same needs but are perceived differently by consumers, whether the differences are real or only in the consumer's eyes.",
+   1
+  ],
+  [
+   "Market power",
+   "The ability of a firm to have a substantial influence on market prices; exists when p*(q*) > MC(q*), i.e. markup μ = p*/MC(q*) > 1.",
+   1
+  ],
+  [
+   "Lerner index",
+   "(p* − MC(q*))/p* = 1/|ε|: market power and price elasticity are inversely related.",
+   1
+  ],
+  [
+   "Pareto efficiency",
+   "Allocation of resources where you cannot improve one agent's state without lowering the state of another agent.",
+   1
+  ],
+  [
+   "Static societal welfare",
+   "Consumer + producer surplus (total surplus): area between inverse demand and MC to the left of their intersection; maximal under perfect competition.",
+   1
+  ],
+  [
+   "Short run vs long run",
+   "Short run: number of producers and some inputs fixed. Long run: all inputs freely chosen, entry and exit possible.",
+   1
+  ],
+  [
+   "Game",
+   "A situation where the decision-makers take into account interdependence.",
+   2
+  ],
+  [
+   "Payoff matrix",
+   "Gives the outcomes for each player and each possible combination of strategies of the different players.",
+   2
+  ],
+  [
+   "Dominant strategy",
+   "The strategy that delivers the best result irrespective of the decisions of the other player.",
+   2
+  ],
+  [
+   "Equilibrium in dominant strategies",
+   "An expected solution consisting of dominant strategies: each player plays his/her dominant strategy.",
+   2
+  ],
+  [
+   "Nash equilibrium",
+   "A combination of strategies where no player wishes to change his strategy given the expected strategy of the other players.",
+   2
+  ],
+  [
+   "Expected solution",
+   "A unique Nash equilibrium (including an equilibrium in dominant strategies). Several NE: no expected solution without coordination.",
+   2
+  ],
+  [
+   "Cartel agreement (course definition)",
+   "Firms agree to cooperate and coordinate on quantity and/or price to maximize the sum of their profits, as if they were one merged monopoly.",
+   2
+  ],
+  [
+   "Mechanism design",
+   "Designing the game: changing its structure and payoffs ('if you can't win the game, change the rules'). Game theory = how to play the game.",
+   2
+  ],
+  [
+   "Repeated game",
+   "The same players face the same or a closely related strategic situation more than once.",
+   2
+  ],
+  [
+   "Tit-for-tat",
+   "Begin by maintaining; maintain when the rival maintained in the preceding period; break when the rival broke in the preceding period.",
+   2
+  ],
+  [
+   "Sequential game",
+   "At least one player moves before another, and later players observe the earlier action. Represented by a game tree.",
+   2
+  ],
+  [
+   "Backward induction",
+   "Begin with the final decision, find the optimal action there, move one stage back anticipating it, until the first decision.",
+   2
+  ],
+  [
+   "Strategic foresight",
+   "A manager's ability to make decisions today that are rational given what is anticipated in the future.",
+   2
+  ],
+  [
+   "Credible threat",
+   "A threat matters only when carrying out the threatened action is rational when the relevant decision node is reached.",
+   2
+  ],
+  [
+   "Subgame-perfect equilibrium",
+   "A credible Nash equilibrium: every action chosen is rational for the player who chooses it.",
+   2
+  ],
+  [
+   "Commitment game",
+   "Sequential game where the first player's action is irreversible and observable by the second player.",
+   2
+  ],
+  [
+   "Paradox of Bertrand",
+   "A homogeneous duopoly with price competition leads to the perfect competition outcome: p = MC, zero profit.",
+   2
+  ],
+  [
+   "Hotelling under fixed prices",
+   "Firms minimize differentiation (both carts at the centre): a homogeneous duopoly is the Nash equilibrium. Less price competition → less differentiation.",
+   2
+  ],
+  [
+   "Hotelling with price competition",
+   "Firms differentiate (move away from the centre) to escape the Bertrand price war and price above MC. More price competition → more differentiation.",
+   2
+  ]
+ ],
+ "TRAPS": [
+  [
+   "Bertrand vs Hotelling",
+   "\"Without price competition the duopoly is homogeneous\" is Hotelling under fixed prices. The mock correction marks a Bertrand answer as incorrect."
+  ],
+  [
+   "Expected vs socially optimal",
+   "Carts in the centre are the expected outcome (unique NE), not the best for society (0.5 km vs 250 m). Read whether the question asks about expectation or welfare."
+  ],
+  [
+   "Image and elasticity",
+   "A strong image or advertising makes |ε| smaller (less price-sensitive demand), which is what gives market power."
+  ],
+  [
+   "Elasticity direction",
+   "ε = %Δq / %Δp. Perfect elasticity is |ε| = ∞, not |ε| < 1."
+  ],
+  [
+   "Monopolistic competition is not a monopoly",
+   "Free entry, no barriers (legal constraints are not one), price setter (not price taker), zero long-run profit. The monopoly part is only the own downward-sloping demand."
+  ],
+  [
+   "Who has strategic interaction",
+   "Only oligopoly. A monopolist has no rival; perfect and monopolistic competitors are too small to react."
+  ],
+  [
+   "Prisoner's dilemma payoffs",
+   "They are years in prison: lower is better. Do not pick the biggest number."
+  ],
+  [
+   "Nash vs dominant",
+   "Dominant-strategy equilibrium ⇒ Nash (and unique). Nash does not imply dominant. Two NE ⇒ no expected solution without coordination, even if one NE is better for both."
+  ],
+  [
+   "Best responses: columns vs rows",
+   "Player 1's best response to each of player 2's strategies is read down a column (compare first numbers). Player 2's is read along a row (compare second numbers)."
+  ],
+  [
+   "Sequential game: the leader is not a dictator",
+   "With player 1 leading, player 1 cannot just pick the cell with his highest payoff. Solve player 2's choice at each node first, then let player 1 compare only those outcomes."
+  ],
+  [
+   "Order of play does not always matter",
+   "If the follower has a dominant strategy (maintain–break), the sequential outcome equals the simultaneous one."
+  ],
+  [
+   "Repeated games",
+   "Tit-for-tat starts with maintain. Cooperation needs indefinite repetition; with a known last period it unravels."
+  ],
+  [
+   "Maintain = low output",
+   "Maintaining the cartel means restricting output to keep the price high; breaking means producing more."
+  ],
+  [
+   "Mechanism design vs game theory",
+   "Game theory: how to play the game. Mechanism design: how to design it (change payoffs, timing)."
+  ],
+  [
+   "Market power is not simply bad",
+   "Excessive market power is welfare-destroying, but some is warranted (variety, innovation, patents). Innovation argument works best with a real threat of entry."
+  ],
+  [
+   "Definitions earn the points",
+   "\"Answers are only considered correct when the asked explanation/definition is also correct.\" Always write the definition first."
+  ]
+ ]
+}

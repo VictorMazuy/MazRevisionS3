@@ -1,0 +1,11 @@
+sources/
+MIDTERM S3/
+references/
+*.pdf
+*.PDF
+*.pptx
+*.docx
+# anciens fichiers HTML hors de site/
+/*.html
+.DS_Store
+node_modules/
