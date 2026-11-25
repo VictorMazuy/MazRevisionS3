@@ -1,4 +1,4 @@
-import passwords from "./passwords.js";
+import passwords from "../passwords.js";
 
 const denied = () =>
   new Response(

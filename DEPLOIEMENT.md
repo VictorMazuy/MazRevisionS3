@@ -16,7 +16,7 @@ Le site est protégé : chaque personne a son identifiant et son mot de passe.
 4. Au bout d'une minute, Netlify donne l'adresse du site (`xxx.netlify.app`).
 
 ## 3. Changer les mots de passe
-1. Ouvre `netlify/edge-functions/passwords.js` (un éditeur de texte suffit).
+1. Ouvre `netlify/passwords.js` (un éditeur de texte suffit).
 2. **Remplace** `change-moi-1` et `change-moi-2` par de vrais mots de passe.
 3. **Ajouter quelqu'un** : copie une ligne, change l'identifiant et le mot de passe. **Retirer** : supprime la ligne.
 4. Enregistre. Dans GitHub Desktop : écris un petit message, **Commit to main**, puis **Push origin**.
