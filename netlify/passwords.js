@@ -13,4 +13,13 @@ export default {
   "GauthierPlé": "Jador",
   "AdrienL": "Flore1234",
   "MaloL": "67845",
+  "Eva1": "02836",
+  "ElisaK": "57392",
+  "AntoinePe": "97621",
+  "AntoineCh": "13537",
+  "Hortense1": "48439",
+  "Garance1": "AxelF",
+  "Aubépine1": "35372",
+  "NoeO": "10374",
+  "ManonT": "HB",
 };
