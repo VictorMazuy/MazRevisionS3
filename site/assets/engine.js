@@ -1,4 +1,4 @@
-/* Revision Ledger engine.
+/* MazRévision engine.
    Hash routing, the shared views of every subject (overview, sheets, cheat sheet, quiz, exercises, flashcards, mock exams, progress),
    the generic exercise types, the module registry and progress saved in localStorage.
    Subject files (subjects/<slug>.js) and module files (modules/<id>.js) are plain <script> tags loaded after this file,
@@ -267,11 +267,9 @@ const emptyView=(title,what)=>`<div class="eyebrow">Nothing here yet</div><h2>${
 function renderHome(main){
   const lr=prefs.last?parseHash(prefs.last):null;
   const cont=lr&&lr.page==='subject'?`<p><a class="btn ghost small" href="${esc(prefs.last)}">Continue: ${esc(SUBJECTS[lr.slug].short||SUBJECTS[lr.slug].name)} · ${esc((viewsOf(SUBJECTS[lr.slug]).find(v=>v[0]===lr.view)||['',''])[1])}</a></p>`:'';
-  main.innerHTML=`<div class="eyebrow">Bachelor 2 · Semester 3</div><h2>Ten subjects, one revision site</h2>
-  <p class="lede">Pick a subject. Each one has topic sheets, a cheat sheet, a quiz, exercises, flashcards and its own progress page. Your progress is saved in this browser.</p>
+  main.innerHTML=`<div class="hero"><h2>T'as pas été en cours du semestre et tu veux pas avoir de retake ?</h2>
+  <p class="lede">Bah ouvre moi tout ces cours biloute, et dis à tes potes de payer leurs accès au site aussi <a href="tel:+33665654528">+33 06 65 65 45 28</a> voila c pas cher</p></div>
   ${cont}<div class="subjects">${CATALOG.map(subjectCard).join('')}</div>
-  <h3>How to revise with it</h3>
-  <ol><li>Read the topic sheet. Open the worked examples and try them before reading the solution.</li><li>Do the quiz for that topic, then the exercises. Read every explanation, including for correct answers.</li><li>Use the flashcards for definitions and rules.</li><li>Check the subject's <b>Progress</b> tab to find your weakest topic, and <a href="#progress">Global progress</a> to compare subjects.</li></ol>
   ${PAGES.demo?'<p class="meta">How the interactive blocks of the sheets work (layers, glossary, step-by-step, decision trees, games, graphs, generators, sorting, dialogues): <a href="#demo">see the demo page</a>.</p>':''}`;
 }
 const ordBadge=slug=>isFinite(orderOf(slug))?`<span class="ord" title="Exam order" aria-label="Exam number ${orderOf(slug)+1}">${orderOf(slug)+1}</span>`:'';
@@ -317,7 +315,7 @@ function renderGlobal(main,flash){
   };
   $('#imp').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();
     r.onload=()=>{let d=null;try{d=JSON.parse(r.result)}catch(err){}
-      if(!d||d.app!=='revledger'||!d.subjects||typeof d.subjects!=='object'){msg.className='result ko';msg.textContent='This file is not a Revision Ledger progress export.';return}
+      if(!d||d.app!=='revledger'||!d.subjects||typeof d.subjects!=='object'){msg.className='result ko';msg.textContent='This file is not a MazRévision progress export.';return}
       const slugs=Object.keys(d.subjects).filter(k=>/^[a-z0-9]+(-[a-z0-9]+)*$/.test(k)&&d.subjects[k]&&typeof d.subjects[k]==='object');
       msg.className='result';msg.innerHTML=`<span class="confirm">Replace the saved progress of ${slugs.length} subject${slugs.length>1?'s':''} (${esc(slugs.join(', '))}) with this file? <button type="button" class="btn small" id="iy">Yes, import</button><button type="button" class="btn ghost small" id="in">Cancel</button></span>`;
       $('#iy').onclick=()=>{slugs.forEach(k=>{lsSet(subjKey(k),d.subjects[k]);if(SUBJECTS[k])delete SUBJECTS[k]._st});renderGlobal(main,'Progress imported.')};
@@ -834,6 +832,24 @@ const THEME_NAME={auto:'automatic (follows the system)',light:'light',dark:'dark
 function applyTheme(){const t=prefs.theme;if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;else delete document.documentElement.dataset.theme}
 function paintThemeBtn(){const b=$('#themeBtn');if(!b)return;const t=THEME_NAME[prefs.theme]?prefs.theme:'auto';b.innerHTML=ICONS[t];b.title=`Theme: ${THEME_NAME[t]}. Click to change.`;b.setAttribute('aria-label',`Theme: ${THEME_NAME[t]}. Change theme`)}
 function cycleTheme(){prefs.theme={auto:'light',light:'dark',dark:'auto'}[prefs.theme]||'auto';savePrefs();applyTheme();paintThemeBtn()}
+const HOME_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5M5.5 10v9.5h4.5v-5.5h4v5.5h4.5V10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+// Home / brand: same hash navigation as everything else, except that a running mock exam asks first (in the page, no confirm())
+function goHome(e){
+  const main=$('#main');
+  if(main.querySelector('.mockbar')){
+    e.preventDefault();
+    if(main.querySelector('.leave-box'))return;
+    const box=document.createElement('div');box.className='panel leave-box';box.setAttribute('role','alertdialog');box.setAttribute('aria-labelledby','leaveMsg');
+    box.innerHTML='<p id="leaveMsg"><b>Quitter le mock exam ? Ta copie en cours sera perdue.</b></p><div class="row"><button type="button" class="btn small" id="leaveYes">Quitter</button><button type="button" class="btn small ghost" id="leaveNo">Rester</button></div>';
+    main.insertBefore(box,main.firstChild);
+    box.scrollIntoView({block:'nearest'});$('#leaveNo').focus();
+    $('#leaveNo').onclick=()=>{box.remove();const h=$('#homeBtn')||$('#brandLink');if(h)h.focus()};
+    $('#leaveYes').onclick=()=>{
+      Object.keys(MEM).forEach(sl=>Object.keys(MEM[sl]).forEach(k=>{const a=MEM[sl][k];if(a&&a.phase==='running'){clearInterval(a.timer);a.timer=null;delete MEM[sl][k]}}));
+      Rev.go('#home');
+    };
+  }
+}
 function drawHeader(r){
   const top=$('#top'),s=r.slug&&SUBJECTS[r.slug],c=r.slug&&CATALOG.find(x=>x.slug===r.slug);
   const cur=r.page==='home'?'#home':r.page==='progress'?'#progress':r.page==='extra'?'#'+r.name:'#'+r.slug;
@@ -841,11 +857,12 @@ function drawHeader(r){
   const tabs=s?viewsOf(s).map(([id,l])=>`<a href="${hashFor(s.slug,id)}" ${r.view===id?'aria-current="page"':''}>${esc(l)}</a>`).join('')
     :`<a href="#home" ${r.page==='home'?'aria-current="page"':''}>All subjects</a><a href="#progress" ${r.page==='progress'?'aria-current="page"':''}>Global progress</a>`
      +Object.keys(PAGES).filter(k=>PAGES[k].nav).map(k=>`<a href="#${k}" ${r.page==='extra'&&r.name===k?'aria-current="page"':''}>${esc(PAGES[k].label||k)}</a>`).join('');
-  top.innerHTML=`<div class="top-inner"><div class="bar-row"><a class="brand" href="#home">Revision Ledger</a><span class="tagline">${esc(s?(s.tagline||s.name):c?c.name:'Bachelor 2 · Semester 3')}</span>
+  top.innerHTML=`<div class="top-inner"><div class="bar-row">${r.page!=='home'?`<a class="home-btn" id="homeBtn" href="#home" aria-label="Retour à l'accueil" title="Retour à l'accueil">${HOME_ICON}<span>Home</span></a>`:''}<a class="brand" id="brandLink" href="#home">MazRévision</a><span class="tagline">${esc(s?(s.tagline||s.name):c?c.name:'Bachelor 2 · Semester 3')}</span>
   <select class="subj-sel" id="subjSel" aria-label="Choose a subject">${opt('#home','All subjects (home)')}<optgroup label="Subjects, in exam order">${CATALOG.map(x=>opt('#'+x.slug,(isFinite(orderOf(x.slug))?(orderOf(x.slug)+1)+'. ':'')+esc(x.name)+(SUBJECTS[x.slug]?'':' · not added yet'))).join('')}</optgroup>${opt('#progress','Global progress')}</select>
   <button type="button" class="theme-btn" id="themeBtn"></button></div>
   <nav class="tabs" aria-label="Sections">${tabs}</nav></div>`;
   $('#subjSel').onchange=e=>{location.hash=e.target.value};
+  [$('#homeBtn'),$('#brandLink')].forEach(a=>{if(a)a.onclick=goHome});
   $('#themeBtn').onclick=cycleTheme;paintThemeBtn();
   const nav=top.querySelector('nav.tabs'),act=nav.querySelector('[aria-current]');
   if(act&&nav.scrollWidth>nav.clientWidth)nav.scrollLeft=act.offsetLeft-(nav.clientWidth-act.offsetWidth)/2;
@@ -853,7 +870,7 @@ function drawHeader(r){
 function render(){
   const r=parseHash(),main=$('#main');
   drawHeader(r);
-  let title='Revision Ledger';
+  let title='MazRévision';
   try{
     if(r.page==='home')renderHome(main);
     else if(r.page==='progress'){renderGlobal(main);title='Global progress · '+title}

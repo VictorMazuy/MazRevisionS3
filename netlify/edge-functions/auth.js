@@ -2,11 +2,11 @@ import passwords from "../passwords.js";
 
 const denied = () =>
   new Response(
-    `<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Accès réservé</title><body style="font-family:system-ui,sans-serif;max-width:30rem;margin:4rem auto;padding:0 1rem"><h1>Accès réservé</h1><p>Identifiant et mot de passe nécessaires. Recharge la page pour réessayer.</p></body></html>`,
+    `<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Accès réservé</title><body style="font-family:system-ui,sans-serif;max-width:30rem;margin:4rem auto;padding:0 1rem"><h1>Accès réservé · MazRévision</h1><p>Identifiant et mot de passe nécessaires. Recharge la page pour réessayer.</p></body></html>`,
     {
       status: 401,
       headers: {
-        "WWW-Authenticate": 'Basic realm="Revision", charset="UTF-8"',
+        "WWW-Authenticate": 'Basic realm="MazRévision", charset="UTF-8"',
         "Content-Type": "text/html; charset=utf-8",
         "Cache-Control": "no-store",
       },

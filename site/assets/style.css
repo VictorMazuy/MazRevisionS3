@@ -1,9 +1,9 @@
-/* Revision Ledger: shared design, taken from the AFA Revision Ledger.
+/* MazRévision: shared design, taken from the AFA Revision Ledger.
    Every colour is a token on :root, redefined for dark mode (system setting, or the header toggle through data-theme).
    Layout: sticky header (brand, subject selector, theme toggle, section tabs), single reading column (max 980px). */
 :root{
-  --paper:#f4f7f5; --surface:#ffffff; --ink:#15221d; --muted:#56675f; --rule:#d3dfd9; --rule-strong:#a9bdb4;
-  --ledger:#1b6a50; --ledger-soft:#e1efe9; --debit:#1f4c8c; --credit:#a3342b;
+  --paper:#eef0fb; --surface:#ffffff; --ink:#161a2e; --muted:#3f4a5e; --rule:#d6daf0; --rule-strong:#a6aed0;
+  --ledger:#3a2fbd; --ledger-soft:#e8e9fb; --debit:#1f4c8c; --credit:#a3342b;
   --ok:#1f7a45; --ok-soft:#e2f3e8; --bad:#b0352a; --bad-soft:#f8e4e1; --warn:#8a5a00; --warn-soft:#fbf0d9;
   --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
   --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
@@ -11,16 +11,44 @@
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --paper:#0e1412; --surface:#151e1a; --ink:#e2ebe6; --muted:#93a59c; --rule:#26342e; --rule-strong:#3d5048;
-  --ledger:#56b893; --ledger-soft:#173027; --debit:#86aef0; --credit:#ef8f84;
+  --paper:#0b1026; --surface:#141b36; --ink:#e8ecf8; --muted:#b4bdd8; --rule:#283056; --rule-strong:#475184;
+  --ledger:#bcc8ff; --ledger-soft:#232a5c; --debit:#86aef0; --credit:#ef8f84;
   --ok:#5fcb8a; --ok-soft:#163223; --bad:#f0897d; --bad-soft:#3a1d1a; --warn:#e5b65c; --warn-soft:#352a14; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --paper:#0e1412; --surface:#151e1a; --ink:#e2ebe6; --muted:#93a59c; --rule:#26342e; --rule-strong:#3d5048;
-  --ledger:#56b893; --ledger-soft:#173027; --debit:#86aef0; --credit:#ef8f84;
+  --paper:#0b1026; --surface:#141b36; --ink:#e8ecf8; --muted:#b4bdd8; --rule:#283056; --rule-strong:#475184;
+  --ledger:#bcc8ff; --ledger-soft:#232a5c; --debit:#86aef0; --credit:#ef8f84;
   --ok:#5fcb8a; --ok-soft:#163223; --bad:#f0897d; --bad-soft:#3a1d1a; --warn:#e5b65c; --warn-soft:#352a14; color-scheme:dark}
+
+/* ===== BACKGROUND (mesh gradient): the only place to change the colours of the page background =====
+   --bg-base = flat colour under the blobs (also the fallback); --bg-1..4 = the four blobs (violet, blue, turquoise, pink/coral).
+   Light theme here, dark theme in the two dark blocks right below. Drift speed: --bg-drift. */
+:root{
+  --bg-base:#f1f0fc; --bg-1:rgba(196,181,253,.75); --bg-2:rgba(147,197,253,.70); --bg-3:rgba(153,246,228,.65); --bg-4:rgba(253,186,164,.65);
+  --bg-grain:.05; --bg-drift:55s; --glass:rgba(255,255,255,.82);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg-base:#0a0f26; --bg-1:rgba(109,52,214,.40); --bg-2:rgba(37,99,235,.36); --bg-3:rgba(20,184,166,.24); --bg-4:rgba(236,72,153,.22);
+  --bg-grain:.07; --glass:rgba(20,27,54,.80)}}
+:root[data-theme="dark"]{
+  --bg-base:#0a0f26; --bg-1:rgba(109,52,214,.40); --bg-2:rgba(37,99,235,.36); --bg-3:rgba(20,184,166,.24); --bg-4:rgba(236,72,153,.22);
+  --bg-grain:.07; --glass:rgba(20,27,54,.80)}
+body{background:var(--bg-base)}
+/* fixed layers behind everything: blobs (drifting) and grain (static); no blur filter, no fixed attachment */
+body::before,body::after{content:"";position:fixed;pointer-events:none;z-index:-1}
+body::before{inset:-15%;
+  background:
+    radial-gradient(42% 45% at 18% 22%,var(--bg-1),transparent 70%),
+    radial-gradient(40% 45% at 82% 14%,var(--bg-2),transparent 70%),
+    radial-gradient(45% 50% at 72% 84%,var(--bg-3),transparent 70%),
+    radial-gradient(38% 42% at 14% 80%,var(--bg-4),transparent 70%);
+  will-change:transform}
+body::after{inset:0;opacity:var(--bg-grain);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+@media (prefers-reduced-motion:no-preference){body::before{animation:bg-drift var(--bg-drift) ease-in-out infinite alternate}}
+@keyframes bg-drift{from{transform:translate3d(-2%,-1.5%,0) scale(1)}to{transform:translate3d(2.5%,2%,0) scale(1.06)}}
+@media print{body::before,body::after{display:none}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.55;padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.55;padding-bottom:env(safe-area-inset-bottom,0px)}
 img{max-width:100%}
 [hidden]{display:none!important}
 a{color:var(--ledger)}
@@ -32,6 +60,9 @@ header.top{position:sticky;top:0;z-index:10;background:var(--surface);border-bot
 .bar-row{display:flex;align-items:center;gap:10px;min-width:0}
 .brand{flex:none;color:var(--ink);text-decoration:none;font-family:var(--f-display);font-weight:800;font-size:1.25rem;letter-spacing:-.01em;white-space:nowrap}
 .tagline{flex:1 1 0;min-width:0;color:var(--muted);font-size:.9rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-top:3px}
+.home-btn{flex:none;display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 10px;border:1px solid var(--rule-strong);border-radius:7px;background:var(--paper);color:var(--ink);font:600 .9rem var(--f-body);text-decoration:none}
+.home-btn svg{width:18px;height:18px;flex:none}.home-btn:hover{border-color:var(--ledger);color:var(--ledger)}
+.leave-box{border-color:var(--warn);background:var(--warn-soft);margin:0 0 16px}.leave-box p{margin:0 0 10px}.leave-box .row{display:flex;gap:8px;flex-wrap:wrap}
 .subj-sel{margin-left:auto;flex:0 1 300px;min-width:0}
 .theme-btn{flex:none;display:inline-grid;place-items:center;width:36px;height:34px;padding:0;border:1px solid var(--rule-strong);border-radius:7px;background:var(--paper);color:var(--ink);cursor:pointer}
 .theme-btn svg{width:18px;height:18px}
@@ -40,8 +71,10 @@ nav.tabs a{font:600 .92rem var(--f-body);color:var(--muted);text-decoration:none
 nav.tabs a[aria-current="page"]{color:var(--ledger);border-bottom-color:var(--ledger)}
 nav.tabs a:hover{color:var(--ink)}
 @media (max-width:700px){.tagline{display:none}.subj-sel{flex:1 1 auto;max-width:none}}
-@media (max-width:420px){.brand{font-size:1.02rem}}
+@media (max-width:420px){.brand{font-size:1.02rem}.home-btn{width:36px;padding:0;justify-content:center}.home-btn span{display:none}}
 a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--ledger);outline-offset:2px}
+
+@supports ((backdrop-filter:blur(8px)) or (-webkit-backdrop-filter:blur(8px))){header.top{background:var(--glass);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}}
 
 /* ---------- reading column and sheet typography ---------- */
 main{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:24px 64px}
@@ -499,3 +532,6 @@ table.pm u.br2{text-decoration:underline 2px var(--credit);text-underline-offset
 .wb .mxlab.compact{background:transparent;border:none;padding:0;margin:0}
 .wb .tryit,.wb .play,.wb .game{margin:0}
 table.pm.pm-static td.mx-cell{cursor:default}table.pm.pm-static td.mx-cell:hover{background:var(--surface)}
+
+/* home presentation block */
+.hero{margin:0 0 18px}.hero h2{font-size:clamp(1.9rem,6.5vw,2.75rem);line-height:1.1;margin:0 0 12px}.hero .lede{margin:0}.hero .lede a{color:inherit;font-weight:700;white-space:nowrap}

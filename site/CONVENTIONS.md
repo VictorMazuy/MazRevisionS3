@@ -1,4 +1,4 @@
-# Conventions du site de révision (Revision Ledger)
+# Conventions du site de révision (MazRévision)
 
 À lire en début de chaque session. Ce fichier suffit pour ajouter ou compléter une matière : il n'y a pas besoin de lire `assets/engine.js` (sauf pour modifier le moteur lui-même).
 
@@ -694,3 +694,17 @@ Classes CSS de `style.css` pour dessiner un modèle du cours sans SVG, lisibles 
 - **`#mixed`** : révision mixte. Questions de quiz tirées au hasard dans les matières choisies (QCM à une réponse ; chaque réponse est enregistrée dans `st.quiz` de la matière, comme dans son onglet Quiz), liste de toutes les notions « à revoir », et six générateurs au hasard.
 
 **Version mono-fichier** : `node tools/build-single.js` (depuis le dossier du projet) écrit `Revision S3.html` à côté de `site/` : CSS et tous les scripts de `index.html` intégrés (les polices restent chargées depuis Google Fonts). **À relancer après chaque modification du site.** La progression est enregistrée par le navigateur selon l'adresse du fichier : le site et le fichier unique ont donc des progressions séparées (utiliser l'export / import de la page Progress pour passer de l'un à l'autre).
+
+## Arrière-plan (mesh gradient)
+
+- **Où changer les couleurs** : `site/assets/style.css`, bloc « BACKGROUND (mesh gradient) » juste sous les thèmes. Tokens : `--bg-base` (couleur de fond/repli), `--bg-1` violet, `--bg-2` bleu, `--bg-3` turquoise, `--bg-4` rose/corail (en `rgba`, l'opacité règle l'intensité), `--bg-grain` (opacité du grain), `--bg-drift` (durée de la dérive, 55 s), `--glass` (en-tête semi-opaque). Thème clair dans `:root` ; thème sombre dans les deux blocs sombres du même bloc (`prefers-color-scheme` et `data-theme="dark"`) : modifier les deux de la même façon.
+- Le fond est dessiné par `body::before` (4 `radial-gradient`, `position:fixed`, `z-index:-1`, dérive en `transform`, désactivée avec `prefers-reduced-motion`) et `body::after` (grain SVG inline). Aucune image, aucun `blur()` sur le fond ; seul l'en-tête a un `backdrop-filter` léger avec repli uni.
+- Les cartes et panneaux restent sur `--surface` (uni). Le texte posé directement sur le fond (`--ink`, `--muted`, `--ledger`) a été vérifié AA sur les taches les plus chargées : si tu rends les taches plus opaques, revérifie le contraste.
+- Accent (`--ledger`) : indigo (clair `#3a2fbd`, sombre `#bcc8ff`) ; `--ok`, `--bad`, `--warn`, `--debit`, `--credit` inchangés.
+- Après un changement : `node tools/build-single.js` pour régénérer `Revision S3.html`.
+
+## Bouton Home
+
+- `drawHeader` (`assets/engine.js`) ajoute dans la barre du haut un bouton « Home » (icône maison SVG, `aria-label="Retour à l'accueil"`) sur toutes les pages sauf l'accueil ; le nom « MazRévision » est aussi un lien vers l'accueil. L'en-tête est collant, donc le bouton reste visible au défilement ; sur téléphone (≤ 420 px) seule l'icône s'affiche.
+- Clic = navigation par hash (`#home`) comme le reste du site ; `render()` remonte la page. `goHome` intercepte le clic uniquement si un mock exam est en cours (`.mockbar` présent) : un encadré dans la page demande « Quitter le mock exam ? Ta copie en cours sera perdue. » avec **Quitter** (abandonne la copie en mémoire puis va à l'accueil) et **Rester**. Aucun `confirm()`/`alert()`. La progression (`localStorage`) n'est pas touchée.
+- Style : `.home-btn` et `.leave-box` dans `assets/style.css` (tokens existants, thèmes clair/sombre).

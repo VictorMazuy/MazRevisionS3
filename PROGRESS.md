@@ -967,3 +967,9 @@ Quatre tâches dans l'ordre : 1 fiches toujours ouvertes · 2 Trademark Law (sit
 - « B2 » : exercices d'espagnol / cellule Excel : contenu, conservé.
 
 **Reprise** : écrire un script Node de remplacements (une règle par formulation, compteur par matière), relire chaque phrase modifiée, `node --check` sur chaque fichier, générer « Revision S3.html » (adapter `tools/build-single.js`), supprimer « IESEG Revision.html », relancer toutes les recherches, mettre à jour CONVENTIONS.md et ajouter ici la ligne « Mentions de l'école et des professeurs retirées ».
+
+- Site renommé MazRévision, accueil modifié (nom dans l'en-tête, `<title>`, `auth.js` ; bloc de présentation d'accueil remplacé, section « How to revise » supprimée ; slugs et clés `localStorage` inchangés).
+
+- Arrière-plan mesh gradient (clair/sombre) dans `style.css` ; documenté dans CONVENTIONS.md.
+
+- Bouton Home (en-tête, toutes pages sauf l'accueil) ; documenté dans CONVENTIONS.md.

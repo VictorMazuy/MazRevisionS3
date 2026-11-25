@@ -1,4 +1,4 @@
-/* Revision Ledger: site-wide pages that work across all subjects (loaded after the subjects).
+/* MazRévision: site-wide pages that work across all subjects (loaded after the subjects).
    #search  global search: notions, glossary, quiz questions, flashcards, exercises, generators and tools, mock exams.
    #mixed   mixed revision: random quiz questions from the chosen subjects (answers saved in each subject's quiz progress),
             the notions marked "to review" everywhere, and generators to practise with new numbers.

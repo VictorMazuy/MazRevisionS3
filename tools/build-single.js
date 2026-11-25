@@ -6,6 +6,6 @@ let html=fs.readFileSync(path.join(SITE,'index.html'),'utf8');
 const read=f=>fs.readFileSync(path.join(SITE,f),'utf8');
 html=html.replace(/<link rel="stylesheet" href="(assets\/[^"]+\.css)">/g,(m,f)=>`<style>\n${read(f)}\n</style>`);
 let n=0;html=html.replace(/<script src="([^"]+\.js)"><\/script>/g,(m,f)=>{n++;return `<script>/* ${f} */\n${read(f).replace(/<\/script/gi,'<\/script')}\n</script>`});
-html=html.replace('<title>Revision Ledger</title>','<title>Revision S3</title>');
+html=html.replace('<title>Revision Ledger</title>','<title>MazRévision</title>');
 fs.writeFileSync(OUT,html);
 console.log(`${OUT}: ${n} scripts inlined, ${(Buffer.byteLength(html)/1024/1024).toFixed(2)} MB`);

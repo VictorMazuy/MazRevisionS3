@@ -1,4 +1,4 @@
-/* Revision Ledger widgets: the interactive blocks of the sheets and of the "lab" tabs.
+/* MazRévision widgets: the interactive blocks of the sheets and of the "lab" tabs.
    Loaded right after engine.js. A sheet is an HTML string, so each block is written as a placeholder
    (<div data-w="n">) whose config (functions allowed) is kept in REG; Rev.hydrate() mounts the placeholders
    after every page render. Contract and examples: site/CONVENTIONS.md, section 16. Live demo: #demo.
